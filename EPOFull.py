@@ -105,7 +105,8 @@ def buildclassifications(classification):
   }
 
 def classifications(doc):
-  return fmap(buildclassifications, doc.xpath('//classification-ipcr/text'))
+	codes = ffilter(lambda x: len(x.text) > 41, doc.xpath('//classification-ipcr/text'))
+	return fmap(buildclassifications, codes)
 
 def buildcitations(patcit):
   return { 
