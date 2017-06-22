@@ -75,8 +75,8 @@ def get_file_info(index_filename):
 def buildassignees(assignee):
 	return {
 	  'name': assignee.find('snm').text if assignee.find('snm') is not None else '',
-	  'epo-number': assignee.find('iid').text if assignee.find('iid') is not None else '',,
-	  'reference': assignee.find('irf').text if assignee.find('irf') is not None else '',,
+	  'epo-number': assignee.find('iid').text if assignee.find('iid') is not None else '',
+	  'reference': assignee.find('irf').text if assignee.find('irf') is not None else '',
 	  'cross-reference': assignee.find('syn').text if assignee.find('syn') is not None else ''
 	}
 
