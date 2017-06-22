@@ -81,7 +81,9 @@ def buildassignees(assignee):
 	}
 
 def assignees(doc):
-	return fmap(buildassignees, doc.xpath('//B730/B731'))
+	applicants = doc.xpath('//B710/B711')
+	grantees = doc.xpath('//B730/B731')
+	return fmap(buildassignees, (applicants + grantees))
 
 def buildclassifications(classification):
   # From publication week 01-2006, 
