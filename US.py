@@ -72,9 +72,9 @@ def citations(citationelements):
 
 def buildassigneeaddress(address):
 	return {
-	  'city': maybe(address).find('city').text.or_else(''),
-	  'state': maybe(address).find('state').text.or_else(''),
-	  'country': maybe(address).find('country').text.or_else('')
+    'city': maybe(address).find('city').text.or_else(''),
+    'state': maybe(address).find('state').text.or_else(''),
+    'country': maybe(address).find('country').text.or_else('')
 	}
 
 def buildassignees(assignee):
@@ -94,7 +94,7 @@ def assignees(assigneeelements):
 	return fmap(buildassignees, assigneeelements)
 
 def partiesapplicants(applicants):
-  return applicants		
+  return applicants
 
 def partiesinventors(inventors):
   return inventors
