@@ -1,50 +1,55 @@
 # import pdb; pdb.set_trace()
 
 import DataImport
-from pprint import pprint
-
-from datetime import datetime
-
+import functools
 import os
 import zipfile
+
+from datetime import datetime
+from lxml import etree
+from multiprocessing import Process
+from pprint import pprint
+from pymaybe import maybe
 from shutil import copyfile
 
-from lxml import etree
-import functools
-from pymaybe import maybe
 
 def fmap(fn, coll):
   return functools.reduce(
     lambda acc, val: acc + [fn(val)], coll, []
   )
 
+
 def ffilter(predicate_fn, coll):
   return functools.reduce(
     lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, []
   )
 
+
 def fcreduce(fn, acc):
   return lambda coll: functools.reduce(fn, coll, acc)
+
 
 def fcmap(fn):
   return lambda coll: functools.reduce(
     lambda acc, val: acc + [fn(val)], coll, []
   )
 
+
 def fcfilter(predicate_fn):
   return lambda coll: functools.reduce(
     lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, []
   )
 
+
 def fzip(coll1, coll2):
   return list(zip(coll1, coll2))
+
 
 def fcompose(*functions):
   return functools.reduce(
     lambda f, g: lambda x: f(g(x)), functions, lambda x: x
   )  
 
-from multiprocessing import Process
 
 def spawn(parse, tree, callback): 
   proc = Process(target=parse, args=(tree, callback))
@@ -151,9 +156,12 @@ def parse(tree, callback):
     'assignees': assignees(tree)
   })   
 
-def parsedocument(xml_file, callback):
-	doc = tree(xml_file).xpath('//ep-patent-document')[0]
-	spawn(parse, doc, callback)
+def parsedocument(callback):
+  return lambda tree: spawn(parse, tree, callback)
+
+def parsedocuments(xml_file, each_callback): 
+  docs = tree(xml_file).xpath('//ep-patent-document')
+  return fcmap(parsedocument(each_callback))(docs)
 
 ##############
 # processing #
@@ -197,7 +205,7 @@ def process(callback, xml_file, archive_file):
     zipfile.ZipFile(archive_file, "r").extract(xml_file)
     
     # add validation/testing
-    parsedocument(xml_file, callback)
+    parsedocuments(xml_file, callback)
     
     # gives us a durable state if the script breaks and reruns
     completefile = open(marker(xml_file),"w") 
@@ -205,13 +213,13 @@ def process(callback, xml_file, archive_file):
     
     os.remove(xml_file)  
 
-def traverse(file_info, dtd_path, callback):
+def traverse(file_info, dtd_info, callback):
   initial_path = os.getcwd()
   work_path = file_info[1].replace('\\', '/')[1:]
   archive_file = file_info[0]
   xml_file = file_info[0].replace('zip', 'xml')
  
-  copyfile(dtd_path, work_path + '/ep-patent-document-v1-5.dtd')
+  copyfile('./DTDS/' + dtd_info, work_path + '/' + dtd_info)
 
   os.chdir(work_path)
   #print(os.getcwd())
@@ -221,12 +229,12 @@ def traverse(file_info, dtd_path, callback):
 def _run(xml_file, callback):
   parsedocument(xml_file, callback)
 
-def _run_all(index_path, dtd_path, callback_each):
+def _run_all(index_path, dtd_file, callback_each):
   for file_info in get_file_info(index_path):
-    traverse(file_info, dtd_path, callback_each) 
+    traverse(file_info, dtd_file, callback_each) 
 
 def run(file = None):
-	if file:
-		_run(file, to_database)
-	else:
-		_run_all('index.xml', './DTDS/ep-patent-document-v1-5.dtd', to_database)  
+  if file:
+    _run(file, to_database)
+  else:
+    _run_all('index.xml', 'ep-patent-document-v1-5.dtd', to_database)  
