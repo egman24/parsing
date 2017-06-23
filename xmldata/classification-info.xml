@@ -1,0 +1,98 @@
+<!-- https://www.uspto.gov/web/patents/classification/selectnumwithtitle.htm -->
+<!-- IPC -->
+
+<!-- EPO full-text -->
+
+<!-- http://www.wipo.int/classifications/ipc/en/ -->
+<!-- http://web2.wipo.int/classifications/ipc/ipcpub?notion=scheme&version=20170101&symbol=none&menulang=en&lang=en&viewmode=f&fipcpc=no&showdeleted=yes&indexes=no&headings=yes&notes=yes&direction=o2n&initial=A&cwid=none&tree=no&searchmode=smart -->
+
+<!-- <B500>: Technical Data -->
+<!-- <B510>: International Patent Classification (IPC) DEPRECATED @  52-2005 -->
+<!-- <B510EP>: New International Patent Classification (IPC8) -->
+
+<!-- Tag B510 will be used to store the IPC coding until the publication week 52-2005. From publication week 01-2006, we will only use tag B510EP for the new (IPCR) coding (see details in the following pages). -->
+<!-- Back file data will NOT be changed to B510EP because it is published data in the public domain -->
+
+<!-- Note: the spaces or blanks (which are important) are coded in UTF-8 as 0020 (space).  -->
+
+<B500>
+  <B510EP>
+    <classification-ipcr sequence="1">
+      <text>G01F   1/684       20060101AFI20160615BHEP        </text>
+    </classification-ipcr>
+    <classification-ipcr sequence="2">
+      <text>G01F   1/696       20060101ALI20160615BHEP        </text>
+    </classification-ipcr>
+    <classification-ipcr sequence="3">
+      <text>G01F   1/698       20060101ALI20160615BHEP        </text>
+    </classification-ipcr>
+  </B510EP>
+  <B540>
+    <B541>de</B541>
+    <B542>Heissdraht-Luftdurchflussmesser für eine Brennkraftmaschine</B542>
+    <B541>en</B541>
+    <B542>Hot-wire type air flow meter for internal combustion engine</B542>
+    <B541>fr</B541>
+    <B542>Appareil de mesure du débit d'air du type à fil chaud pour moteur à combustion interne</B542>
+  </B540>
+  <B560>
+    <B561>
+      <text>JP-A- H05 264 312</text>
+    </B561>
+    <B561>
+      <text>US-A- 4 870 860</text>
+    </B561>
+    <B561>
+      <text>US-A- 5 355 723</text>
+    </B561>
+    <B562>
+      <text>PATENT ABSTRACTS OF JAPAN vol. 004, no. 110 (P-022), 8 August 1980 (1980-08-08) &amp; JP 55 066715 A (NIPPON SOKEN INC), 20 May 1980 (1980-05-20)</text>
+    </B562>
+    <B562>
+      <text>PATENT ABSTRACTS OF JAPAN vol. 014, no. 434 (P-1107), 18 September 1990 (1990-09-18) &amp; JP 02 170015 A (HITACHI LTD), 29 June 1990 (1990-06-29)</text>
+    </B562>
+    <B562>
+      <text>PATENT ABSTRACTS OF JAPAN vol. 010, no. 334 (P-515), 13 November 1986 (1986-11-13) &amp; JP 61 139722 A (JAPAN ELECTRONIC CONTROL SYST CO LTD), 27 June 1986 (1986-06-27)</text>
+    </B562>
+  </B560>
+</B500>
+
+<!-- format examples -->
+
+<text>C09J 133/08        20060101AFI20130417BHEP        </text>
+<text>G06F   3/033       20060101AFI20161125BHEP        </text>
+<text>H04M  11/06        20060101AFI20150519BHEP        </text>
+<text>H04M   3/30        20060101ALI20150519BHEP        </text>
+<text>B22C   9/08        20060101AFI20150911BHEP        </text>
+
+<!-- EPO bibliographic & backfile -->
+
+<exch:classification-ipc>
+  <edition>7</edition>
+  <main-classification> 7A 47L   5/36   A</main-classification>
+  <further-classification> 7A 47L   7/00   B</further-classification>
+  <further-classification> 7A 47L   9/02   B</further-classification>
+  <further-classification> 7A 47L  11/30   B</further-classification>
+  <further-classification> 7B 08B   5/04   B</further-classification>
+  <further-classification> 7E 01H   1/00   B</further-classification>
+</exch:classification-ipc>
+<exch:classifications-ipcr>
+  <classification-ipcr sequence="1">
+    <text>A47L   5/36        20060101A I20051110RMEP        </text>
+  </classification-ipcr>
+  <classification-ipcr sequence="2">
+    <text>A47L   7/00        20060101A I20051110RMEP        </text>
+  </classification-ipcr>
+  <classification-ipcr sequence="3">
+    <text>A47L   9/02        20060101A I20051110RMEP        </text>
+  </classification-ipcr>
+  <classification-ipcr sequence="4">
+    <text>A47L  11/30        20060101A I20051110RMEP        </text>
+  </classification-ipcr>
+  <classification-ipcr sequence="5">
+    <text>B08B   5/04        20060101A I20051110RMEP        </text>
+  </classification-ipcr>
+  <classification-ipcr sequence="6">
+    <text>E01H   1/00        20060101A I20051110RMEP        </text>
+  </classification-ipcr>
+</exch:classifications-ipcr>

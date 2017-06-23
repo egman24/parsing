@@ -1,0 +1,212 @@
+<!-- entities db -->
+<!-- aliasing/dealiasing for company names -->
+
+<exch:applicants>
+  <exch:applicant sequence="1" data-format="docdb">
+    <exch:applicant-name>
+      <name>TELECOMM EQUIPMENT CORP</name>
+    </exch:applicant-name>
+    <residence>
+      <country>US</country>
+    </residence>
+  </exch:applicant>
+  <exch:applicant sequence="1" data-format="docdba">
+    <exch:applicant-name>
+      <name>TELECOMMUNICATIONS EQUIPMENT CORPORATION</name>
+    </exch:applicant-name>
+  </exch:applicant>
+</exch:applicants>
+
+<!-- US -->
+<!--
+
+applicant
+
+inventor or joint inventors who are applying for a patent on their own invention, or the person mentioned in 37 CFR 1.42, 1.43 or 1.47 who is applying for a patent in place of the inventor.
+
+assignee
+
+the entity that is the recipient of a transfer of a patent application, patent, trademark application or trademark registration from its owner of record (assignor)
+
+-->
+
+<us-parties>
+  <us-applicants>
+    <us-applicant sequence="001" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+      <addressbook>
+        <orgname>NISSHIN FOODS INC.</orgname>
+        <address>
+          <city>Tokyo</city>
+          <country>JP</country>
+        </address>
+      </addressbook>
+      <residence>
+        <country>JP</country>
+      </residence>
+    </us-applicant>
+  </us-applicants>
+  <inventors>
+    <inventor sequence="001" designation="us-only">
+      <addressbook>
+        <last-name>Kimura</last-name>
+        <first-name>Ryusuke</first-name>
+        <address>
+          <city>Tokyo</city>
+          <country>JP</country>
+        </address>
+      </addressbook>
+    </inventor>
+    <inventor sequence="002" designation="us-only">
+      <addressbook>
+        <last-name>Kajio</last-name>
+        <first-name>Fusaki</first-name>
+        <address>
+          <city>Tokyo</city>
+          <country>JP</country>
+        </address>
+      </addressbook>
+    </inventor>
+  </inventors>
+  <agents>
+    <agent sequence="01" rep-type="attorney">
+      <addressbook>
+        <orgname>Muncy, Geissler, Olds &amp; Lowe, P.C.</orgname>
+        <address>
+          <country>unknown</country>
+        </address>
+      </addressbook>
+    </agent>
+  </agents>
+</us-parties>
+<assignees>
+  <assignee>
+    <addressbook>
+      <orgname>NISSHIN FOODS INC.</orgname>
+      <role>03</role>
+      <address>
+        <city>Tokyo</city>
+        <country>JP</country>
+      </address>
+    </addressbook>
+  </assignee>
+</assignees>
+
+
+<!-- EPO fulltext -->
+<!-- <B700>: Parties concerned with the document --> 
+<!-- <B710>: Applicants -->
+<!-- <B720>: Inventors -->
+<!-- <B730>: Grantees -->
+<!-- <B740>: Attorney/Agent of the applicant -->
+<!-- <B780>: Opposition -->
+<!-- PG#93 @ http://docs.epoline.org/ebd/doc/ebdv3-25.pdf -->
+
+<!-- grantee -->
+
+<B700>
+  <B720>
+    <B721>
+      <snm>Kanke, Atsushi</snm>
+      <adr>
+        <str>c/o Hitachi, Ltd. Intellectual Property Group New Marunouchi Bldg. 5-1 Marunouchi 1-chome</str>
+        <city>Chiyoda-ku Tokyo 100-8220</city>
+        <ctry>JP</ctry>
+      </adr>
+    </B721>
+    <B721>
+      <snm>Yamada, Masamichi</snm>
+      <adr>
+        <str>c/o Hitachi, Ltd. Intellectual Property Group New Marunouchi Bldg. 5-1 Marunouchi 1-chome</str>
+        <city>Chiyoda-ku Tokyo 100-8220</city>
+        <ctry>JP</ctry>
+      </adr>
+    </B721>
+    <B721>
+      <snm>Nakada, Keiichi</snm>
+      <adr>
+        <str>c/o Hitachi, Ltd. Intellectual Property Group New Marunouchi Bldg. 5-1 Marunouchi 1-chome</str>
+        <city>Chiyoda-ku Tokyo 100-8220</city>
+        <ctry>JP</ctry>
+      </adr>
+    </B721>
+    <B721>
+      <snm>Watanabe, Izumi</snm>
+      <adr>
+        <str>c/o Hitachi, Ltd. Intellectual Property Group New Marunouchi Bldg. 5-1 Marunouchi 1-chome</str>
+        <city>Chiyoda-ku Tokyo 100-8220</city>
+        <ctry>JP</ctry>
+      </adr>
+    </B721>
+    <B721>
+      <snm>Sonobe, Hisao</snm>
+      <adr>
+        <str>c/o Hitachi, Ltd. Intellectual Property Group New Marunouchi Bldg. 5-1 Marunouchi 1-chome</str>
+        <city>Chiyoda-ku Tokyo 100-8220</city>
+        <ctry>JP</ctry>
+      </adr>
+    </B721>
+  </B720>
+  <B730>
+    <B731>
+      <snm>Hitachi, Ltd.</snm>
+      <iid>100139968</iid>
+      <irf>81-55.772EP</irf>
+      <adr>
+        <str>6-6, Marunouchi 1-chome Chiyoda-ku</str>
+        <city>Tokyo</city>
+        <ctry>JP</ctry>
+      </adr>
+    </B731>
+  </B730>
+  <B740>
+    <B741>
+      <snm>Erny, Tobias</snm>
+      <sfx>et al</sfx>
+      <iid>101106906</iid>
+      <adr>
+        <str>MERH-IP Matias Erny Reichl Hoffmann Patentanwälte PartG mbB Paul-Heyse-Straße 29</str>
+        <city>80336 München</city>
+        <ctry>DE</ctry>
+      </adr>
+    </B741>
+  </B740>
+</B700>
+
+<!-- EPO bibliographic -->
+<!-- <exch:parties>: Parties concerned with the document -->
+<!-- PG#148 @ http://documents.epo.org/projects/babylon/eponet.nsf/0/6266D96FAA2D3E6BC1257F1B00398241/$File/T09.01_ST36_User_Documentation_vs_2.5.7_en.pdf -->
+
+<!-- applicant -->
+
+<exch:parties>
+  <exch:applicants>
+    <exch:applicant sequence="1" data-format="docdb">
+      <exch:applicant-name>
+        <name>TELECOMM EQUIPMENT CORP</name>
+      </exch:applicant-name>
+      <residence>
+        <country>US</country>
+      </residence>
+    </exch:applicant>
+    <exch:applicant sequence="1" data-format="docdba">
+      <exch:applicant-name>
+        <name>TELECOMMUNICATIONS EQUIPMENT CORPORATION</name>
+      </exch:applicant-name>
+    </exch:applicant>
+  </exch:applicants>
+  <exch:inventors>
+    <exch:inventor sequence="1" data-format="docdb">
+      <exch:inventor-name>
+        <name>WONG THOMAS T Y</name>
+      </exch:inventor-name>
+      <residence>
+        <country>US</country>
+      </residence>
+    </exch:inventor>
+    <exch:inventor sequence="1" data-format="docdba">
+      <exch:inventor-name>
+        <name>WONG THOMAS T Y</name>
+      </exch:inventor-name>
+    </exch:inventor>
+  </exch:inventors>
+</exch:parties>

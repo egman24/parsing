@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-application SYSTEM "us-patent-application-v44-2014-04-03.dtd">
+<us-patent-application lang="EN" dtd-version="v4.4 2014-04-03" file="US20170000001A1-20170105.XML" status="PRODUCTION" id="us-patent-application" country="US" date-produced="20161220" date-publ="20170105">
+  <us-bibliographic-data-application lang="EN" country="US">
+    <publication-reference>
+      <document-id>
+        <country>US</country>
+        <doc-number>20170000001</doc-number>
+        <kind>A1</kind>
+        <date>20170105</date>
+      </document-id>
+    </publication-reference>
+    <application-reference appl-type="utility">
+      <document-id>
+        <country>US</country>
+        <doc-number>14789882</doc-number>
+        <date>20150701</date>
+      </document-id>
+    </application-reference>
+    <us-application-series-code>14</us-application-series-code>
+    <classifications-ipcr>
+      <classification-ipcr>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>A</section>
+        <class>01</class>
+        <subclass>B</subclass>
+        <main-group>35</main-group>
+        <subgroup>28</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <action-date>
+          <date>20170105</date>
+        </action-date>
+        <generating-office>
+          <country>US</country>
+        </generating-office>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classifications-cpc>
+      <main-cpc>
+        <classification-cpc>
+          <cpc-version-indicator>
+            <date>20130101</date>
+          </cpc-version-indicator>
+          <section>A</section>
+          <class>01</class>
+          <subclass>B</subclass>
+          <main-group>35</main-group>
+          <subgroup>28</subgroup>
+          <symbol-position>F</symbol-position>
+          <classification-value>I</classification-value>
+          <action-date>
+            <date>20170105</date>
+          </action-date>
+          <generating-office>
+            <country>US</country>
+          </generating-office>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <scheme-origination-code>C</scheme-origination-code>
+        </classification-cpc>
+      </main-cpc>
+    </classifications-cpc>
+    <invention-title id="d2e43">DEBRIS CLEARING DEVICE HAVING TEETH WITH SHARPENED LEADING EDGES</invention-title>
+    <us-parties>
+      <us-applicants>
+        <us-applicant sequence="00" app-type="applicant" designation="us-only">
+          <addressbook>
+            <last-name>Freed</last-name>
+            <first-name>Brian E.</first-name>
+            <address>
+              <city>Lexington</city>
+              <state>IL</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <residence>
+            <country>US</country>
+          </residence>
+        </us-applicant>
+        <us-applicant sequence="01" app-type="applicant" designation="us-only">
+          <addressbook>
+            <last-name>Freed</last-name>
+            <first-name>Bruce</first-name>
+            <address>
+              <city>Lexington</city>
+              <state>IL</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <residence>
+            <country>US</country>
+          </residence>
+        </us-applicant>
+      </us-applicants>
+      <inventors>
+        <inventor sequence="00" designation="us-only">
+          <addressbook>
+            <last-name>Freed</last-name>
+            <first-name>Brian E.</first-name>
+            <address>
+              <city>Lexington</city>
+              <state>IL</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+        </inventor>
+        <inventor sequence="01" designation="us-only">
+          <addressbook>
+            <last-name>Freed</last-name>
+            <first-name>Bruce</first-name>
+            <address>
+              <city>Lexington</city>
+              <state>IL</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+        </inventor>
+      </inventors>
+    </us-parties>
+  </us-bibliographic-data-application>
+  <abstract id="abstract">
+    <p id="p-0001" num="0000">A debris clearing apparatus for use with an agricultural implement has a pair of rotatable discs each having a plurality of teeth extending from a periphery thereof. The teeth on the discs each have a profile comprising a leading edge and a trailing edge. The leading edges are sharpened to create cutting edges to cut through crop residue and other debris. The leading cutting edge can be a straight edge with an outer edge formed at the distal tip of the tooth between the leading and trailing edges. Alternatively, the leading cutting edge can be a curved edge with a sharp outer point between the leading and trailing edges. The discs are arranged so that geometric planes containing the first and second discs intersect and the discs are toed-in toward each other relative to a direction of travel of the implement.</p>
+  </abstract>
+  <drawings id="DRAWINGS">
+    <figure id="Fig-EMI-D00000" num="00000">
+      <img id="EMI-D00000" he="172.80mm" wi="209.72mm" file="US20170000001A1-20170105-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00001" num="00001">
+      <img id="EMI-D00001" he="171.53mm" wi="208.36mm" file="US20170000001A1-20170105-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00002" num="00002">
+      <img id="EMI-D00002" he="241.55mm" wi="137.41mm" file="US20170000001A1-20170105-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00003" num="00003">
+      <img id="EMI-D00003" he="260.01mm" wi="184.40mm" file="US20170000001A1-20170105-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00004" num="00004">
+      <img id="EMI-D00004" he="237.91mm" wi="162.31mm" file="US20170000001A1-20170105-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00005" num="00005">
+      <img id="EMI-D00005" he="248.07mm" wi="175.18mm" file="US20170000001A1-20170105-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00006" num="00006">
+      <img id="EMI-D00006" he="182.54mm" wi="202.86mm" file="US20170000001A1-20170105-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00007" num="00007">
+      <img id="EMI-D00007" he="255.44mm" wi="164.17mm" file="US20170000001A1-20170105-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00008" num="00008">
+      <img id="EMI-D00008" he="210.23mm" wi="206.59mm" file="US20170000001A1-20170105-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00009" num="00009">
+      <img id="EMI-D00009" he="201.93mm" wi="198.29mm" file="US20170000001A1-20170105-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00010" num="00010">
+      <img id="EMI-D00010" he="236.05mm" wi="197.36mm" file="US20170000001A1-20170105-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+  </drawings>
+  <description id="description">
+    <?summary-of-invention description="Summary of Invention" end="lead"?>
+    <heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+    <p id="p-0002" num="0001">Field of the Invention</p>
+    <p id="p-0003" num="0002">The present invention relates generally to methods and devices for clearing crop debris for use with planters and other agricultural implements. In particular, the present invention relates to a crop clearing apparatus that uses a pair of rotatable discs with a plurality of teeth to clear debris.</p>
+    <p id="p-0004" num="0003">Description of the Related Art</p>
+    <p id="p-0005" num="0004">Crop debris clearing devices for use with planters and other agricultural implements are known in the prior art. For example, U.S. Pat. Nos. 7,240,627 and 7,832,345 issued to Whalen et al. disclose debris clearing discs that have sharpened outer edges. However, Whalen et al.'s debris clearing discs do not include sharpened leading edges and other features that have been incorporated into the Applicant's invention to improve the ability of the discs to clear debris and cut residue in the soil.</p>
+    <p id="p-0006" num="0005">There is a need in the industry for an improved crop debris clearing apparatus for use with agricultural implements.</p>
+    <heading id="h-0002" level="1">SUMMARY OF THE INVENTION</heading>
+    <p id="p-0007" num="0006">An object of the present invention is to provide a debris clearing apparatus that has improved ability to clear debris and cut residue in the soil during operation.</p>
+    <p id="p-0008" num="0007">A further object of the present invention is to provide a debris clearing apparatus that uses rotatable discs with a plurality of teeth extending from a periphery thereof and sharpened leading edges on the teeth to improve the cutting and clearing action of the teeth.</p>
+    <p id="p-0009" num="0008">A further object of the present invention is to provide an improved debris clearing apparatus for use with agricultural implements that provides superior performance, is efficient to manufacture, durable, easy to use, and capable of a long operating life.</p>
+    <p id="p-0010" num="0009">To accomplish these and other objects of the invention, a debris clearing apparatus is provided for use with an agricultural implement. The apparatus has a pair of rotatable discs each having a first side and an opposing second side, and each disc including a plurality of teeth extending from a periphery thereof. The teeth on the discs each have a profile comprising a leading edge and a trailing edge. The leading edges are sharpened to create cutting edges to cut through crop residue and other debris. The leading cutting edge can be a straight edge with an outer edge formed at the distal tip of the tooth between the leading and trailing edges. Alternatively, the leading cutting edge can be a curved edge with a sharp outer point between the leading and trailing edges. The discs are arranged so that geometric planes containing the first and second discs intersect and the discs are toed-in toward each other relative to a direction of travel of the implement.</p>
+    <p id="p-0011" num="0010">According to one aspect of the present invention, a debris clearing apparatus is provided for use with an agricultural implement, the apparatus comprising: one or more rotatable discs, each disc including a plurality of teeth extending from a periphery thereof, each tooth having a profile comprising a leading edge and a trailing edge; and the leading edge of each tooth being sharpened to create a leading cutting edge.</p>
+    <p id="p-0012" num="0011">According to another aspect of the present invention, a debris clearing device is provided, comprising: a rotatable disc having a plurality of teeth extending from a periphery of the disc, each tooth having a profile comprising a leading edge and a trailing edge; and the leading edge of each tooth being sharpened to create a leading cutting edge.</p>
+    <p id="p-0013" num="0012">Numerous other objects of the present invention will be apparent to those skilled in this art from the following description wherein there is shown and described example embodiments of the present invention. As will be realized, the invention is capable of other different embodiments, and its several details are capable of modification in various obvious aspects without departing from the invention. Accordingly, the drawings and description should be regarded as illustrative in nature and not restrictive.</p>
+    <?summary-of-invention description="Summary of Invention" end="tail"?>
+    <?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+    <description-of-drawings>
+      <heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+      <p id="p-0014" num="0013">The present invention will become more clearly appreciated as the disclosure of the present invention is made with reference to the accompanying drawings. In the drawings:</p>
+      <p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 1</figref> is a right side elevation view of a planter row unit equipped with a debris clearing apparatus of the present invention.</p>
+      <p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 2</figref> is a perspective view of the debris clearing apparatus shown in <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+      <p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 3</figref> is a left side elevation view of the debris clearing apparatus shown in <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+      <p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 4</figref> is a perspective view of a left hand disc of the debris clearing apparatus shown in <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+      <p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 5</figref> is a plan view of the left hand disc shown in <figref idref="DRAWINGS">FIG. 4</figref>.</p>
+      <p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 6</figref> is an edge view of the left hand disc shown in <figref idref="DRAWINGS">FIG. 4</figref>.</p>
+      <p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 7</figref> is a perspective view of a right hand disc of the debris clearing apparatus shown in <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+      <p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 8</figref> is a plan view of the right hand disc shown in <figref idref="DRAWINGS">FIG. 7</figref>.</p>
+      <p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 9</figref> is an edge view of the right hand disc shown in <figref idref="DRAWINGS">FIG. 7</figref>.</p>
+      <p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 10</figref> is a perspective view of a double-edged disc that can be used in the debris clearing apparatus shown in <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+      <p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 11</figref> is a plan view of the double-edged disc shown in <figref idref="DRAWINGS">FIG. 10</figref>.</p>
+      <p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 12</figref> is an edge view of the double-edged disc shown in <figref idref="DRAWINGS">FIG. 10</figref>.</p>
+      <p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 13</figref> is a right side elevation view of a planter row unit equipped with a debris clearing apparatus according to another embodiment of the present invention.</p>
+      <p id="p-0028" num="0027"><figref idref="DRAWINGS">FIG. 14</figref> is a perspective view of the debris clearing apparatus shown in <figref idref="DRAWINGS">FIG. 13</figref>.</p>
+      <p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 15</figref> is a left side elevation view of the debris clearing apparatus shown in <figref idref="DRAWINGS">FIG. 14</figref>.</p>
+      <p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 16</figref> is a perspective view of a left hand disc of the debris clearing apparatus shown in <figref idref="DRAWINGS">FIG. 14</figref>.</p>
+      <p id="p-0031" num="0030"><figref idref="DRAWINGS">FIG. 17</figref> is a plan view of the left hand disc shown in <figref idref="DRAWINGS">FIG. 16</figref>.</p>
+      <p id="p-0032" num="0031"><figref idref="DRAWINGS">FIG. 18</figref> is an edge view of the left hand disc shown in <figref idref="DRAWINGS">FIG. 16</figref>.</p>
+      <p id="p-0033" num="0032"><figref idref="DRAWINGS">FIG. 19</figref> is a cross section view of the left hand disc, as viewed along the line A-A in <figref idref="DRAWINGS">FIG. 17</figref>.</p>
+      <p id="p-0034" num="0033"><figref idref="DRAWINGS">FIG. 20</figref> is a perspective view of a right hand disc of the debris clearing apparatus shown in <figref idref="DRAWINGS">FIG. 14</figref>.</p>
+      <p id="p-0035" num="0034"><figref idref="DRAWINGS">FIG. 21</figref> is a plan view of the right hand disc shown in <figref idref="DRAWINGS">FIG. 20</figref>.</p>
+      <p id="p-0036" num="0035"><figref idref="DRAWINGS">FIG. 22</figref> is an edge view of the right hand disc shown in <figref idref="DRAWINGS">FIG. 20</figref>.</p>
+      <p id="p-0037" num="0036"><figref idref="DRAWINGS">FIG. 23</figref> is a cross section view of the right hand disc, as viewed along the line E-E in <figref idref="DRAWINGS">FIG. 21</figref>.</p>
+      <p id="p-0038" num="0037"><figref idref="DRAWINGS">FIG. 24</figref> is a perspective view of a double-edged disc that can be used in the debris clearing apparatus shown in <figref idref="DRAWINGS">FIG. 14</figref>.</p>
+      <p id="p-0039" num="0038"><figref idref="DRAWINGS">FIG. 25</figref> is a plan view of the double-edged disc shown in <figref idref="DRAWINGS">FIG. 24</figref>.</p>
+      <p id="p-0040" num="0039"><figref idref="DRAWINGS">FIG. 26</figref> is an edge view of the double-edged disc shown in <figref idref="DRAWINGS">FIG. 24</figref>.</p>
+      <p id="p-0041" num="0040"><figref idref="DRAWINGS">FIG. 27</figref> is a cross section view of the double-edged disc, as viewed along the line F-F in <figref idref="DRAWINGS">FIG. 25</figref>.</p>
+    </description-of-drawings>
+    <?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+    <?detailed-description description="Detailed Description" end="lead"?>
+    <heading id="h-0004" level="1">DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p id="p-0042" num="0041">A debris clearing apparatus according to the present invention will now be described in detail with reference to <figref idref="DRAWINGS">FIGS. 1 to 27</figref> of the accompanying drawings.</p>
+    <p id="p-0043" num="0042">Referring to <figref idref="DRAWINGS">FIG. 1</figref>, there is shown a side elevation view of a conventional planter row unit <b>10</b> to which is directly mounted a debris clearing apparatus <b>11</b> in accordance with an embodiment of the present invention. The planter unit <b>10</b> may include many elements, but for purposes of describing the present invention, the planter unit <b>10</b> is shown as including a frame <b>12</b> to which are mounted a seed hopper <b>13</b>, an insecticide hopper <b>14</b>, and plural ground engaging members. The illustrated ground engaging members include a pair of laterally spaced furrow opening discs (where one disc is shown as element <b>15</b>), plural gauge wheels (where one gauge wheel is shown as element <b>16</b>), and a trailing furrow closing wheel <b>17</b>. All of the aforementioned ground engaging members <b>15</b>, <b>16</b>, <b>17</b> either ride on the surface of the soil S, or penetrate the soil S as part of the seed planting operation. The planter unit <b>10</b> is shown as traveling in the direction of arrow <b>18</b> during operation.</p>
+    <p id="p-0044" num="0043">Attached to a forward portion of the planter unit's frame <b>12</b> is a pivoting parallel linkage arrangement <b>19</b> for facilitating mounting of the planter row unit <b>10</b> to the tool bar <b>20</b> of an agricultural implement. The planter unit <b>10</b> is coupled to the tool bar <b>20</b> by means of the pivoting parallel linkage arrangement <b>19</b> and a mounting plate <b>21</b>. The mounting plate <b>21</b> is secured to an aft surface of the tool bar <b>20</b> by conventional couplers, such as U-bolts (not shown in the figure for simplicity). The parallel linkage arrangement <b>19</b> includes links <b>22</b>, <b>23</b> pivotally coupled at their respective aft ends to a forward portion of the planter row unit's frame <b>12</b> and at their respective forward ends to the mounting plate <b>21</b> to allow for vertical displacement between the tool bar <b>20</b> and the planter row unit <b>10</b>.</p>
+    <p id="p-0045" num="0044">Attached to a forward portion of the planter row unit's frame <b>12</b> is the debris clearing apparatus <b>11</b>. The debris clearing apparatus <b>11</b> can be mounted to the frame <b>12</b> in the manner disclosed in Applicant's U.S. Pat. No. 8,393,407, which is incorporated herein by reference. The debris clearing apparatus <b>11</b> can also be used with other agricultural implements, such as fertilizer applicators, strip till machines, seeders, and soil testing implements, and the configuration of the mounting brackets used to attach the apparatus to such implements will vary depending on the particular implement.</p>
+    <p id="p-0046" num="0045">The debris clearing apparatus <b>11</b> includes a pair of substantially flat discs <b>24</b>A, <b>24</b>B that are rotatably mounted via a hub <b>25</b> to a bracket arm <b>26</b> attached to a mounting bracket <b>27</b> on the implement. The discs <b>24</b>A, <b>24</b>B have a center hole <b>28</b> for receiving the hub <b>25</b> and a plurality of mounting holes <b>29</b> for receiving mounting bolts <b>30</b>. The discs <b>24</b>A, <b>24</b>B are mounted to the bracket arm <b>26</b> for rotation about generally horizontal axes with the discs <b>24</b>A, <b>24</b>B toed-in toward each other relative to a direction of travel <b>18</b> of the implement. In this mounting arrangement, a geometric plane containing the first disc <b>24</b>A intersects a geometric plane containing the second disc <b>24</b>B.</p>
+    <p id="p-0047" num="0046">The flat discs <b>24</b>A, <b>24</b>B each have a first side and an opposing second side. A plurality of teeth <b>32</b> extend from a periphery of each disc <b>24</b>A, <b>24</b>B. In the illustrated embodiment, each disc <b>24</b>A, <b>24</b>B has 12 teeth equally spaced around the disc at 30-degree intervals.</p>
+    <p id="p-0048" num="0047">It will be understood that the discs <b>24</b>A, <b>24</b>B are basically the same as each other, except that the beveled surfaces of the teeth (described below) are formed on the opposite side of the disc <b>24</b>A as compared to disc <b>24</b>B. Accordingly, the discs <b>24</b>A, <b>24</b>B will be described interchangeably herein by simply referring to them as discs <b>24</b>.</p>
+    <p id="p-0049" num="0048">The teeth <b>32</b> on the discs <b>24</b> each have a profile comprising a straight leading edge <b>33</b>, a concave trailing edge <b>34</b>, and an outer edge <b>35</b> extending between respective outer ends of the leading edge <b>33</b> and the trailing edge <b>34</b>. The leading edge <b>33</b> of each tooth <b>32</b> is sharpened to create a leading cutting edge. By having the leading edge <b>33</b> sharpened, the teeth <b>32</b> will efficiently and effectively cut crop residue and other debris at any depth of operation up to the base <b>36</b> of the teeth <b>32</b>.</p>
+    <p id="p-0050" num="0049">The outer edges <b>35</b> of the teeth <b>32</b> are substantially circumferential with the disc <b>24</b>. That is, the outer edges <b>35</b> have a radius of curvature that is substantially equal to a radius of the disc <b>24</b>. The outer edges <b>35</b> lie in and define the outer path of rotation of the disc <b>24</b>.</p>
+    <p id="p-0051" num="0050">The outer edges <b>35</b> extend at an obtuse angle relative to the corresponding leading edges <b>33</b> of the tooth <b>32</b>. More precisely, a tangent to the outer edge <b>35</b> at the point of intersection between the leading edge <b>33</b> and outer edge <b>35</b> forms an obtuse angle relative to the leading edge <b>33</b>. For example, the outer edge <b>35</b> (or more precisely a tangent to the curved outer edge <b>35</b>) in the illustrated embodiment extends at an angle of approximately 120 degrees relative to the adjacent leading edge <b>33</b>.</p>
+    <p id="p-0052" num="0051">A sharp point <b>37</b> is formed at the abrupt transition where the leading cutting edge <b>33</b> of each tooth <b>32</b> intersects with the outer edge <b>35</b> thereof. This point <b>37</b> can also be described as a convex vertex formed at the intersection between the leading cutting edge <b>33</b> and the outer edge <b>35</b> of each tooth <b>32</b>. The sharp point <b>37</b> between the leading and outer edges <b>33</b>, <b>35</b> provides an aggressive cutting and clearing action and residue movement during operation, particularly at higher operating speeds.</p>
+    <p id="p-0053" num="0052">The leading edges <b>33</b> of the teeth <b>32</b> in the embodiment shown in <figref idref="DRAWINGS">FIGS. 4 to 9</figref> are sharpened by beveling from only one side of the disc <b>24</b>. The leading edges <b>33</b> can be beveled, for example, at an angle of approximately 30 to 60 degrees relative to a plane of the disc <b>24</b>. The beveled surfaces <b>38</b> are preferably on the side of the discs <b>24</b> facing away from each other.</p>
+    <p id="p-0054" num="0053">The leading edges <b>33</b> of each tooth <b>32</b> slope rearwardly relative to a direction of rotation of the discs <b>24</b>. The rearward slope of the leading edges <b>33</b> has been determined to improve the ability of the tooth <b>32</b> to cut through crop residue and other debris. The concave shape of the trailing edges <b>34</b> of the teeth <b>32</b> encourages the crop residue and soil to fall off of the teeth <b>32</b> during operation.</p>
+    <p id="p-0055" num="0054"><figref idref="DRAWINGS">FIGS. 10 to 12</figref> show a double-edged disc <b>24</b>C that can be use instead of the discs <b>24</b>A, <b>24</b>B in the debris clearing apparatus. The leading edges <b>33</b> of the teeth <b>32</b> of the double-edged disc <b>24</b>C are sharpened by beveling from two sides of the disc <b>24</b>C. The leading edges <b>33</b> can be beveled, for example, from both sides of the disc <b>24</b>C at an angle of approximately 30 to 60 degrees relative to a plane of the disc <b>24</b>C. By beveling the sharpened leading edges <b>33</b> on two sides of the disc <b>24</b>C, the disc <b>24</b>C can be used on either the right or left side of the debris clearing apparatus <b>11</b>.</p>
+    <p id="p-0056" num="0055"><figref idref="DRAWINGS">FIGS. 13 to 27</figref> illustrate another embodiment of the debris clearing apparatus <b>111</b> of the present invention. A planter row unit <b>100</b> equipped with the debris clearing apparatus <b>111</b> is illustrated in <figref idref="DRAWINGS">FIG. 13</figref>. The planter row unit <b>100</b> and the debris clearing apparatus <b>111</b> are the same as the planter row unit <b>10</b> and debris clearing apparatus <b>11</b> described above and illustrated in <figref idref="DRAWINGS">FIGS. 1 to 9</figref>, except that the discs <b>124</b> in the debris clearing apparatus <b>111</b> are different than the discs <b>24</b> in the debris clearing apparatus <b>11</b>. The same reference numerals are used in <figref idref="DRAWINGS">FIGS. 1 and 13</figref> to refer to the common features of the planter row units <b>10</b> and <b>100</b>.</p>
+    <p id="p-0057" num="0056">The discs <b>124</b>A, <b>124</b>B of the debris clearing apparatus <b>111</b> each have a first side and an opposing second side. A plurality of teeth <b>132</b> extend from a periphery of each disc <b>124</b>A, <b>124</b>B. In the illustrated embodiment, each disc <b>124</b>A, <b>124</b>B has 12 teeth equally spaced around the disc at 30-degree intervals.</p>
+    <p id="p-0058" num="0057">It will be understood that the discs <b>124</b>A and <b>124</b>B are basically the same as each other, except that the beveled surfaces <b>138</b> of the teeth <b>132</b> (described below) are formed on the opposite side of the disc <b>124</b>A as compared to disc <b>124</b>B. Accordingly, the discs <b>124</b>A, <b>124</b>B will be described interchangeably herein by simply referring to them as discs <b>124</b>.</p>
+    <p id="p-0059" num="0058">The teeth <b>132</b> on the discs <b>124</b> each have a profile comprising a curved, convex leading edge <b>133</b>, and a concave trailing edge <b>134</b>. The leading edge <b>133</b> and trailing edge <b>134</b> intersect with each other to form the outer distal tip <b>135</b> of each tooth <b>132</b>. The outer distal tip <b>135</b> is a sharp point located at the intersection between the leading edge <b>133</b> and trailing edge <b>134</b> of each tooth <b>132</b>. The sharp point <b>135</b> between the leading and trailing edges <b>133</b>, <b>134</b> provides an aggressive cutting and clearing action and residue movement during operation, particularly at higher operating speeds.</p>
+    <p id="p-0060" num="0059">The leading edge <b>133</b> of each tooth <b>132</b> is sharpened to create a leading cutting edge. By having the leading edge <b>133</b> sharpened, the teeth <b>132</b> will efficiently and effectively cut crop residue and other debris at any depth of operation up to the base <b>136</b> of the teeth <b>132</b>.</p>
+    <p id="p-0061" num="0060">The leading edges <b>133</b> of the teeth <b>132</b> in the embodiment shown in <figref idref="DRAWINGS">FIGS. 13 to 23</figref> are sharpened by beveling from only one side of the disc <b>124</b>. The leading edges <b>133</b> can be beveled, for example, at an angle of approximately 30 to 60 degrees relative to a plane of the disc <b>124</b>. The beveled surfaces <b>138</b> are preferably on the side of the discs <b>124</b> facing away from each other.</p>
+    <p id="p-0062" num="0061">The leading edges <b>133</b> of each tooth <b>132</b> slope rearwardly relative to a direction of rotation of the disc <b>124</b> and a radial line passing through the tooth <b>132</b>. The rearward slope of the leading edges <b>133</b> increases from the base <b>136</b> of the tooth <b>132</b> to the distal tip <b>135</b> of each tooth <b>132</b> due to the convex curvature of the leading edge <b>133</b>. The sharpened leading edges <b>133</b> of the teeth <b>132</b> have been determined to improve the ability of the teeth <b>132</b> to cut through crop residue and other debris. The trailing edges <b>134</b> of the teeth <b>132</b> are straight and extend generally in a radial direction with a slightly rearward slope relative to a direction of rotation to encourage the crop residue and soil to fall off of the teeth <b>132</b> during operation.</p>
+    <p id="p-0063" num="0062"><figref idref="DRAWINGS">FIGS. 24 to 27</figref> show a double-edged disc <b>124</b>C that can be use instead of the discs <b>124</b>A, <b>124</b>B in the debris clearing apparatus <b>111</b>. The leading edges <b>133</b> of the teeth <b>132</b> of the double-edged disc <b>124</b>C are sharpened by beveling from two sides of the disc <b>124</b>C. The leading edges <b>133</b> can be beveled, for example, from both sides of the disc <b>124</b>C at an angle of approximately 30 to 60 degrees relative to a plane of the disc <b>124</b>C. By beveling the sharpened leading edges <b>133</b> from two sides of the disc <b>124</b>C, the disc <b>124</b>C can be used on either the right or left side of the debris clearing apparatus <b>111</b>.</p>
+    <p id="p-0064" num="0063">As used in this application, the term “leading edge” is intended to mean that portion of the tooth of a disc that provides the leading surface of the tooth relative to the path of rotation of the disc when the disc is rotating in a normal direction of operation as the implement is moving in a forward direction through a field. The “leading edge” should have a substantial radial component so that the sharpened leading edge can extend a substantial distance from the base of the tooth to the distal tip of the tooth for improved cutting action across a substantial depth as the teeth penetrate the soil. The “leading edge” is not intended to mean an outer edge of the tooth or other portion of the disc that extends primarily in a circumferential direction of the disc.</p>
+    <p id="p-0065" num="0064">As used in this application, the term “sharpened” is intended to mean an edge that has been beveled from at least one side to form a sharp edge or a relatively thin blunt edge between two opposing flat surfaces of a disc. A sharpened edge is not intended to include a blunt edge of a flat disc that has not been beveled on either side.</p>
+    <p id="p-0066" num="0065">It should also be appreciated that other edges of the discs could also be sharpened without departing from the scope of the present invention. For example, the outer edges or trailing edges of the teeth could be sharpened to further enhance the ability of the teeth to cut through residue or clear residue during operation.</p>
+    <p id="p-0067" num="0066">The debris clearing apparatus of the present invention has been illustrated with two substantially flat discs arranged in a V-shaped configuration with the discs toed-in toward each other in a direction of forward movement. This allows a pair of discs to clear an area (e.g., a narrow strip for planting or fertilizing), with the discs moving the debris to each side of the cleared area. However, it should be appreciated that other configurations are also possible. For example, a single debris clearing disc can be used to clear an area, in which case the debris will be moved by the single disc to one side of the cleared area. For another example, the discs can be concave or dished, instead of substantially flat, to accommodate certain crop conditions in which a more aggressive turning of the soil is desired.</p>
+    <p id="p-0068" num="0067">While the invention has been specifically described in connection with specific embodiments thereof, it is to be understood that this is by way of illustration and not of limitation, and the scope of the appended claims should be construed as broadly as the prior art will permit.</p>
+    <?detailed-description description="Detailed Description" end="tail"?>
+  </description>
+  <us-claim-statement>What is claimed is:</us-claim-statement>
+  <claims id="claims">
+    <claim id="CLM-00001" num="00001">
+      <claim-text><b>1</b>. A debris clearing apparatus for use with an agricultural implement, said apparatus comprising:
+<claim-text>one or more rotatable discs, each disc including a plurality of teeth extending from a periphery thereof, each tooth having a profile comprising a leading edge and a trailing edge; and</claim-text>
+<claim-text>said leading edge of each tooth being sharpened to create a leading cutting edge.</claim-text>
+</claim-text>
+    </claim>
+    <claim id="CLM-00002" num="00002">
+      <claim-text><b>2</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said discs are positioned with respect to each other in a V-shape configuration with the discs toed-in toward each other in a direction of travel so that a geometric plane containing the first disc intersects a geometric plane containing the second disc.</claim-text>
+    </claim>
+    <claim id="CLM-00003" num="00003">
+      <claim-text><b>3</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said plurality of teeth comprise 12 teeth on each disc, said teeth being equally spaced around said discs at 30 degree intervals.</claim-text>
+    </claim>
+    <claim id="CLM-00004" num="00004">
+      <claim-text><b>4</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said leading edge of each tooth comprises a straight edge extending from a base of the tooth to a distal tip of the tooth.</claim-text>
+    </claim>
+    <claim id="CLM-00005" num="00005">
+      <claim-text><b>5</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said leading edge of each tooth slopes rearwardly relative to a direction of rotation of said disc and a radial line passing through the tooth.</claim-text>
+    </claim>
+    <claim id="CLM-00006" num="00006">
+      <claim-text><b>6</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein each tooth has an outer edge extending between said leading edge and said trailing edge.</claim-text>
+    </claim>
+    <claim id="CLM-00007" num="00007">
+      <claim-text><b>7</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein the outer edge of each tooth extends at an obtuse angle relative to the leading edge thereof.</claim-text>
+    </claim>
+    <claim id="CLM-00008" num="00008">
+      <claim-text><b>8</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein a sharpened point of intersection is formed where the leading cutting edge of each tooth intersects with the outer edge thereof.</claim-text>
+    </claim>
+    <claim id="CLM-00009" num="00009">
+      <claim-text><b>9</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein a transition between the leading cutting edge and the outer edge of each tooth is abrupt.</claim-text>
+    </claim>
+    <claim id="CLM-00010" num="00010">
+      <claim-text><b>10</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein a convex vertex is formed between the leading cutting edge and the outer edge of each tooth.</claim-text>
+    </claim>
+    <claim id="CLM-00011" num="00011">
+      <claim-text><b>11</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein the outer edges of the teeth are circumferential with each disc and have a radius of curvature equal to a radius of the disc.</claim-text>
+    </claim>
+    <claim id="CLM-00012" num="00012">
+      <claim-text><b>12</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said leading edges of the teeth of each disc are sharpened by beveling from one or both sides of the disc at an angle of approximately 30 to 60 degrees.</claim-text>
+    </claim>
+    <claim id="CLM-00013" num="00013">
+      <claim-text><b>13</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said leading edge of each tooth comprises a curved edge extending from a base of the tooth to a distal tip of the tooth.</claim-text>
+    </claim>
+    <claim id="CLM-00014" num="00014">
+      <claim-text><b>14</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00013">claim 13</claim-ref>, wherein said leading edge of each tooth slopes rearwardly relative to a direction of rotation of said disc and a radial line passing through the tooth, and wherein the rearward slope of the leading edge increases toward the distal tip of the tooth.</claim-text>
+    </claim>
+    <claim id="CLM-00015" num="00015">
+      <claim-text><b>15</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00013">claim 13</claim-ref>, wherein the leading cutting edge of each tooth intersects with the trailing edge thereof to form a sharpened point of intersection at the distal tip of the tooth.</claim-text>
+    </claim>
+    <claim id="CLM-00016" num="00016">
+      <claim-text><b>16</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00013">claim 13</claim-ref>, wherein said leading edges of the teeth are sharpened by beveling from one or both sides of the disc at an angle of approximately 30 to 60 degrees.</claim-text>
+    </claim>
+    <claim id="CLM-00017" num="00017">
+      <claim-text><b>17</b>. The debris clearing apparatus according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said disc is substantially flat.</claim-text>
+    </claim>
+    <claim id="CLM-00018" num="00018">
+      <claim-text><b>18</b>. A debris clearing device, comprising:
+<claim-text>a rotatable disc having a plurality of teeth extending from a periphery of said disc, each tooth having a profile comprising a leading edge and a trailing edge; and</claim-text>
+<claim-text>said leading edge of each tooth being sharpened to create a leading cutting edge.</claim-text>
+</claim-text>
+    </claim>
+    <claim id="CLM-00019" num="00019">
+      <claim-text><b>19</b>. The debris clearing device according to <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein the leading edge of each tooth slopes rearwardly relative to a direction of rotation of said disc and a radial line passing through the tooth.</claim-text>
+    </claim>
+    <claim id="CLM-00020" num="00020">
+      <claim-text><b>20</b>. The debris clearing device according to <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein said leading edges of the teeth are sharpened by beveling from one or both sides of the disc at an angle of approximately 30 to 60 degrees.</claim-text>
+    </claim>
+    <claim id="CLM-00021" num="00021">
+      <claim-text><b>21</b>. The debris clearing device according to <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein said leading edge of each tooth comprises a straight edge extending from a base of the tooth to a distal tip of the tooth.</claim-text>
+    </claim>
+    <claim id="CLM-00022" num="00022">
+      <claim-text><b>22</b>. The debris clearing device according to <claim-ref idref="CLM-00021">claim 21</claim-ref>, wherein each tooth has an outer edge extending between said leading edge and said trailing edge.</claim-text>
+    </claim>
+    <claim id="CLM-00023" num="00023">
+      <claim-text><b>23</b>. The debris clearing device according to <claim-ref idref="CLM-00022">claim 22</claim-ref>, wherein a sharp point of intersection is formed where the leading cutting edge of each tooth intersects with the outer edge thereof.</claim-text>
+    </claim>
+    <claim id="CLM-00024" num="00024">
+      <claim-text><b>24</b>. The debris clearing device according to <claim-ref idref="CLM-00022">claim 22</claim-ref>, wherein the outer edges of the teeth are circumferential with the disc and have a radius of curvature equal to a radius of the disc.</claim-text>
+    </claim>
+    <claim id="CLM-00025" num="00025">
+      <claim-text><b>25</b>. The debris clearing device according to <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein said leading edge of each tooth comprises a curved edge extending from a base of the tooth to a distal tip of the tooth.</claim-text>
+    </claim>
+    <claim id="CLM-00026" num="00026">
+      <claim-text><b>26</b>. The debris clearing device according to <claim-ref idref="CLM-00025">claim 25</claim-ref>, wherein the leading cutting edge of each tooth intersects with the trailing edge thereof to form a sharp point of intersection at the distal tip of the tooth.</claim-text>
+    </claim>
+    <claim id="CLM-00027" num="00027">
+      <claim-text><b>27</b>. The debris clearing device according to <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein said disc is substantially flat.</claim-text>
+    </claim>
+  </claims>
+</us-patent-application>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-application SYSTEM "us-patent-application-v44-2014-04-03.dtd">
+<us-patent-application lang="EN" dtd-version="v4.4 2014-04-03" file="US20170000002A1-20170105.XML" status="PRODUCTION" id="us-patent-application" country="US" date-produced="20161220" date-publ="20170105">
+  <us-bibliographic-data-application lang="EN" country="US">
+    <publication-reference>
+      <document-id>
+        <country>US</country>
+        <doc-number>20170000002</doc-number>
+        <kind>A1</kind>
+        <date>20170105</date>
+      </document-id>
+    </publication-reference>
+    <application-reference appl-type="utility">
+      <document-id>
+        <country>US</country>
+        <doc-number>14755945</doc-number>
+        <date>20150630</date>
+      </document-id>
+    </application-reference>
+    <us-application-series-code>14</us-application-series-code>
+    <classifications-ipcr>
+      <classification-ipcr>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>A</section>
+        <class>01</class>
+        <subclass>B</subclass>
+        <main-group>49</main-group>
+        <subgroup>02</subgroup>
+        <symbol-position>F</symbol-position>
+        <classification-value>I</classification-value>
+        <action-date>
+          <date>20170105</date>
+        </action-date>
+        <generating-office>
+          <country>US</country>
+        </generating-office>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+      </classification-ipcr>
+      <classification-ipcr>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>A</section>
+        <class>01</class>
+        <subclass>C</subclass>
+        <main-group>7</main-group>
+        <subgroup>16</subgroup>
+        <symbol-position>L</symbol-position>
+        <classification-value>I</classification-value>
+        <action-date>
+          <date>20170105</date>
+        </action-date>
+        <generating-office>
+          <country>US</country>
+        </generating-office>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+      </classification-ipcr>
+      <classification-ipcr>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>A</section>
+        <class>01</class>
+        <subclass>B</subclass>
+        <main-group>63</main-group>
+        <subgroup>00</subgroup>
+        <symbol-position>L</symbol-position>
+        <classification-value>I</classification-value>
+        <action-date>
+          <date>20170105</date>
+        </action-date>
+        <generating-office>
+          <country>US</country>
+        </generating-office>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+      </classification-ipcr>
+      <classification-ipcr>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>A</section>
+        <class>01</class>
+        <subclass>B</subclass>
+        <main-group>49</main-group>
+        <subgroup>06</subgroup>
+        <symbol-position>L</symbol-position>
+        <classification-value>I</classification-value>
+        <action-date>
+          <date>20170105</date>
+        </action-date>
+        <generating-office>
+          <country>US</country>
+        </generating-office>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+      </classification-ipcr>
+      <classification-ipcr>
+        <ipc-version-indicator>
+          <date>20060101</date>
+        </ipc-version-indicator>
+        <classification-level>A</classification-level>
+        <section>A</section>
+        <class>01</class>
+        <subclass>C</subclass>
+        <main-group>5</main-group>
+        <subgroup>06</subgroup>
+        <symbol-position>L</symbol-position>
+        <classification-value>I</classification-value>
+        <action-date>
+          <date>20170105</date>
+        </action-date>
+        <generating-office>
+          <country>US</country>
+        </generating-office>
+        <classification-status>B</classification-status>
+        <classification-data-source>H</classification-data-source>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <classifications-cpc>
+      <main-cpc>
+        <classification-cpc>
+          <cpc-version-indicator>
+            <date>20130101</date>
+          </cpc-version-indicator>
+          <section>A</section>
+          <class>01</class>
+          <subclass>B</subclass>
+          <main-group>49</main-group>
+          <subgroup>027</subgroup>
+          <symbol-position>F</symbol-position>
+          <classification-value>I</classification-value>
+          <action-date>
+            <date>20170105</date>
+          </action-date>
+          <generating-office>
+            <country>US</country>
+          </generating-office>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <scheme-origination-code>C</scheme-origination-code>
+        </classification-cpc>
+      </main-cpc>
+      <further-cpc>
+        <classification-cpc>
+          <cpc-version-indicator>
+            <date>20130101</date>
+          </cpc-version-indicator>
+          <section>A</section>
+          <class>01</class>
+          <subclass>B</subclass>
+          <main-group>49</main-group>
+          <subgroup>06</subgroup>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <action-date>
+            <date>20170105</date>
+          </action-date>
+          <generating-office>
+            <country>US</country>
+          </generating-office>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <scheme-origination-code>C</scheme-origination-code>
+        </classification-cpc>
+        <classification-cpc>
+          <cpc-version-indicator>
+            <date>20130101</date>
+          </cpc-version-indicator>
+          <section>A</section>
+          <class>01</class>
+          <subclass>C</subclass>
+          <main-group>5</main-group>
+          <subgroup>068</subgroup>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <action-date>
+            <date>20170105</date>
+          </action-date>
+          <generating-office>
+            <country>US</country>
+          </generating-office>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <scheme-origination-code>C</scheme-origination-code>
+        </classification-cpc>
+        <classification-cpc>
+          <cpc-version-indicator>
+            <date>20130101</date>
+          </cpc-version-indicator>
+          <section>A</section>
+          <class>01</class>
+          <subclass>B</subclass>
+          <main-group>63</main-group>
+          <subgroup>008</subgroup>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <action-date>
+            <date>20170105</date>
+          </action-date>
+          <generating-office>
+            <country>US</country>
+          </generating-office>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <scheme-origination-code>C</scheme-origination-code>
+        </classification-cpc>
+        <classification-cpc>
+          <cpc-version-indicator>
+            <date>20130101</date>
+          </cpc-version-indicator>
+          <section>A</section>
+          <class>01</class>
+          <subclass>C</subclass>
+          <main-group>5</main-group>
+          <subgroup>064</subgroup>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <action-date>
+            <date>20170105</date>
+          </action-date>
+          <generating-office>
+            <country>US</country>
+          </generating-office>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <scheme-origination-code>C</scheme-origination-code>
+        </classification-cpc>
+        <classification-cpc>
+          <cpc-version-indicator>
+            <date>20130101</date>
+          </cpc-version-indicator>
+          <section>A</section>
+          <class>01</class>
+          <subclass>C</subclass>
+          <main-group>7</main-group>
+          <subgroup>163</subgroup>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <action-date>
+            <date>20170105</date>
+          </action-date>
+          <generating-office>
+            <country>US</country>
+          </generating-office>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <scheme-origination-code>C</scheme-origination-code>
+        </classification-cpc>
+      </further-cpc>
+    </classifications-cpc>
+    <invention-title id="d2e43">REPLACEABLE WEAR INSERT FOR FURROW OPENING ASSEMBLY</invention-title>
+    <us-parties>
+      <us-applicants>
+        <us-applicant sequence="00" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+          <addressbook>
+            <orgname>CNH Industrial America LLC</orgname>
+            <address>
+              <city>New Holland</city>
+              <state>PA</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+          <residence>
+            <country>US</country>
+          </residence>
+        </us-applicant>
+      </us-applicants>
+      <inventors>
+        <inventor sequence="00" designation="us-only">
+          <addressbook>
+            <last-name>Anderson</last-name>
+            <first-name>Brian J.</first-name>
+            <address>
+              <city>Yorkville</city>
+              <state>IL</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+        </inventor>
+        <inventor sequence="01" designation="us-only">
+          <addressbook>
+            <last-name>Hartnetiaux</last-name>
+            <first-name>Travis L.</first-name>
+            <address>
+              <city>Bourbonnais</city>
+              <state>IL</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+        </inventor>
+        <inventor sequence="02" designation="us-only">
+          <addressbook>
+            <last-name>Dienst</last-name>
+            <first-name>Johnathon R.</first-name>
+            <address>
+              <city>DeKalb</city>
+              <state>IL</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+        </inventor>
+        <inventor sequence="03" designation="us-only">
+          <addressbook>
+            <last-name>Prickel</last-name>
+            <first-name>Marvin A.</first-name>
+            <address>
+              <city>Homer Glen</city>
+              <state>IL</state>
+              <country>US</country>
+            </address>
+          </addressbook>
+        </inventor>
+      </inventors>
+    </us-parties>
+    <assignees>
+      <assignee>
+        <addressbook>
+          <orgname>CNH Industrial America LLC</orgname>
+          <role>02</role>
+          <address>
+            <city>New Holland</city>
+            <state>PA</state>
+            <country>US</country>
+          </address>
+        </addressbook>
+      </assignee>
+    </assignees>
+  </us-bibliographic-data-application>
+  <abstract id="abstract">
+    <p id="p-0001" num="0000">An agricultural seed planting implement has a frame moveable in an up and down direction relative to soil over which the frame traverses. A seed trench opening assembly mounted on the frame includes disks mounted side by side and having a forming point positioned in between. A wearable insert of plastic is slidably but non-rotatably retained in the forming point to abut the disks when they are deflected. The disks are removable to enable simple replacement of the wearable insert.</p>
+  </abstract>
+  <drawings id="DRAWINGS">
+    <figure id="Fig-EMI-D00000" num="00000">
+      <img id="EMI-D00000" he="193.29mm" wi="225.21mm" file="US20170000002A1-20170105-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00001" num="00001">
+      <img id="EMI-D00001" he="224.37mm" wi="189.65mm" orientation="landscape" file="US20170000002A1-20170105-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00002" num="00002">
+      <img id="EMI-D00002" he="241.72mm" wi="192.53mm" orientation="landscape" file="US20170000002A1-20170105-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00003" num="00003">
+      <img id="EMI-D00003" he="259.16mm" wi="186.01mm" file="US20170000002A1-20170105-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00004" num="00004">
+      <img id="EMI-D00004" he="178.82mm" wi="175.18mm" file="US20170000002A1-20170105-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+  </drawings>
+  <description id="description">
+    <?summary-of-invention description="Summary of Invention" end="lead"?>
+    <heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+    <p id="p-0002" num="0001">1. Field of the Invention</p>
+    <p id="p-0003" num="0002">The present invention generally relates to agricultural seed planting implements and to the furrow opening assemblies thereon.</p>
+    <p id="p-0004" num="0003">2. Description of the Related Art</p>
+    <p id="p-0005" num="0004">Farmers utilize a wide variety of seed planting implements, including seed drills and planters. In a known type of planting implement, seed planting or row units are attached to a toolbar extending transverse to the direction of planting. The toolbar is coupled to a tractor or other work vehicle suitable for pulling the planting implement along a field that is to be seeded to a crop. Each planting unit includes a ground penetrating assembly, often including one or more discs, for opening a seed trench or furrow in the ground as the planting implement is pulled across a field. Components of the ground penetrating assembly shape the bottom and sides of the seed trench, and a seed metering device provides individual seeds at a controlled rate for deposit in the seed trench. Furrow closing components of each row unit close the seed trench in a controlled manner.</p>
+    <p id="p-0006" num="0005">One of the first functions in the planting operation is too open and form the seed trench. Typically this is done by utilizing side-by-side disks that are angled to form roughly a V there between and which pierces the soil to begin the trench forming process. A forming point, usually from steel, is mounted between the disks to form and establish the lower boundary of the trench thus formed by the opening disks. In operation, the disks deflect significantly when they are displaced through the soil to open the trench. The disks, in this deflected state, abut one another and can abut the forming point. In time, the wear between the metallic parts makes it necessary to replace the forming point and disks. Such an operation is expensive and complicated since it involves a substantial disassembly of the trench forming apparatus.</p>
+    <p id="p-0007" num="0006">What is needed in the art is a simple and effective way to accommodate wear in a trench opening assembly of a seed planter.</p>
+    <heading id="h-0002" level="1">SUMMARY OF THE INVENTION</heading>
+    <p id="p-0008" num="0007">The invention seeks to provide a wearable component of the seed trenching apparatus that is easily replaceable.</p>
+    <p id="p-0009" num="0008">In one form, the invention is an agricultural seed planting implement including a frame moveable in an up and down direction relative to soil over which the frame traverses. A seed trench opening assembly is mounted to the frame and includes disks positioned side-by-side and mounted on the frame. A forming point is also mounted on the frame and positioned in between the opening disks to define the bottom of the seed trench made by the opening disks. A wearable insert is slidingly mounted on the forming point and extends laterally from the forming point to abut the opening disks as they are deflected towards one another in forming the seed trench. The disks capture the wearable insert in the forming point.</p>
+    <p id="p-0010" num="0009">One advantage of the invention is an inexpensive wear component of a seed trench opening apparatus.</p>
+    <p id="p-0011" num="0010">Another advantage of the invention is an easily replaceable wear component of a seed trench opening apparatus.</p>
+    <?summary-of-invention description="Summary of Invention" end="tail"?>
+    <?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+    <description-of-drawings>
+      <heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+      <p id="p-0012" num="0011">The above-mentioned and other features and advantages of this invention, and the manner of attaining them, will become more apparent and the invention will be better understood by reference to the following description of an embodiment of the invention taken in conjunction with the accompanying drawings, wherein:</p>
+      <p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 1</figref> is a perspective view of a seed planting unit incorporated in a seed planting implement;</p>
+      <p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 2</figref> is another perspective view of the seed planting unit, showing the unit from an angle different from the angle shown in the perspective view of <figref idref="DRAWINGS">FIG. 2</figref>;</p>
+      <p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 3</figref> is a fragmentary view of the seed planting unit illustrated in <figref idref="DRAWINGS">FIG. 2</figref> taken on lines <b>2</b>-<b>2</b> and showing a forming point;</p>
+      <p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 4</figref> is a perspective view of the forming point illustrated out of the seed planting unit; and,</p>
+      <p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 5</figref> is a perspective view of an alternative embodiment of the forming point illustrated out of the seed planting unit.</p>
+    </description-of-drawings>
+    <?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+    <?detailed-description description="Detailed Description" end="lead"?>
+    <p id="p-0018" num="0017">Corresponding reference characters indicate corresponding parts throughout the several views. The exemplification set out herein illustrates one embodiment of the invention and such exemplification is not to be construed as limiting the scope of the invention in any manner.</p>
+    <heading id="h-0004" level="1">DETAILED DESCRIPTION OF THE INVENTION</heading>
+    <p id="p-0019" num="0018">Referring now to the drawings more specifically and to <figref idref="DRAWINGS">FIG. 1</figref> in particular, a seed planting unit <b>20</b> is shown. Seed planting unit <b>20</b> is part of a seed planting implement having a frame that includes a tow bar assembly, a tow bar and a connection assembly at the longitudinally forward end thereof configured for mating with a corresponding hitch of a tractor or other work vehicle (all of which are not shown) for pulling the seed planting implement through a field. A laterally extending toolbar <b>18</b> (shown in dashed lines in <figref idref="DRAWINGS">FIG. 2</figref>) is generally transverse to the tow bar and thereby generally transverse to the direction <b>28</b> the implement is towed during planting operations. A plurality of seed planting units (or row units) <b>20</b> are connected to toolbar <b>18</b> in a side by side relationship, each of the seed planting units (row units) being substantially identical to the others. In the exemplary embodiment shown, a seed planting implement may include sixteen seed planting units <b>20</b>, only one of which is identified with reference numbers; however, it should be understood that more or fewer seed planting units can be provided on a particular seed planting implement.</p>
+    <p id="p-0020" num="0019">Referring now primarily to <figref idref="DRAWINGS">FIGS. 1 and 2</figref>, each seed planting unit <b>20</b> includes a frame <b>22</b> that is connected to toolbar <b>18</b> by upper arms <b>24</b> and lower arms <b>26</b>, each arm <b>24</b>, <b>26</b> being connected to frame <b>22</b> and to toolbar <b>18</b>. Accordingly, each seed planting unit <b>20</b> extends rearward from toolbar <b>18</b> to plant a row of seeds as the seed planting implement is towed across a field in the direction <b>28</b>. The individual planting units <b>20</b> are spaced along toolbar <b>18</b> to provide planted seed rows of a desired spacing. During a planting operation, forward movement of the seed planting implement causes each seed planting unit <b>20</b> to form a seed trench, deposit equally spaced seeds in the seed trench and close the seed trench over the deposited seeds.</p>
+    <p id="p-0021" num="0020">Each seed planting unit <b>20</b> includes a ground penetrating or seed trench opening assembly having a pair of forwardly and downwardly angled opening discs <b>32</b> that converge forwardly and downwardly to open a furrow or seed trench as the seed planting implement moves forward. As particularly seen in <figref idref="DRAWINGS">FIG. 2</figref>, the opening disks <b>32</b> are mounted on axes A<b>1</b> and A<b>2</b>, in staggered relation so that their axes are spaced by Dl. Opening disks <b>32</b> are removably retained on frame <b>22</b> by nuts <b>33</b>.</p>
+    <p id="p-0022" num="0021">A seed metering system receives seeds from a seed hopper and provides individual seeds at a controlled rate to a seed tube <b>38</b> (shown in dashed lines) for deposit in the bottom of the seed trench formed. The details of the seed metering system are not shown to enable a clearer understanding of the present invention.</p>
+    <p id="p-0023" num="0022">A seed trench closing mechanism <b>50</b> (<figref idref="DRAWINGS">FIG. 1</figref>) at the trailing end of each seed planting unit <b>20</b> closes the seed trench after the seeds have been deposited in the seed trench. Seed trench closing mechanism <b>50</b> includes a pair of pinch wheels <b>52</b> (<figref idref="DRAWINGS">FIG. 2</figref>) that operate on opposite sides of the seed trench to move soil back into the seed trench and over the seeds deposited in the bottom of the seed trench. A trailing press wheel (not shown) travels along the top of the closed seed trench and firms the soil replaced in the seed trench.</p>
+    <p id="p-0024" num="0023">The depth to which opening discs <b>32</b> are allowed to penetrate the ground is controlled by a depth control assembly <b>60</b> that includes a pair of gauge wheels <b>62</b>, gauge wheel arms <b>64</b> and a depth adjuster and linkage assembly <b>80</b>. One of the gauge wheels <b>62</b> is provided adjacent each opening disc <b>32</b>. Each gauge wheel <b>62</b> is rotatably mounted on one of the gauge wheel arms <b>64</b> by a wheel retention shaft <b>68</b>, which is particularly illustrated in <figref idref="DRAWINGS">FIG. 2</figref> where the near side gauge wheel <b>62</b> has been removed. The gauge wheel arms <b>64</b> are of equal length for production purposes and are pivotally connected at a pivotal attachment <b>66</b> to seed planting unit frame <b>22</b>. Pivoting gauge wheel arm <b>64</b> about pivotal attachment <b>66</b> to frame <b>22</b> changes the relative height position of gauge wheel <b>62</b>.</p>
+    <p id="p-0025" num="0024">A forming point assembly <b>100</b> is positioned between opening disks <b>32</b> and defines the contour of the bottom of the trench formed by the seed planting unit <b>20</b>. As shown in <figref idref="DRAWINGS">FIGS. 2 and 3</figref>, the forming point assembly <b>100</b> is positioned between disks <b>32</b>. The disks <b>32</b> deflect during operation and can abut and rub on the forming point assembly, causing wear since the interaction is steel to steel. In accordance with the present invention, a wearable insert is positioned between the forming point assembly <b>100</b> and the disks <b>32</b>, as described below.</p>
+    <p id="p-0026" num="0025">Referring specifically to <figref idref="DRAWINGS">FIGS. 3 and 4</figref>, the forming point assembly <b>100</b> has a base <b>102</b> that has an opening <b>104</b> providing a mounting point to frame <b>22</b>. A wall section <b>108</b> is usually formed from sheet metal and has a curved leading edge connected to the downstream side of base <b>102</b> and which gives width to the trench so formed. Base <b>102</b> has a leading edge <b>106</b> which is wedge shape when viewed in the plan view of <figref idref="DRAWINGS">FIG. 3</figref> and circular in shape when viewed from the side.</p>
+    <p id="p-0027" num="0026">Base <b>102</b> has a circular opening <b>112</b> with a flat section <b>114</b> interposed in its periphery. A wearable insert <b>116</b> having a cylindrical shape and a flat <b>118</b> fits into opening <b>112</b> and is slidable laterally relative to base <b>102</b>. As shown particularly in <figref idref="DRAWINGS">FIG. 3</figref>, the insert <b>116</b> extends beyond the base <b>102</b> and into abutment with the inside of opposed disks <b>32</b>. Insert <b>116</b> is slidable laterally, but is not rotatable.</p>
+    <p id="p-0028" num="0027">In operation of the seeding unit <b>20</b>, the disks <b>32</b> deflect inward as they form the desired trench. Instead of abutting the forming point assembly <b>100</b> the opening disks <b>32</b> abut the wear insert <b>116</b>, which acts as a sacrificial element protecting the remaining components. Because the insert <b>116</b> is movable laterally it balances between the two disks <b>32</b>. When the insert <b>116</b> reaches its wear limit it may be easily removed by disconnecting one or both of the disks <b>32</b> by removing nuts <b>33</b>. At that point, the wear insert <b>116</b> may be simply replaced by pushing it out of the hole <b>112</b> and inserting a new wear insert <b>116</b>. The wear insert can be formed from any wearable plastic material such as UHMW plastic and nylon thus avoiding the replacement of more expensive steel parts in the disks <b>32</b> and forming point assembly <b>100</b>.</p>
+    <p id="p-0029" num="0028">While the wear insert <b>116</b> in <figref idref="DRAWINGS">FIGS. 2 and 3</figref> is shown as cylindrical with a flat, it may be in another form as illustrated in <figref idref="DRAWINGS">FIG. 5</figref>. In that figure, the base <b>102</b> has a modified wall section <b>108</b>′ secured to it. A rectangular opening <b>120</b> is provided in the forward edge of the wall section <b>108</b>′ and cooperates with the base <b>102</b> to form a rectangular through opening <b>120</b> which receives a rectangular shaped wear insert <b>122</b>. In this case, the wear insert <b>122</b> may slide laterally but does not have the possibility to rotate. The configuration shown in <figref idref="DRAWINGS">FIG. 5</figref> has the same benefits as the wear insert <b>116</b> of <figref idref="DRAWINGS">FIGS. 2 and 3</figref>.</p>
+    <p id="p-0030" num="0029">While this invention has been described with respect to at least one embodiment, the present invention can be further modified within the spirit and scope of this disclosure. This application is therefore intended to cover any variations, uses, or adaptations of the invention using its general principles. Further, this application is intended to cover such departures from the present disclosure as come within known or customary practice in the art to which this invention pertains and which fall within the limits of the appended claims.</p>
+    <?detailed-description description="Detailed Description" end="tail"?>
+  </description>
+  <us-claim-statement>What is claimed is:</us-claim-statement>
+  <claims id="claims">
+    <claim id="CLM-00001" num="00001">
+      <claim-text><b>1</b>. An agricultural seed planting implement, comprising:
+<claim-text>a frame moveable in an up and down direction relative to soil area over which the frame traverses;</claim-text>
+<claim-text>a seed trench opening assembly mounted to said frame and including disks positioned in side-by-side relationship;</claim-text>
+<claim-text>a forming point positioned in between said opening disks to define the bottom of the seed trench made by said opening disks; and,</claim-text>
+<claim-text>a wearable insert slidingly mounted on said forming point and extending laterally from said forming point to abut said opening disks as they are deflected toward one another in forming the seed trench, said openings disks retaining said wearable insert in said forming point.</claim-text>
+</claim-text>
+    </claim>
+    <claim id="CLM-00002" num="00002">
+      <claim-text><b>2</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein at least one of said opening disks is removable for allowing removal of said wearable insert.</claim-text>
+    </claim>
+    <claim id="CLM-00003" num="00003">
+      <claim-text><b>3</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said insert is non-rotatable relative to said forming point.</claim-text>
+    </claim>
+    <claim id="CLM-00004" num="00004">
+      <claim-text><b>4</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein said wearable insert is cylindrical in form and has a flat form thereon, said forming point has a hole corresponding to the cross sectional configuration of said wearable insert.</claim-text>
+    </claim>
+    <claim id="CLM-00005" num="00005">
+      <claim-text><b>5</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said insert is rectangular and the forming point has a rectangular opening for receiving said insert.</claim-text>
+    </claim>
+    <claim id="CLM-00006" num="00006">
+      <claim-text><b>6</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein said wearable insert is plastic.</claim-text>
+    </claim>
+    <claim id="CLM-00007" num="00007">
+      <claim-text><b>7</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the axis of said disks are offset relative to one another in the direction over which the seed planting implement traverses.</claim-text>
+    </claim>
+    <claim id="CLM-00008" num="00008">
+      <claim-text><b>8</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising gauge wheels mounted on said frame adjacent said opening disks and adjustable relative to said frame for establishing the depth of the seed trench.</claim-text>
+    </claim>
+    <claim id="CLM-00009" num="00009">
+      <claim-text><b>9</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00008">claim 8</claim-ref>, further comprising a seed tube for receiving seeds to be planted in the trench formed by said seed trench opening assembly and said forming point.</claim-text>
+    </claim>
+    <claim id="CLM-00010" num="00010">
+      <claim-text><b>10</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising closing disks positioned behind said opening disks and gauge wheels for closing the trench thus formed.</claim-text>
+    </claim>
+    <claim id="CLM-00011" num="00011">
+      <claim-text><b>11</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the forming point and has a forward section with a tapered edge relative to the direction of movement over which the seed planting implement traverses.</claim-text>
+    </claim>
+    <claim id="CLM-00012" num="00012">
+      <claim-text><b>12</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein said forming point has a circular shape when viewed from the side.</claim-text>
+    </claim>
+    <claim id="CLM-00013" num="00013">
+      <claim-text><b>13</b>. The agricultural seed planting implement as claimed in <claim-ref idref="CLM-00012">claim 12</claim-ref>, in which the forming point has a base and further comprises a curved wall section mounted to the downstream side of the base.</claim-text>
+    </claim>
+    <claim id="CLM-00014" num="00014">
+      <claim-text><b>14</b>. The agricultural seed planting implement of <claim-ref idref="CLM-00013">claim 13</claim-ref>, wherein said leading edge of said wall section has a rectangular notch positioned therein at the junction between said leading edge of the wall section and said base forming a through hole with a rectangular cross section, said wearable insert being rectangular in cross section and received in said through hole.</claim-text>
+    </claim>
+  </claims>
+</us-patent-application>

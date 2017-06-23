@@ -1,0 +1,1564 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE exch:exchange-documents SYSTEM "docdb-entities.dtd">
+<exch:exchange-documents xmlns:exch="http://www.epo.org/exchange" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.epo.org/exchange exchange-documents-v2.5.6.xsd" date-of-exchange="20170105" dtd-version="2.5.6" file="DOCDB-201701-Amend-PubDate20161230AndBefore-AP-0001" no-of-documents="0000027" originating-office="EP">
+  <exch:exchange-document country="AP" doc-number="895" kind="A" doc-id="381754425" date-publ="20001117" family-id="23666197" is-representative="YES" date-of-last-exchange="20170105" date-of-previous-exchange="20161222" date-added-docdb="20011013" originating-office="EP" status="A">
+    <exch:bibliographic-data>
+      <exch:publication-reference data-format="docdb">
+        <document-id>
+          <country>AP</country>
+          <doc-number>895</doc-number>
+          <kind>A</kind>
+          <date>20001117</date>
+        </document-id>
+      </exch:publication-reference>
+      <exch:publication-reference data-format="epodoc">
+        <document-id>
+          <doc-number>AP895</doc-number>
+        </document-id>
+      </exch:publication-reference>
+      <exch:classification-ipc>
+        <edition>7</edition>
+        <main-classification> 7H 047    /19   A</main-classification>
+        <further-classification> 7  H04 B 7/00   B</further-classification>
+      </exch:classification-ipc>
+      <exch:classifications-ipcr>
+        <classification-ipcr sequence="1">
+          <text>H04B   1/74        20060101AFI20051220RMJP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="2">
+          <text>H01Q  21/24        20060101A I20051008RMEP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="3">
+          <text>H04B   7/00        20060101A I20051008RMEP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="4">
+          <text>H04B   7/10        20060101A I20051008RMEP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="5">
+          <text>H04J  11/00        20060101ALI20051220RMJP        </text>
+        </classification-ipcr>
+      </exch:classifications-ipcr>
+      <exch:patent-classifications>
+        <patent-classification sequence="1">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>H04B   7/002       </classification-symbol>
+          <symbol-position>F</symbol-position>
+          <classification-value>I</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20161229</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="2">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>H01Q  21/245       </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20161216</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="3">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>H04B   7/10        </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20161229</date>
+          </action-date>
+        </patent-classification>
+      </exch:patent-classifications>
+      <exch:application-reference is-representative="NO" doc-id="469534" data-format="docdb">
+        <document-id>
+          <country>AP</country>
+          <doc-number>9701129</doc-number>
+          <kind>A</kind>
+          <date>19960405</date>
+        </document-id>
+      </exch:application-reference>
+      <exch:application-reference data-format="epodoc">
+        <document-id>
+          <doc-number>AP19970001129</doc-number>
+        </document-id>
+      </exch:application-reference>
+      <exch:application-reference data-format="original">
+        <document-id>
+          <doc-number>AP/P/1997/001129</doc-number>
+        </document-id>
+      </exch:application-reference>
+      <exch:priority-claims>
+        <exch:priority-claim sequence="1" data-format="docdb">
+          <document-id doc-id="50748559">
+            <country>US</country>
+            <doc-number>42037295</doc-number>
+            <kind>A</kind>
+            <date>19950407</date>
+          </document-id>
+          <exch:priority-active-indicator>Y</exch:priority-active-indicator>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="1" data-format="epodoc">
+          <document-id>
+            <doc-number>US19950420372</doc-number>
+          </document-id>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="1" data-format="original">
+          <document-id>
+            <doc-number>  US08420372</doc-number>
+          </document-id>
+        </exch:priority-claim>
+      </exch:priority-claims>
+      <exch:parties>
+        <exch:applicants>
+          <exch:applicant sequence="1" data-format="docdb">
+            <exch:applicant-name>
+              <name>TELECOMM EQUIPMENT CORP</name>
+            </exch:applicant-name>
+            <residence>
+              <country>US</country>
+            </residence>
+          </exch:applicant>
+          <exch:applicant sequence="1" data-format="docdba">
+            <exch:applicant-name>
+              <name>TELECOMMUNICATIONS EQUIPMENT CORPORATION</name>
+            </exch:applicant-name>
+          </exch:applicant>
+        </exch:applicants>
+        <exch:inventors>
+          <exch:inventor sequence="1" data-format="docdb">
+            <exch:inventor-name>
+              <name>WONG THOMAS T Y</name>
+            </exch:inventor-name>
+            <residence>
+              <country>US</country>
+            </residence>
+          </exch:inventor>
+          <exch:inventor sequence="1" data-format="docdba">
+            <exch:inventor-name>
+              <name>WONG THOMAS T Y</name>
+            </exch:inventor-name>
+          </exch:inventor>
+        </exch:inventors>
+      </exch:parties>
+      <exch:invention-title lang="en" data-format="docdba">Multifunction interactive communications system with circularly/elliptically polarized signal transmission and reception.</exch:invention-title>
+      <exch:dates-of-public-availability>
+        <exch:printed-with-grant>
+          <document-id>
+            <date>20001117</date>
+          </document-id>
+        </exch:printed-with-grant>
+      </exch:dates-of-public-availability>
+      <exch:references-cited>
+        <exch:citation cited-phase="SEA" sequence="1">
+          <patcit num="1" dnum="WO9406227A1" dnum-type="publication number">
+            <document-id doc-id="300541811">
+              <country>WO</country>
+              <doc-number>9406227</doc-number>
+              <kind>A1</kind>
+              <name>PACTEL CORP [US]</name>
+              <date>19940317</date>
+            </document-id>
+          </patcit>
+        </exch:citation>
+        <exch:citation cited-phase="SEA" sequence="2">
+          <patcit num="2" dnum="US3883872A" dnum-type="publication number">
+            <document-id doc-id="313395104">
+              <country>US</country>
+              <doc-number>3883872</doc-number>
+              <kind>A</kind>
+              <name>FLETCHER JAMES C ADMINISTRATOR, et al</name>
+              <date>19750513</date>
+            </document-id>
+          </patcit>
+        </exch:citation>
+        <exch:citation cited-phase="SEA" sequence="3">
+          <patcit num="3" dnum="EP0228947A1" dnum-type="publication number">
+            <document-id doc-id="306807180">
+              <country>EP</country>
+              <doc-number>0228947</doc-number>
+              <kind>A1</kind>
+              <name>SEREL [FR]</name>
+              <date>19870715</date>
+            </document-id>
+          </patcit>
+        </exch:citation>
+      </exch:references-cited>
+    </exch:bibliographic-data>
+    <exch:abstract lang="en" data-format="docdba" abstract-source="national office">
+      <exch:p>A communications system that uses electromagnetic waves. The communications system . preferably operates in the millimeter-wave frequencies, and provides relatively high signal restoration and isolation. The communications system can use polarization dive</exch:p>
+    </exch:abstract>
+    <exch:patent-family>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>AP</country>
+            <doc-number>9701129</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>AP19970001129</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>AP</country>
+            <doc-number>895</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>AP895</doc-number>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="docdb" sequence="2">
+          <document-id>
+            <country>AP</country>
+            <doc-number>9701129</doc-number>
+            <kind>D0</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="2">
+          <document-id>
+            <doc-number>AP9701129D</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>AU</country>
+            <doc-number>5535596</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>AU19960055355</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>AU</country>
+            <doc-number>713294</doc-number>
+            <kind>B2</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>AU713294B</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>AU</country>
+            <doc-number>5535596</doc-number>
+            <kind>D</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>AU19960055355D</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>AU</country>
+            <doc-number>5535596</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>AU5535596</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>BG</country>
+            <doc-number>10203097</doc-number>
+            <kind>D</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>BG19970102030D</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>BG</country>
+            <doc-number>102030</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>BG102030</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>BR</country>
+            <doc-number>9604936</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>BR19969604936</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>BR</country>
+            <doc-number>9604936</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>BR9604936</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>CA</country>
+            <doc-number>2217686</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>CA19962217686</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>CA</country>
+            <doc-number>2217686</doc-number>
+            <kind>A1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>CA2217686</doc-number>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="docdb" sequence="2">
+          <document-id>
+            <country>CA</country>
+            <doc-number>2217686</doc-number>
+            <kind>C</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="2">
+          <document-id>
+            <doc-number>CA2217686</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>CN</country>
+            <doc-number>96193755</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>CN1996193755</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>CN</country>
+            <doc-number>1097363</doc-number>
+            <kind>C</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>CN1097363C</doc-number>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="docdb" sequence="2">
+          <document-id>
+            <country>CN</country>
+            <doc-number>1183866</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="2">
+          <document-id>
+            <doc-number>CN1183866</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>CZ</country>
+            <doc-number>316297</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>CZ19970003162</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>CZ</country>
+            <doc-number>9703162</doc-number>
+            <kind>A3</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>CZ9703162</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>EA</country>
+            <doc-number>199700309</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>EA19970000309</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>EA</country>
+            <doc-number>000444</doc-number>
+            <kind>B1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>EA000444</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>EE</country>
+            <doc-number>9700260</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>EE19970000260</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>EE</country>
+            <doc-number>9700260</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>EE9700260</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>EP</country>
+            <doc-number>96912582</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>EP19960912582</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>EP</country>
+            <doc-number>0864209</doc-number>
+            <kind>A1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>EP0864209</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>GE</country>
+            <doc-number>AP1996002921</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>GE1996AP02921</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>GE</country>
+            <doc-number>P20012525</doc-number>
+            <kind>B</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>GEP20012525</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>JP</country>
+            <doc-number>53049696</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>JP19960530496</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>JP</country>
+            <doc-number>H11503292</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>JPH11503292</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>MX</country>
+            <doc-number>9707733</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>MX19970007733</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>MX</country>
+            <doc-number>9707733</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>MX9707733</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>NO</country>
+            <doc-number>974638</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>NO19970004638</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>NO</country>
+            <doc-number>974638</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>NO974638</doc-number>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="docdb" sequence="2">
+          <document-id>
+            <country>NO</country>
+            <doc-number>974638</doc-number>
+            <kind>D0</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="2">
+          <document-id>
+            <doc-number>NO974638D</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>NZ</country>
+            <doc-number>30672496</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>NZ19960306724</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>NZ</country>
+            <doc-number>306724</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>NZ306724</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>OA</country>
+            <doc-number>70100</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>OA19970070100</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>OA</country>
+            <doc-number>10623</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>OA10623</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>PL</country>
+            <doc-number>32265696</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>PL19960322656</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>PL</country>
+            <doc-number>180089</doc-number>
+            <kind>B1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>PL180089B</doc-number>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="docdb" sequence="2">
+          <document-id>
+            <country>PL</country>
+            <doc-number>322656</doc-number>
+            <kind>A1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="2">
+          <document-id>
+            <doc-number>PL322656</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>RO</country>
+            <doc-number>9701849</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>RO19970001849</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>RO</country>
+            <doc-number>120442</doc-number>
+            <kind>B1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>RO120442</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>SK</country>
+            <doc-number>135997</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>SK19970001359</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>SK</country>
+            <doc-number>135997</doc-number>
+            <kind>A3</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>SK135997</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>TR</country>
+            <doc-number>9701124</doc-number>
+            <kind>T</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>TR19970001124T</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>TR</country>
+            <doc-number>9701124</doc-number>
+            <kind>T1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>TR9701124T</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>US</country>
+            <doc-number>9604694</doc-number>
+            <kind>W</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>WO1996US04694</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>WO</country>
+            <doc-number>9631957</doc-number>
+            <kind>A1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>WO9631957</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>US</country>
+            <doc-number>42037295</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>US19950420372</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>US</country>
+            <doc-number>5701591</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>US5701591</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="YES">
+          <document-id>
+            <country>US</country>
+            <doc-number>94947897</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>US19970949478</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>US</country>
+            <doc-number>6006070</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>US6006070</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+    </exch:patent-family>
+  </exch:exchange-document>
+  <exch:exchange-document country="AP" doc-number="3226" kind="A" doc-id="442141610" date-publ="20150430" family-id="40481764" is-representative="YES" date-of-last-exchange="20170105" date-of-previous-exchange="20160211" date-added-docdb="20150707" originating-office="EP" status="A">
+    <exch:bibliographic-data>
+      <exch:publication-reference data-format="docdb">
+        <document-id>
+          <country>AP</country>
+          <doc-number>3226</doc-number>
+          <kind>A</kind>
+          <date>20150430</date>
+        </document-id>
+      </exch:publication-reference>
+      <exch:publication-reference data-format="epodoc">
+        <document-id>
+          <doc-number>AP3226</doc-number>
+        </document-id>
+      </exch:publication-reference>
+      <exch:classifications-ipcr>
+        <classification-ipcr sequence="1">
+          <text>A01H   5/00        20060101CLI20150430BHAP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="2">
+          <text>C07K  14/415       20060101ALI20150430BHAP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="3">
+          <text>C07K  16/16        20060101ALI20150430BHAP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="4">
+          <text>C12N  15/85        20060101ALI20150430BHAP        </text>
+        </classification-ipcr>
+      </exch:classifications-ipcr>
+      <exch:patent-classifications>
+        <patent-classification sequence="1">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>C12N  15/113       </classification-symbol>
+          <symbol-position>F</symbol-position>
+          <classification-value>I</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20141225</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="2">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>C07K  14/415       </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20161226</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="3">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>C07K  16/16        </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20141225</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="4">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>C12N  15/1137      </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20150106</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="5">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>C12N  15/8242      </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20161226</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="6">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>C12N  15/8271      </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20161226</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="7">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>C12N2310/14        </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>A</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20141225</date>
+          </action-date>
+        </patent-classification>
+      </exch:patent-classifications>
+      <exch:application-reference is-representative="NO" doc-id="329410983" data-format="docdb">
+        <document-id>
+          <country>AP</country>
+          <doc-number>201005311</doc-number>
+          <kind>A</kind>
+          <date>20081211</date>
+        </document-id>
+      </exch:application-reference>
+      <exch:application-reference data-format="epodoc">
+        <document-id>
+          <doc-number>AP20100005311</doc-number>
+        </document-id>
+      </exch:application-reference>
+      <exch:priority-claims>
+        <exch:priority-claim sequence="1" data-format="docdb">
+          <document-id doc-id="56412779">
+            <country>EP</country>
+            <doc-number>2008010546</doc-number>
+            <kind>W</kind>
+            <date>20081211</date>
+          </document-id>
+          <exch:priority-linkage-type>W</exch:priority-linkage-type>
+          <exch:priority-active-indicator>N</exch:priority-active-indicator>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="1" data-format="epodoc">
+          <document-id>
+            <doc-number>WO2008EP10546</doc-number>
+          </document-id>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="2" data-format="docdb">
+          <document-id>
+            <country>US</country>
+            <doc-number>99698207</doc-number>
+            <kind>P</kind>
+            <date>20071213</date>
+          </document-id>
+          <exch:priority-active-indicator>Y</exch:priority-active-indicator>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="2" data-format="epodoc">
+          <document-id>
+            <doc-number>US20070996982P</doc-number>
+          </document-id>
+        </exch:priority-claim>
+      </exch:priority-claims>
+      <exch:parties>
+        <exch:applicants>
+          <exch:applicant sequence="1" data-format="docdb">
+            <exch:applicant-name>
+              <name>PHILIP MORRIS PRODUCTS SA</name>
+            </exch:applicant-name>
+            <residence>
+              <country>CH</country>
+            </residence>
+          </exch:applicant>
+          <exch:applicant sequence="1" data-format="docdba">
+            <exch:applicant-name>
+              <name>PHILIP MORRIS PRODUCTS SA</name>
+            </exch:applicant-name>
+          </exch:applicant>
+        </exch:applicants>
+        <exch:inventors>
+          <exch:inventor sequence="1" data-format="docdb">
+            <exch:inventor-name>
+              <name>HAYES ALEC</name>
+            </exch:inventor-name>
+            <residence>
+              <country>US</country>
+            </residence>
+          </exch:inventor>
+          <exch:inventor sequence="2" data-format="docdb">
+            <exch:inventor-name>
+              <name>HOEVEN RUTGER VAN DER</name>
+            </exch:inventor-name>
+            <residence>
+              <country>US</country>
+            </residence>
+          </exch:inventor>
+          <exch:inventor sequence="3" data-format="docdb">
+            <exch:inventor-name>
+              <name>KUDITHIPUDI CHENGALRAYAN</name>
+            </exch:inventor-name>
+            <residence>
+              <country>US</country>
+            </residence>
+          </exch:inventor>
+          <exch:inventor sequence="1" data-format="docdba">
+            <exch:inventor-name>
+              <name>HAYES ALEC</name>
+            </exch:inventor-name>
+          </exch:inventor>
+          <exch:inventor sequence="2" data-format="docdba">
+            <exch:inventor-name>
+              <name>HOEVEN RUTGER VAN DER</name>
+            </exch:inventor-name>
+          </exch:inventor>
+          <exch:inventor sequence="3" data-format="docdba">
+            <exch:inventor-name>
+              <name>KUDITHIPUDI CHENGALRAYAN</name>
+            </exch:inventor-name>
+          </exch:inventor>
+        </exch:inventors>
+      </exch:parties>
+      <exch:invention-title lang="en" data-format="docdba">Transgenic plants modifier for reducede cadmium transport, derivative products, and related methods</exch:invention-title>
+      <exch:dates-of-public-availability>
+        <exch:printed-with-grant>
+          <document-id>
+            <date>20150430</date>
+          </document-id>
+        </exch:printed-with-grant>
+      </exch:dates-of-public-availability>
+    </exch:bibliographic-data>
+    <exch:patent-family>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>AP</country>
+            <doc-number>201005311</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>AP20100005311</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>AP</country>
+            <doc-number>3226</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>AP3226</doc-number>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="docdb" sequence="2">
+          <document-id>
+            <country>AP</country>
+            <doc-number>201005311</doc-number>
+            <kind>D0</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="2">
+          <document-id>
+            <doc-number>AP201005311D</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>BR</country>
+            <doc-number>PI0820741</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>BR2008PI20741</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>BR</country>
+            <doc-number>PI0820741</doc-number>
+            <kind>A2</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>BRPI0820741</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>CN</country>
+            <doc-number>200880125345</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>CN20088125345</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>CN</country>
+            <doc-number>101952442</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>CN101952442</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>CN</country>
+            <doc-number>201410370663</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>CN20141370663</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>CN</country>
+            <doc-number>104131030</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>CN104131030</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>CO</country>
+            <doc-number>10085354</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>CO20100085354</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>CO</country>
+            <doc-number>6280552</doc-number>
+            <kind>A2</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>CO6280552</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>DK</country>
+            <doc-number>08860815</doc-number>
+            <kind>T</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>DK20080860815T</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>DK</country>
+            <doc-number>2231861</doc-number>
+            <kind>T3</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>DK2231861T</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>EP</country>
+            <doc-number>08860815</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>EP20080860815</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>EP</country>
+            <doc-number>2231861</doc-number>
+            <kind>A1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>EP2231861</doc-number>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="docdb" sequence="2">
+          <document-id>
+            <country>EP</country>
+            <doc-number>2231861</doc-number>
+            <kind>B1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="2">
+          <document-id>
+            <doc-number>EP2231861</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>EP</country>
+            <doc-number>12191891</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>EP20120191891</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>EP</country>
+            <doc-number>2559766</doc-number>
+            <kind>A1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>EP2559766</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="YES">
+          <document-id>
+            <country>EP</country>
+            <doc-number>2008010546</doc-number>
+            <kind>W</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>WO2008EP10546</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>WO</country>
+            <doc-number>2009074325</doc-number>
+            <kind>A1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>WO2009074325</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>ES</country>
+            <doc-number>08860815</doc-number>
+            <kind>T</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>ES20080860815T</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>ES</country>
+            <doc-number>2527272</doc-number>
+            <kind>T3</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>ES2527272T</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>PT</country>
+            <doc-number>08860815</doc-number>
+            <kind>T</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>PT20080860815T</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>PT</country>
+            <doc-number>2231861</doc-number>
+            <kind>E</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>PT2231861E</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>SI</country>
+            <doc-number>200831353</doc-number>
+            <kind>T</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>SI20080031353T</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>SI</country>
+            <doc-number>2231861</doc-number>
+            <kind>T1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>SI2231861T</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>US</country>
+            <doc-number>33368108</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>US20080333681</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>US</country>
+            <doc-number>8383889</doc-number>
+            <kind>B2</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>US8383889</doc-number>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="docdb" sequence="2">
+          <document-id>
+            <country>US</country>
+            <doc-number>2009183280</doc-number>
+            <kind>A1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="2">
+          <document-id>
+            <doc-number>US2009183280</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>US</country>
+            <doc-number>201313770702</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>US201313770702</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>US</country>
+            <doc-number>8829161</doc-number>
+            <kind>B2</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>US8829161</doc-number>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="docdb" sequence="2">
+          <document-id>
+            <country>US</country>
+            <doc-number>2013183738</doc-number>
+            <kind>A1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="2">
+          <document-id>
+            <doc-number>US2013183738</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:family-member>
+        <exch:application-reference data-format="docdb" is-representative="NO">
+          <document-id>
+            <country>US</country>
+            <doc-number>201414479864</doc-number>
+            <kind>A</kind>
+          </document-id>
+        </exch:application-reference>
+        <exch:application-reference data-format="epodoc">
+          <document-id>
+            <doc-number>US201414479864</doc-number>
+          </document-id>
+        </exch:application-reference>
+        <exch:publication-reference data-format="docdb" sequence="1">
+          <document-id>
+            <country>US</country>
+            <doc-number>2014378667</doc-number>
+            <kind>A1</kind>
+          </document-id>
+        </exch:publication-reference>
+        <exch:publication-reference data-format="epodoc" sequence="1">
+          <document-id>
+            <doc-number>US2014378667</doc-number>
+          </document-id>
+        </exch:publication-reference>
+      </exch:family-member>
+      <exch:abstract lang="en" country="EP" doc-number="2559766" kind="A1" data-format="docdba" abstract-source="EPO">
+        <exch:p>The invention is directed in part to plants modified to impede the transport of Cadmium (Cd) from the root system to aerial portions of the plants by reducing the expression and/or activity levels of HMA-related transporters. Reduced expression of NtHMA transporters in the plants results in substantially reduced content of Cadmium (Cd) in the leaf lamina. Various consumable products that are substantially free or substantially reduced in Cd content can be produced by incorporating leaves derived from tobacco plants modified to reduce the expression and/or activity of NtHMA transporters. Methods for producing the modified plants are also disclosed.</exch:p>
+      </exch:abstract>
+    </exch:patent-family>
+  </exch:exchange-document>
+</exch:exchange-documents>

@@ -1,2 +1,9 @@
-xmldata
 __pycache__
+xmldata/EPO/backfile
+xmldata/EPO/bibliographic
+xmldata/EPO/fulltext
+xmldata/EPO/inpadoc
+xmldata/USPTO/application-bibliographic
+xmldata/USPTO/application-fulltext
+xmldata/USPTO/grant-bibliographic
+xmldata/USPTO/grant-fulltext

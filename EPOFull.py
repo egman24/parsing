@@ -14,25 +14,35 @@ import functools
 from pymaybe import maybe
 
 def fmap(fn, coll):
-  return functools.reduce(lambda acc, val: acc + [fn(val)], coll, [])
+  return functools.reduce(
+  	lambda acc, val: acc + [fn(val)], coll, []
+  )
 
 def ffilter(predicate_fn, coll):
-  return functools.reduce(lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, [])
+  return functools.reduce(
+  	lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, []
+  )
 
 def fcreduce(fn, acc):
   return lambda coll: functools.reduce(fn, coll, acc)
 
 def fcmap(fn):
-  return lambda coll: functools.reduce(lambda acc, val: acc + [fn(val)], coll, [])
+  return lambda coll: functools.reduce(
+  	lambda acc, val: acc + [fn(val)], coll, []
+  )
 
 def fcfilter(predicate_fn):
-  return lambda coll: functools.reduce(lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, [])
+  return lambda coll: functools.reduce(
+  	lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, []
+  )
 
 def fzip(coll1, coll2):
   return list(zip(coll1, coll2))
 
 def fcompose(*functions):
-  return functools.reduce(lambda f, g: lambda x: f(g(x)), functions, lambda x: x)  
+  return functools.reduce(
+  	lambda f, g: lambda x: f(g(x)), functions, lambda x: x
+  )  
 
 from multiprocessing import Process
 

@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ep-patent-document PUBLIC "-//EPO//EP PATENT DOCUMENT 1.5//EN" "ep-patent-document-v1-5.dtd">
+<ep-patent-document id="EP00118267B1" file="EP00118267NWB1.xml" lang="en" country="EP" doc-number="1087213" kind="B1" date-publ="20170104" status="n" dtd-version="ep-patent-document-v1-5">
+  <SDOBI lang="en">
+    <B000>
+      <eptags>
+        <B001EP>......DE....FRGB....................................................................................</B001EP>
+        <B005EP>J</B005EP>
+        <B007EP>JDIM360 Ver 1.28 (29 Oct 2014) -  2100000/0</B007EP>
+      </eptags>
+    </B000>
+    <B100>
+      <B110>1087213</B110>
+      <B120>
+        <B121>EUROPEAN PATENT SPECIFICATION</B121>
+      </B120>
+      <B130>B1</B130>
+      <B140>
+        <date>20170104</date>
+      </B140>
+      <B190>EP</B190>
+    </B100>
+    <B200>
+      <B210>00118267.4</B210>
+      <B220>
+        <date>20000904</date>
+      </B220>
+      <B240>
+        <B241>
+          <date>20040109</date>
+        </B241>
+        <B242>
+          <date>20060201</date>
+        </B242>
+      </B240>
+      <B250>en</B250>
+      <B251EP>en</B251EP>
+      <B260>en</B260>
+    </B200>
+    <B300>
+      <B310>27038599</B310>
+      <B320>
+        <date>19990924</date>
+      </B320>
+      <B330>
+        <ctry>JP</ctry>
+      </B330>
+    </B300>
+    <B400>
+      <B405>
+        <date>20170104</date>
+        <bnum>201701</bnum>
+      </B405>
+      <B430>
+        <date>20010328</date>
+        <bnum>200113</bnum>
+      </B430>
+      <B450>
+        <date>20170104</date>
+        <bnum>201701</bnum>
+      </B450>
+      <B452EP>
+        <date>20160711</date>
+      </B452EP>
+    </B400>
+    <B500>
+      <B510EP>
+        <classification-ipcr sequence="1">
+          <text>G01F   1/684       20060101AFI20160615BHEP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="2">
+          <text>G01F   1/696       20060101ALI20160615BHEP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="3">
+          <text>G01F   1/698       20060101ALI20160615BHEP        </text>
+        </classification-ipcr>
+      </B510EP>
+      <B540>
+        <B541>de</B541>
+        <B542>Heissdraht-Luftdurchflussmesser für eine Brennkraftmaschine</B542>
+        <B541>en</B541>
+        <B542>Hot-wire type air flow meter for internal combustion engine</B542>
+        <B541>fr</B541>
+        <B542>Appareil de mesure du débit d'air du type à fil chaud pour moteur à combustion interne</B542>
+      </B540>
+      <B560>
+        <B561>
+          <text>JP-A- H05 264 312</text>
+        </B561>
+        <B561>
+          <text>US-A- 4 870 860</text>
+        </B561>
+        <B561>
+          <text>US-A- 5 355 723</text>
+        </B561>
+        <B562>
+          <text>PATENT ABSTRACTS OF JAPAN vol. 004, no. 110 (P-022), 8 August 1980 (1980-08-08) &amp; JP 55 066715 A (NIPPON SOKEN INC), 20 May 1980 (1980-05-20)</text>
+        </B562>
+        <B562>
+          <text>PATENT ABSTRACTS OF JAPAN vol. 014, no. 434 (P-1107), 18 September 1990 (1990-09-18) &amp; JP 02 170015 A (HITACHI LTD), 29 June 1990 (1990-06-29)</text>
+        </B562>
+        <B562>
+          <text>PATENT ABSTRACTS OF JAPAN vol. 010, no. 334 (P-515), 13 November 1986 (1986-11-13) &amp; JP 61 139722 A (JAPAN ELECTRONIC CONTROL SYST CO LTD), 27 June 1986 (1986-06-27)</text>
+        </B562>
+      </B560>
+    </B500>
+    <B700>
+      <B720>
+        <B721>
+          <snm>Kanke, Atsushi</snm>
+          <adr>
+            <str>c/o Hitachi, Ltd.
+Intellectual Property Group
+New Marunouchi Bldg.
+5-1 Marunouchi 1-chome</str>
+            <city>Chiyoda-ku
+Tokyo 100-8220</city>
+            <ctry>JP</ctry>
+          </adr>
+        </B721>
+        <B721>
+          <snm>Yamada, Masamichi</snm>
+          <adr>
+            <str>c/o Hitachi, Ltd.
+Intellectual Property Group
+New Marunouchi Bldg.
+5-1 Marunouchi 1-chome</str>
+            <city>Chiyoda-ku
+Tokyo 100-8220</city>
+            <ctry>JP</ctry>
+          </adr>
+        </B721>
+        <B721>
+          <snm>Nakada, Keiichi</snm>
+          <adr>
+            <str>c/o Hitachi, Ltd.
+Intellectual Property Group
+New Marunouchi Bldg.
+5-1 Marunouchi 1-chome</str>
+            <city>Chiyoda-ku
+Tokyo 100-8220</city>
+            <ctry>JP</ctry>
+          </adr>
+        </B721>
+        <B721>
+          <snm>Watanabe, Izumi</snm>
+          <adr>
+            <str>c/o Hitachi, Ltd.
+Intellectual Property Group
+New Marunouchi Bldg.
+5-1 Marunouchi 1-chome</str>
+            <city>Chiyoda-ku
+Tokyo 100-8220</city>
+            <ctry>JP</ctry>
+          </adr>
+        </B721>
+        <B721>
+          <snm>Sonobe, Hisao</snm>
+          <adr>
+            <str>c/o Hitachi, Ltd.
+Intellectual Property Group
+New Marunouchi Bldg.
+5-1 Marunouchi 1-chome</str>
+            <city>Chiyoda-ku
+Tokyo 100-8220</city>
+            <ctry>JP</ctry>
+          </adr>
+        </B721>
+      </B720>
+      <B730>
+        <B731>
+          <snm>Hitachi, Ltd.</snm>
+          <iid>100139968</iid>
+          <irf>81-55.772EP</irf>
+          <adr>
+            <str>6-6, Marunouchi 1-chome Chiyoda-ku</str>
+            <city>Tokyo</city>
+            <ctry>JP</ctry>
+          </adr>
+        </B731>
+      </B730>
+      <B740>
+        <B741>
+          <snm>Erny, Tobias</snm>
+          <sfx>et al</sfx>
+          <iid>101106906</iid>
+          <adr>
+            <str>MERH-IP 
+Matias Erny Reichl Hoffmann 
+Patentanwälte PartG mbB 
+Paul-Heyse-Straße 29</str>
+            <city>80336 München</city>
+            <ctry>DE</ctry>
+          </adr>
+        </B741>
+      </B740>
+    </B700>
+    <B800>
+      <B840>
+        <ctry>DE</ctry>
+        <ctry>FR</ctry>
+        <ctry>GB</ctry>
+      </B840>
+      <B880>
+        <date>20030924</date>
+        <bnum>200339</bnum>
+      </B880>
+    </B800>
+  </SDOBI>
+  <description id="desc" lang="en">
+    <!-- EPO <DP n="1"> -->
+    <heading id="h0001">BACKGROUND OF THE INVENTION</heading>
+    <heading id="h0002">Field of the Invention</heading>
+    <p id="p0001" num="0001">The invention relates to a measuring apparatus of an air flow rate and, more particularly, to a hot-wire type air flow meter (heat flow meter) suitable for detection of a suction air flow rate of an internal combustion engine.</p>
+    <heading id="h0003">Description of Related Art</heading>
+    <p id="p0002" num="0002">Hitherto, as an air flow rate measuring apparatus which is provided for an electronic control type fuel injection apparatus of an internal combustion engine such as an automobile or the like and measures a suction air flow rate, a number of hot-wire type apparatuses have been used because a mass air flow rate can be directly detected. In this instance, to assure a reliability of an exothermic resistor, a sensor having a certain extent of heat capacity which is constructed by winding a platinum wire around a bobbin and coating it with glass, forming a thin film resistor onto a ceramic substrate, or the like is often used. In a sensor having a large heat capacity, although a system such that a current is limited when a waterdrop is deposited onto a portion other than an internal combustion engine has been shown in <patcit id="pcit0001" dnum="JP5264312A"><text>JP-A-5-264312</text></patcit>, a power voltage is large to be 24V and a measuring region<!-- EPO <DP n="2"> --> of a rated value or more is limited. Such a system is used, particularly, for measurement of a flow rate of the compressed air and there is a problem that although a waterdrop is instantaneously evaporated usually at 100°C at an atmospheric pressure, in the compressed air, an evaporation temperature of the water is high, it takes time to evaporate the waterdrop, and an excessive current flows in an exothermic portion. In this instance, since the power voltage is high to be 24V, when a waterdrop is deposited, a current which is one or more digits larger than a rated current flows, and accordingly, it is limited by a current limiter. In an internal combustion engine, to prevent a fusion of a hot wire, a system for reducing an applied voltage to a bridge by detecting a voltage across a hot wire resistor has been disclosed in <patcit id="pcit0002" dnum="JP61102522A"><text>JP-A-61-102522</text></patcit> or the like. According to such a system, to prevent the fusion due to the supply of the abnormal voltage because of noises or the like, a voltage limit value larger than the maximum value at the time of the stationary operation is set.</p>
+    <p id="p0003" num="0003">As a flow meter having a high response speed, a number of flow meters in which an exothermic resistor of a small heat capacity is attached on a silicon substrate have been proposed. For example, as shown in <patcit id="pcit0003" dnum="JP5007659B"><text>JP-B-5-7659</text></patcit>, a thin film is formed on a silicon semiconductor substrate and a flow rate is detected by a thermal sensor.<!-- EPO <DP n="3"> --></p>
+    <p id="p0004" num="0004"><patcit id="pcit0004" dnum="JP55066715A"><text>JP-A-55066715</text></patcit> relates to a gas flow measuring device with a simple on-off feedback control system including a control circuit, which is able to prevent an electric heater of breakage and deterioration of characteristics</p>
+    <p id="p0005" num="0005"><patcit id="pcit0005" dnum="US5355723A"><text>US-A-5355723</text></patcit> relates to a method and apparatus for controlling the temperature of a heated measuring resistor and provides an optimization of a measurement sensitivity range corresponding to air flow temperature of a measuring resistor.</p>
+    <p id="p0006" num="0006">In <patcit id="pcit0006" dnum="JP02170015A"><text>JP-A-02170015</text></patcit>, an air flow rate measurement system by hot wire type air flow meter is described, wherein a by-pass circuit, parallel to an H/W element circuit is shown. This by-pass element, consisting of a current limiting resistor and a transistor, shunts a heating current through an H/W element in the case that a control unit outputs a signal corresponding to an overheating state.<!-- EPO <DP n="4"> --></p>
+    <heading id="h0004">SUMMARY OF THE INVENTION</heading>
+    <p id="p0007" num="0007">In the conventional techniques mentioned above, in case of using an exothermic resistor of a large heat capacity, a response speed at the time of a power-on of an air flow rate measuring apparatus is determined only from the relation between a power source voltage and the heat capacity of the exothermic resistor. In an internal combustion engine such as an ordinary gasoline engine or the like, therefore, since a power source voltage is usually small to be about 12V, an operating current to the exothermic resistor is limited and it takes time to heat, so that it is difficult to accurately measure an air flow rate for a predetermined time at the start of an engine of an automobile or the like.</p>
+    <p id="p0008" num="0008">To improve the response speed, it is necessary to use an exothermic resistor of a small heat capacity. In a hot-wire air flow meter, however, the maximum flow rate which can be measured is limited unconditionally to a certain degree by the heat capacity and a heating temperature of the exothermic resistor which is used for measurement and by a power source voltage which can be applied. It is because when the heat capacity is small, if it is intended to raise a measuring sensitivity (maximum flow rate) of the flow rate by increasing the heating temperature, a limitation such that the exothermic resistor<!-- EPO <DP n="5"> --> deteriorates when the heating temperature is equal to or higher than a predetermined value occurs. For example, a system such that an exothermic resistor is constructed by forming a thin film with a diaphragm structure onto a silicon substrate and a temperature of the exothermic resistor is controlled so as to become a constant temperature by a feedback circuit by using a bridge circuit or the like has the highest response speed. If a waterdrop, an oil droplet, or the like is deposited onto the exothermic resistor portion, however, a heating balance is broken and a voltage is applied so that the heating temperature of the exothermic resistor locally rises. Even in case of the applied voltage which does not cause a problem in the ordinary operation, therefore, if the temperature elevation continues, there is a possibility that the resistor of a small heat capacity constructed by the thin film is deteriorated by the heat and, in the worst case, the diaphragm is broken by a thermal stress.</p>
+    <p id="p0009" num="0009">Although the excessive temperature elevation can be prevented by limiting the voltage applied to the hot-wire type resistor so as not to locally raise the heating temperature of the exothermic resistor, there is a problem that a measuring range of the inherent flow rate is also narrowed.</p>
+    <p id="p0010" num="0010">It is, therefore, an object of the invention to provide an air flow meter for an<br/>
+internal combustion engine which can solve the problems<!-- EPO <DP n="6"> --> of the conventional techniques mentioned above.</p>
+    <p id="p0011" num="0011">In order to obtain the above object, the present invention provides an air flow meter as defined in the independent claim. The dependent claims relate to preferred embodiments.</p>
+    <p id="p0012" num="0012">According to an aspect of the invention, there can be provided at least one of the following: means for detecting a heating state of an exothermic resistor by distinguishing a case where a waterdrop, an oil droplet, or the like is deposited onto the exothermic resistor portion from a normal case where there is no deposition; and circuit means for limiting a heating time by the detected heating state. Thus, only in the case where the waterdrop, oil droplet, or the like is deposited onto the exothermic resistor portion, the heating state is limited without narrowing a measuring range of an inherent flow rate and a deterioration of the resistor can be prevented.</p>
+    <heading id="h0005">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+    <p id="p0013" num="0013">
+      <ul id="ul0001" list-style="none" compact="compact">
+        <li><figref idref="f0001">Fig. 1</figref> is a circuit diagram showing an example of a hot-wire type flow meter according to the first embodiment of the invention;</li>
+        <li><figref idref="f0002">Figs. 2A and 2B</figref> are diagrams each showing the limiting operation at the time when a waterdrop is deposited and a flow rate measuring range;</li>
+        <li><figref idref="f0003">Fig. 3</figref> is a diagram showing output voltage characteristics of a bridge potential difference and a differential amplifier;</li>
+        <li><figref idref="f0004">Figs. 4A to 4D</figref> are comparison diagrams of the voltage limiting operations of a bridge voltage at the time of power-on;<!-- EPO <DP n="7"> --></li>
+        <li><figref idref="f0004">Fig. 5</figref> is a diagram showing a burn-out region according to a temperature and a hot flow rate;</li>
+        <li><figref idref="f0005">Figs. 6A and 6B</figref> are comparison diagrams of the voltage limiting operations of the bridge voltage at the time of power-on in the case where it has a temperature characteristic;</li>
+        <li><figref idref="f0005">Fig. 7</figref> is a diagram of an example showing a pattern of a resistor formed on a silicon substrate;</li>
+        <li><figref idref="f0006">Fig. 8</figref> is a cross sectional view of an example of the resistor formed on the silicon substrate;</li>
+        <li><figref idref="f0007">Fig. 9</figref> is a circuit diagram showing an example of a hot-wire type air flow meter according to the second example useful for understanding the invention;</li>
+        <li><figref idref="f0008">Figs. 10A to 10F</figref> are comparison diagrams of the voltage limiting operations of a bridge voltage at the time of power-on;</li>
+        <li><figref idref="f0009">Fig. 11</figref> is a diagram showing an example of a pattern of a resistor formed on a silicon substrate;</li>
+        <li><figref idref="f0010">Fig. 12</figref> is a circuit diagram showing an example of a hot-wire type flow meter according to the third example useful for understanding the invention;</li>
+        <li><figref idref="f0011">Fig. 13</figref> is a diagram showing a state where a resistor formed on a silicon substrate is mounted on a circuit board; and</li>
+        <li><figref idref="f0012">Fig. 14</figref> is a circuit diagram showing an example of a hot-wire type flow meter according to the fourth embodiment of the invention.</li>
+      </ul>
+      <!-- EPO <DP n="8"> -->
+    </p>
+    <heading id="h0006">DETAILED DESCRIPTION OF THE EMBODIMENTS</heading>
+    <p id="p0014" num="0014">An embodiment of an air flow<br/>
+meter for an internal combustion engine according to the invention will be described in detail hereinbelow. In the following drawings, component elements having the same or similar functions are designated by the same reference numerals.</p>
+    <p id="p0015" num="0015">An example of a construction of an air flow meter according to the first embodiment of the invention will be described hereinbelow with reference to <figref idref="f0001">Fig. 1</figref>. A hot wire driving circuit 1 is connected to a power source 101 and generates a signal corresponding to an air flow rate. A hoisten-bridge circuit is constructed by: an exothermic resistor 11; a temperature compensation resistor (a resistor for measuring a suction air temperature, a temperature detecting element of a fluid, a temperature sensor of an air and a medium, a fluid temperature sensing unit, a temperature dependent resistor) 12 as a resistor whose resistance value varies in accordance with an ambient air temperature; and resistors 13 and 14. The hot wire driving circuit 1 is constructed in such a manner that a current flowing in the exothermic resistor 11 is adjusted by a differential amplifier 15 and a transistor 16 so that a potential difference at a middle point of a bridge is equal to zero by the hoisten-bridge circuit. When a heating temperature of<!-- EPO <DP n="9"> --> the exothermic resistor 11 is low, an output of the differential amplifier 15 is large and the resistor 11 operates so as to heat more. With this construction, the resistance value of the exothermic resistor 11 is controlled so as to be constant irrespective of an air flow rate, namely, in a manner such that the temperature is set to a predetermined value. In this instance, a signal corresponding to an air flow rate due to the exothermic resistor 11 is inputted to a zero span circuit 2. The zero span circuit 2 is constructed by a differential amplifier 21 and resistors 22, 23, 24, 25, 26, and 27.</p>
+    <p id="p0016" num="0016">The exothermic resistor 11 can be constructed by, for example, a thin or thick film of platinum or tungsten as an exothermic body onto a plate-shaped glass or ceramic substrate. It is, however, necessary to design it so as to have a small heat capacity.</p>
+    <p id="p0017" num="0017">Particularly, to reduce the heat capacity and raise a response speed, it is desirable to construct the exothermic resistor 11 in such a manner that a thin or thick film of platinum or tungsten, a polysilicon resistor, or a resistor of monocrystal silicon is formed as an exothermic body onto a thin portion of a semiconductor substrate of silicon or the like.</p>
+    <p id="p0018" num="0018">The exothermic resistor 11 is provided in a suction passage of an internal combustion engine of an automobile or the like and a voltage output corresponding to a flow rate of the air flowing in the<!-- EPO <DP n="10"> --> suction passage is obtained as an output of the differential amplifier 21. An ordinary hot-wire type air flow meter is constructed as mentioned above.</p>
+    <p id="p0019" num="0019">A measuring range of the air flow rate in case of preventing a deterioration, breakage, or the like of the resistor due to overheating will now be described with reference to <figref idref="f0002">Fig. 2A</figref>. This diagram shows the relation between the flow rate and a voltage (or current) which is applied to the exothermic resistor due to an increase in flow rate. An output according to the flow rate becomes an output of the hot-wire type air flow meter. Now, considering an operating state at the time when a waterdrop is deposited, it is necessary to limit the voltage to a value which is equal to or less than a voltage (or current) at which a deterioration, breakage, or the like is caused in the resistor by the deposition of the waterdrop. A limiter limits the voltage to a value which is equal to or less than such a voltage. In this case, by limiting the voltage by the limiter, a specified measuring range of the air flow rate is simultaneously limited. Particularly, in case of using an exothermic resistor of a small heat capacity constructed by forming a thin film onto a silicon semiconductor substrate, since the voltage (or current) at which a deterioration, breakage, or the like is caused in the resistor by the deposition of the waterdrop drops, there is a tendency such that the<!-- EPO <DP n="11"> --> measuring range is narrowed.</p>
+    <p id="p0020" num="0020">On the other hand, to widen the measuring range to the voltage (or current) at which a deterioration, breakage, or the like is caused in the resistor by the deposition of the waterdrop, it is possible to cope with such a purpose by detecting a depositing state of the waterdrop and limiting the voltage (or current) in accordance with the presence or absence of the waterdrop. <figref idref="f0002">Fig. 2B</figref> shows a measuring range of the air flow rate in this instance. Particularly, in case of using an exothermic resistor of a small heat capacity constructed by forming a thin film onto a silicon semiconductor substrate, to widen the measuring range to the voltage (or current) at which a deterioration, breakage, or the like is caused in the resistor by the deposition of the waterdrop, it is necessary to increase a rated value and set a limiting condition (first limiter) such as a voltage (or current) or the like to a rated value (maximum specified measuring range) or more. In this state, however, since a breakage or the like is caused at the time of deposition of a waterdrop, second limiting means for limiting the voltage to a value which is equal to or less than a rated value at which a breakage or the like is not caused by the voltage (or current) when a deposition of a waterdrop is detected is provided. Particularly, as a level of the second limiter, it is especially effective to set the voltage<!-- EPO <DP n="12"> --> to a level so as not to cause a state called "burn-out" such that when a waterdrop is deposited, an air layer is formed on the surface of the exothermic resistor and overheating occurs.</p>
+    <p id="p0021" num="0021">As shown in <figref idref="f0001">Fig. 1</figref>, in the embodiment, a Zener diode 44 is provided as a first limiter for limiting the voltage within the measuring range of the flow rate or more. The Zener diode limits the voltage when a battery voltage of the power source 101 rises, and it does not operate ordinarily.</p>
+    <p id="p0022" num="0022">In this instance, particularly, a differential amplifier 68 is prepared as second bridge detecting means for detecting a potential difference at a middle point of the bridge in order to detect the depositing state of the waterdrop, and a voltage limitation switching circuit 6 is provided as a second limiter for limiting an output voltage V3 of the differential amplifier 15 in accordance with a detection result. <figref idref="f0003">Fig. 3</figref> shows characteristics of the bridge potential difference and the output voltage of the differential amplifier as input/output characteristics of the bridge circuit.</p>
+    <p id="p0023" num="0023">Usually, the current flowing in the exothermic resistor 11 is adjusted by the differential amplifier 15 and transistor 16 so that an output (potential difference at the middle point of the bridge) of the bridge circuit is equal to zero. It is because the voltage which is applied to the bridge<!-- EPO <DP n="13"> --> circuit is controlled within a range from 0 to the power source voltage by a feedback in accordance with the potential difference at the middle point of the bridge. When the potential difference input at the middle point of the bridge is equal to or larger (or smaller) than a predetermined value, the output of the differential amplifier 15 is limited to the power source voltage or grounding level.</p>
+    <p id="p0024" num="0024">In the ordinary operation, since there is an output sensitivity only for the potential difference (+dV) of the bridge on the plus side, it is difficult to distinguish the bridge potential difference (+dV) when the waterdrop is deposited from the bridge potential difference (+dV) which is temporarily generated at the time of the maximum flow rate. Therefore, attention is paid to the fact that a large bridge voltage is continuously generated when the waterdrop is deposited, and the output voltage is limited by the limiter only in this case.</p>
+    <p id="p0025" num="0025">Since it is actually difficult to limit the output voltage only by the differential amplifier 15, the differential amplifier 68 is added and used as a detector of the waterdrop and as a limiter. Specifically speaking, the differential amplifier 68 is constructed in such a manner that a polarity of the potential difference at the middle point of the bridge is changed and (-dV) is inputted, namely, the potential difference at the middle point of the bridge is changed<!-- EPO <DP n="14"> --> to the opposite polarity and (-dV) is inputted, when the large bridge potential difference (+dV) is continuously generated, the output of the differential amplifier 68 is set to the grounding level and the second limiter is made operative, and the second limiter is made inoperative in the other cases. Since there is generally an offset voltage in the input of the differential amplifier, a partial region of the bridge potential difference crosses.</p>
+    <p id="p0026" num="0026">As mentioned above, for the ordinary control voltage range (only from 0v to the power source voltage and the plus side) of the voltage to be applied to the bridge circuit, the potential difference at the middle point of the bridge is outputted as a differential amount between the plus side and the minus side. Therefore, the polarities on the plus side and the minus side of the potential difference at the middle point of the bridge are shared by the two differential amplifiers 15 and 68 and such a potential difference is separately inputted and fed back to the voltage which is applied to the bridge circuit. Consequently, if a state where the potential difference at the middle point of four resistors constructing the bridge circuit is equal to, for example, 100 mV or more or 100 mV or less continues, it is possible to determine that such a state is a certain specific state (for example, waterdrop depositing state).</p>
+    <p id="p0027" num="0027">The voltage limitation switching circuit 6 is<!-- EPO <DP n="15"> --> constructed by: resistors 61, 62, and 63 connected serially between a battery voltage VB of the power source 101 and the ground; a Zener diode 67 connected to a node of the resistors 62 and 63; diodes 65 and 66 connected to a node of the resistors 61 and 62; and the like. The voltage limitation switching circuit 6 limits the output of the differential amplifier 15 to a voltage V7 which is set by the Zener diode 67 through a resistor 17, the diode 66, and the resistor 62. If a resistor having a temperature coefficient which is equal to or larger than that of the temperature compensation resistor 12 is used as a resistor 62 and arranged in a suction pipe, the temperature characteristic can be also provided at the voltage V7 which is set by the Zener diode 67.</p>
+    <p id="p0028" num="0028">An example will now be specifically described. In the case where the exothermic resistor 11 is controlled at a constant temperature in the ordinary operation, a potential difference dV at the middle point of the bridge approaches zero. Assuming that the offset voltage of the differential amplifier 15 is equal to plus several mV, dV is stabilized at a level of minus several mV. Even in the case where the flow rate increases and potential difference dV slightly increases, by rapidly increasing the heating current of the exothermic resistor 11 on the basis of the output of the differential amplifier 15 and always making the constant temperature control, the potential<!-- EPO <DP n="16"> --> difference dV at the middle point of the bridge is held at the level of minus several mV near zero. In this instance, assuming that the potential difference dV at the middle point of the bridge is held at the level of minus several mV, the output of the differential amplifier 68 to detect the depositing state of the waterdrop is set to the high level. Assuming that both of the differential amplifier 15 and differential amplifier 68 are connected to the power source 101 by similar circuit constructions, an output V3 of the differential amplifier 15 is not subjected to the voltage limitation by the operations of the diodes 65 and 66 of the voltage limitation switching circuit 6. On the other hand, when a waterdrop is deposited, since the heating temperature of the exothermic resistor 11 does not rise, the large potential difference dV at the middle point of the bridge of plus hundreds of mV is generated. When this state is detected, the output of the differential amplifier 68 is set to the low level. The output V3 of the differential amplifier 15 is subjected to the voltage limitation by the voltage V7 set by the resistors 61, 62, and 63 and Zener diode 67 by the operation of the voltage limitation switching circuit 6.</p>
+    <p id="p0029" num="0029">Subsequently, the details of the voltage limiting operation using the voltage limitation switching circuit 6 will be described with reference to <figref idref="f0004">Figs. 4A to 4D. Figs. 4A and 4B</figref> show the operations of<!-- EPO <DP n="17"> --> the potential difference dV at the middle point of the bridge and the output V3 of the differential amplifier 15 in the normal operation, respectively. The output V3 of the differential amplifier 15 becomes maximum and the potential difference dV also increases for a time T1 during which the exothermic resistor 11 is heated upon activation. After that, when the initial heating is finished, the stable constant temperature control operation is performed after the elapse of a time T2, the potential difference dV decreases, and the output V3 of the differential amplifier 15 is stabilized to a predetermined voltage according to the flow rate. For example, in case of the exothermic resistor of the small heat capacity constructed by forming the thin film onto the silicon semiconductor substrate, the time T2 which is required until the control operation is stabilized after the end of the initial heating can be set to a short time within a range from several msec to tens of msec in accordance with the heat capacity.</p>
+    <p id="p0030" num="0030">In the voltage limiting operation in <figref idref="f0004">Figs. 4C and 4D</figref>, a difference due to the presence or absence of the voltage limiting operation when a waterdrop is deposited according to the embodiment will be described. First, a case of no voltage limitation will be explained. When a waterdrop is deposited, the output V3 of the differential amplifier 15 becomes the maximum voltage upon activation and its state is almost maintained although there is a slight fluctuation until<!-- EPO <DP n="18"> --> the water is evaporated and the ordinary operation is performed (refer to <figref idref="f0004">Fig. 4D</figref>). For this period of time, although the potential difference dV at the middle point of the bridge increases upon activation, the unstable operation such that it is decreased and increased is repeated after that (refer to <figref idref="f0004">Fig. 4C</figref>). It is because if the voltage applied to the bridge is large, when a waterdrop is deposited, an air layer is partially formed on the surface of the exothermic resistor and a state called "burn-out" corresponding to overheating occurs. The exothermic resistor repeats the quenching by the waterdrop and the partial high temperature heating state by the air layer. The potential difference dV at the middle point of the bridge also repetitively increases and decreases in accordance with the heating state of the exothermic resistor. The reason why the potential difference dV increases and decreases is because the heating temperature rises due to the formation of the air layer and such a state is temporarily recognized as an ordinary balanced control situation of the bridge. In this state, if the potential difference dV at the middle point of the bridge is merely checked, the depositing state of the waterdrop cannot be discriminated. If the temperature continuously rises, the resistor of the small heat capacity formed by the thin film is deteriorated by the heat or the breakage of the diaphragm cannot be prevented due to the heat<!-- EPO <DP n="19"> --> stress.</p>
+    <p id="p0031" num="0031">On the other hand, a case where there is a voltage limitation will be described. When the waterdrop is deposited, if the potential difference dV at the middle point of the bridge is large, the output V3 of the differential amplifier 15 is limited by the voltage limitation switching circuit 6. That is, when the waterdrop is deposited, the bridge applied voltage is limited to a predetermined value or less so that an electric power can be limited to a predetermined power corresponding to the area of the exothermic resistor or less so as not to cause a state called "burn-out" indicative of an overheating in which the air layer is formed on the surface of the exothermic resistor. Thus, if the state where the potential difference dV at the middle point of the bridge is large continues and there is no waterdrop, the potential difference dV decreases and the voltage limitation is cancelled. Therefore, by limiting the bridge applied voltage in accordance with the potential difference dV upon activation and monitoring the magnitude of the potential difference dV, the depositing state of the waterdrop can be discriminated. If the predetermined voltage or more is applied even in a state where the output V3 of the differential amplifier 15 is limited to VB2, the waterdrop can be evaporated after the elapse of the predetermined time T1. Even if there is the waterdrop, the deterioration or breakage of the<!-- EPO <DP n="20"> --> exothermic resistor can be prevented and, at the same time, by eliminating the waterdrop, the operation can be certainly returned to the stable constant temperature control operation after the elapse of the time T2. The duration of the time T2 varies depending on the depositing state or amount of waterdrop. It is sufficient to set a predetermined electric power level according to the area of the exothermic resistor to a voltage (or current) at which it can be limited to a value of a heat flux of, for example, 4 x 10<sup>5</sup> W/m<sup>2</sup> or less so as not to cause the state called "burn-out" mentioned above.</p>
+    <p id="p0032" num="0032">The operation in the case where the initial temperature of the deposited waterdrop varies depending on the ambient temperature will now be described. <figref idref="f0004">Fig. 5</figref> shows a state where in the case where the front surface of the exothermic resistor is covered by a waterdrop, the higher the temperature of the waterdrop (regarded in a manner similar to the suction temperature) is, the smaller the value of the heat flux causing the burn-out is. In other words, it means that when the temperature is high, even if the electric power which is applied to the exothermic resistor is small, the burn-out more easily occurs. Therefore, by using the resistor having the temperature characteristic as a resistor 62 in <figref idref="f0001">Fig. 1</figref> as shown in <figref idref="f0005">Figs. 6A and 6B</figref>, the limiting voltage can be also varied in accordance with the suction temperature. In<!-- EPO <DP n="21"> --> this case, when the suction temperature in <figref idref="f0005">Fig. 6A</figref> is low, a limiting voltage VB3 is increased (a difference between the limiting voltage and the voltage at the time of no limitation is small). In this case, when the suction temperature in <figref idref="f0005">Fig. 6B</figref> is high, a limiting voltage VB4 is decreased (the difference between the limiting voltage and the voltage at the time of no limitation is large). By this method, the deterioration or breakage of the resistor due to the burn-out or the like in various modes can be prevented.</p>
+    <p id="p0033" num="0033">Even if the fuel flows at the maximum flow rate and the heating temperature of the exothermic resistor decreases, the potential difference dV instantaneously increases and the bridge applied voltage is limited. However, since the heating temperature is soon recovered in the ordinary air, the potential difference dV decreases and the limitation of the bridge applied voltage is soon eliminated. Therefore, there is no practical problem.</p>
+    <p id="p0034" num="0034">According to the embodiment, particularly, by detecting the depositing state of the waterdrop and limiting the applied voltage, there are effects such that the deterioration of the reliability such as deterioration or breakage of the exothermic resistor can be prevented and the measuring range of the flow rate can be widened. Although the circuit is not particularly shown in the diagram, even in case of using a circuit construction such that a plurality of<!-- EPO <DP n="22"> --> bridge circuits of the exothermic resistor are provided and a reverse current can be detected, it is sufficient to add a voltage limiting circuit of the invention every bridge circuit. Similarly, even in case of using an indirect-heated type construction in which the exothermic resistor and the bridge circuit of a constant temperature control circuit are separately provided, similar effects can be obtained by detecting the potential difference of the bridge and adding the voltage limiting circuit of the invention to the exothermic resistor. Although the limitation of the voltage has been described in the embodiment, similar effects can be also obtained by limiting the current which is supplied to the bridge.</p>
+    <p id="p0035" num="0035"><figref idref="f0005">Fig. 7</figref> shows an example of a pattern in the case where the exothermic resistor 11 which is used is constructed by forming a thin film onto the silicon semiconductor substrate. An exothermic resistor 211a is vertically elongated, has a pattern in which a resistor is turned back, and has a structure in which resistors 211d, 211e, 211f, and 211g for detecting a temperature are arranged on both sides of the pattern. Each of the exothermic resistor 211a and the temperature detecting resistors 211d, 211e, 211f, and 211g is formed, for example, by arranging a resistor onto a diaphragm structure portion having a small heat capacity etched from the back side of a silicon substrate. A temperature compensation resistor 211c is<!-- EPO <DP n="23"> --> arranged at a location where it is hardly influenced by the temperature by the heating of the exothermic resistor 211a. Dimensions of the diaphragm in case of reducing the heat capacity are set such that, for example, a length in the vertical direction lies within a range from 1.8 µm to 3 µm, a width lies within a range from 0.5 µm to 0.8 µm, and a thickness lies within a range from 1 µm to 3 µm. By setting the dimensions as mentioned above, the heat capacity is small and a strength of the diaphragm can be easily assured. <figref idref="f0006">Fig. 8</figref> shows a cross sectional structure taken along the line VIII-VIII of the exothermic resistor in <figref idref="f0005">Fig. 7</figref>. The diaphragm has a structure such that a thickness of the place where the resistor pattern exists is largest. It is considered that a size of waterdrop having a possibility that it is deposited onto the exothermic resistor through an air filter of an automobile is usually smaller than a size (for example, 20 µm) of a mesh of the air filter. However, in the case where a dew condensation due to a sudden temperature change or the waterdrop formed via the filter is collected by some form in accordance with a shape or the like of the filter and grows, it is considered that the waterdrop of a size of up to about several ml is deposited. For example, in the diaphragm according to the foregoing example, when a waterdrop of 1 ml is deposited, it is considered that it covers an area in a range from about 1/5 to 1/2 of the exothermic<!-- EPO <DP n="24"> --> resistor of the diaphragm. In such a case, an air bubble is more easily produced by the burn-out.</p>
+    <p id="p0036" num="0036"><figref idref="f0007">Fig. 9</figref> shows the second example useful for the invention in case of using such a resistor pattern. The hot wire driving circuit 1 is constructed in such a manner that a current flowing in the exothermic resistor 211a is adjusted by the differential amplifier 15 and transistor 16 so that the potential difference at the middle point of the bridge is equal to zero by a hoisten-bridge circuit constructed by the exothermic resistor 211a, temperature compensation resistor 211c, and resistors 13 and 14.</p>
+    <p id="p0037" num="0037">The resistors 211d, 211e, 211f, and 211g for detecting a temperature construct a bridge circuit by applying a voltage Vcc to a power source circuit 5. As a voltage which is applied to the bridge circuit, it is also possible to form a ratio metric construction using an external voltage. This differential voltage is amplified by a differential amplifier 2131 and resistors 2132, 2133, 2134, and 2137 around a virtual zero point voltage Vof, as a center, obtained by dividing a reference voltage Vref by resistors 2135 and 2136. Although the temperature detecting resistors 211d, 211e, 211f, and 211g detect the heating temperature of the exothermic resistor 211a, since a temperature distribution becomes uniform in the case where there is no air flow, an output Vbi of the differential amplifier 2131 is equivalent to the virtual zero point voltage Vof. When an air flow occurs here, by arranging the exothermic resistor 211a<!-- EPO <DP n="25"> --> so that its longitudinal direction is perpendicular to the direction of the air flow, a temperature difference occurs between the resistors 211d and 211e and the resistors 211f and 211g, so that a flow rate signal according to the direction of the flow can be obtained as an output Vbi of the differential amplifier 2131.</p>
+    <p id="p0038" num="0038">In the example, particularly, the output Vbi of the differential amplifier 2131 is inputted to an analog/digital converter 221 of a microcomputer 220, a variation or the like of an output sensitivity is adjusted as a digital amount by an arithmetic operation, and a resultant signal is sent to an engine control unit or the like as an output voltage Vout of a digital/analog converter 224. The microcomputer 220 is constructed by: an arithmetic operating circuit 222 comprising a CPU 222a and memories, for example, an RAM 222b and an ROM 222c; an oscillator (OSC) 226; an input/output (I/O) unit 225; a memory, for example, a PROM 223; and the like. It is sufficient to use a memory which can record a variation or the like of an output sensitivity of each sensor as an adjustment value one or more times as a PROM 223. The PROM 223 is not limited only to an electrically writable EEPROM, a flash ROM, or the like.</p>
+    <p id="p0039" num="0039">Voltages Vr1 and Vr2 at both ends of the exothermic resistor 211a, an output Vr3 of the differential amplifier 15, and the output Vbi of the differential amplifier 2131 are inputted to the<!-- EPO <DP n="26"> --> analog/digital converter 221 of the microcomputer 220. In the microcomputer 220, the heating state of the exothermic resistor 211a is detected by obtaining the heating temperature by an arithmetic operation from the voltages Vr1 and Vr2 at both ends of the exothermic resistor 211a, an NPN transistor 43 is turned on by the output V6 of the I/O unit 225, and the heating state of the exothermic resistor 211a is limited by the voltage limitation switching circuit 6. Particularly, an SCI (Serial Communication Interface) 227 for communicating with the engine control unit or the like is provided for the microcomputer 220.</p>
+    <p id="p0040" num="0040">The voltage limitation switching circuit 6 is constructed by: the resistors 61 and 63 serially connected between the battery voltage VB of the power source 101 and the ground; the Zener diode 67 connected to a node of a resistor 211h (62) and the resistor 63; the diodes 65 and 66 connected to a node of the resistors 61 and 62; a resistor 64 connected to the battery voltage VB; the NPN transistor 43; and the like. The resistor 211h can be constructed in a manner similar to the temperature compensation resistor 211c.</p>
+    <p id="p0041" num="0041">The voltage limitation switching circuit 6 limits the output V3 of the differential amplifier 15 to a voltage which is set by the Zener diode 67 via the diode 66 and resistor 62. Since the NPN transistor 43<!-- EPO <DP n="27"> --> is OFF in the normal operation, the diode 65 is connected to the battery of the power source 101 via the resistor 64. Thus, in the normal operation, the output V3 of the differential amplifier 15 is not subjected to the voltage limitation. On the other hand, by detecting the heating temperature of the exothermic resistor and discriminating the heating state, the NPN transistor 43 is turned on and the output V3 of the differential amplifier 15 can be limited to the voltage set by the Zener diode 67 via the diode 66 and resistor 62.</p>
+    <p id="p0042" num="0042">The details of the second example useful for understanding the invention will now be described with reference to <figref idref="f0008">Figs. 10A to 10F</figref>. It corresponds to a case where the exothermic resistor 211a is heated from the ordinary temperature and the constant temperature control of about 200°C is made as in case of turning on the power source. The case of the normal operation in <figref idref="f0008">Figs. 10A to 10C</figref> will be described. When the maximum current which is limited by the battery voltage VB flows in the exothermic resistor 211a, the exothermic resistor 211a is rapidly heated (<figref idref="f0008">Fig. 10A</figref>). A resistance value Rh1 increases due to the temperature elevation, the bridge circuit is balanced, and the output V3 of the differential amplifier 15 decreases (<figref idref="f0008">Fig. 10C</figref>). The time T1 during which the maximum current flows in the exothermic resistor 211a is determined only by the resistance value Rh1 and heat capacity of the exothermic resistor<br/>
+211a and the battery voltage VB in the ordinary case. The smaller the heat capacity is, the shorter the time T1 is. The microcomputer 220 monitors an exothermic<!-- EPO <DP n="28"> --> temperature Th of the exothermic resistor 211a, thereby detecting a temperature change dth1 (<figref idref="f0008">Fig. 10A</figref>) per predetermined time. When the temperature change dth1 per predetermined time is larger than a predetermined value or when the exothermic temperature Th of the exothermic resistor 211a enters a target heating temperature range, the operation is regarded as a normal operation and the output V6 of the I/O unit 225 is held at the low level.</p>
+    <p id="p0043" num="0043">The case of the voltage limiting operation in <figref idref="f0008">Figs. 10D to 10F</figref> will now be described. In the exothermic resistor 211a of a small heat capacity, particularly, if a substance which absorbs the heat generation of a fouling, water, or the like is deposited onto the exothermic resistor portion, an apparent heat capacity increases and the exothermic temperature Th slowly increases until the fouling, water, or the like is volatilized (<figref idref="f0008">Fig. 10D</figref>). The maximum current continuously flows in the exothermic resistor 211a. In this instance, a portion which locally becomes a high temperature in the exothermic resistor 211a appears depending on the depositing state of the fouling, water, or the like, and there is a possibility that the resistor formed on the thin film deteriorates or the breakage of the thin film is caused<!-- EPO <DP n="29"> --> by a thermal shock. Therefore, the microcomputer 220 monitors the exothermic temperature Th of the exothermic resistor 211a, thereby detecting a temperature change dth2 (<figref idref="f0008">Fig. 10D</figref>) per predetermined time. When the temperature change dth2 per predetermined time is smaller than a predetermined value and when the exothermic temperature Th of the exothermic resistor 211a is equal to or less than the target heating temperature range, the operation is regarded as a voltage limiting operation and the output V6 of the I/O unit 225 is changed from the low level to the high level and held at the high level for a predetermined time (<figref idref="f0008">Fig. 10E</figref>). Thus, the NPN transistor 43 is turned on and the voltage V3 to be applied to the bridge circuit can be reduced to VB2 (<figref idref="f0008">Fig. 10F</figref>). When the applied voltage V3 to the bridge circuit decreases, the exothermic temperature Th of the exothermic resistor 211a slowly rises. By decreasing the voltage, the burn-out state can be prevented and the sudden increase or decrease in temperature can be prevented. A discriminating level of the temperature can be freely set in the microcomputer 220. When a heating limit time T3 elapses, the waterdrop is evaporated, the output V6 is changed from the high level to the low level, the NPN transistor 43 is turned off, and the operation is returned to the normal operation. Although the time T2 which is required until the output V3 of the differential amplifier 15 is<!-- EPO <DP n="30"> --> finally stabilized becomes long by the execution of the voltage limiting operation, the deterioration or breakage of the resistor due to the sudden heating temperature change can be prevented, and the time T2 can be reduced to a time shorter than that which is required when the exothermic resistor 211a of a large heat capacity is used. Such a voltage limitation operating state apparently becomes a dead zone of the sensor and cannot be distinguished. However, by using the microcomputer 220, information showing that the voltage limitation operating state due to the deposition of the waterdrop corresponds to the protecting operation of the sensor and is a special state instead of a failure of the sensor is sent to the engine control unit or the like as an upper computer as diagnosis information of the sensor (an analog signal at the High or Low level, a digital signal such as an SCI [Serial Communication Interface], or the like), thereby enabling an erroneous operation or the like on the engine control to be prevented.</p>
+    <p id="p0044" num="0044">As described in the above example, by setting the resistor 211h to a resistor having a similar temperature coefficient arranged on the same substrate as that of the temperature compensation resistor 211c as shown in <figref idref="f0009">Fig. 11</figref>, the temperature characteristic can be also provided for the limiting voltage.</p>
+    <p id="p0045" num="0045">According to the example, particularly, in case of using the exothermic resistor of a small heat capacity, the heating state of the exothermic resistor can be accurately monitored. By finely limiting the heating state, there are effects such that the deterioration or<!-- EPO <DP n="31"> --> breakage of the resistor can be prevented and the reliability of the hot-wire type air flow meter can be improved for a long time.</p>
+    <p id="p0046" num="0046">The third example useful for understanding the invention will be described with reference to <figref idref="f0010">Fig. 12</figref>. In the example, in a manner similar to <figref idref="f0007">Fig. 9</figref>, the hot wire driving circuit 1 is constructed in such a manner that a hoisten-bridge circuit is constructed by the exothermic resistor 211a, temperature compensation resistor 211c, and resistors 13 and 14, and a current flowing in the exothermic resistor 211a is adjusted by the differential amplifier 15 and transistor 16 so that the potential difference at the middle point of the bridge is equal to zero by the hoisten-bridge circuit. A resistor 211 is constructed by forming a thin film onto the silicon semiconductor substrate.</p>
+    <p id="p0047" num="0047">The voltages Vr1 and Vr2 at both ends of the exothermic resistor 211a, a voltage Vr4 of the temperature compensation resistor 211c, and the output Vbi of the differential amplifier 2131 are inputted to the analog/digital converter 221 of the microcomputer 220. In the microcomputer 220, the heating temperature of the exothermic resistor 211a is obtained by an arithmetic operation from the voltages Vr1 and Vr2 at<br/>
+both ends of the exothermic resistor 211a, and a suction temperature is obtained by an arithmetic operation from the voltages Vr4 and Vr1 of the temperature compensation resistor 211c, thereby detecting the ambient temperature (suction temperature)<!-- EPO <DP n="32"> --> and the heating state of the exothermic resistor 211a. Further, the heating state of the exothermic resistor 211a is limited by the voltage limitation switching circuit 6 in accordance with an output V8 of a digital/analog converter 224b. In the voltage limitation switching circuit 6, a differential amplifier 6101 for amplifying the output V8 of the digital/analog converter 224b is connected to the ground by network resistors 6102, 6103, 6104, and 6105 and resistors 6106 and 6107 for dividing the output voltage. In a manner similar to the foregoing embodiment, in the voltage limitation switching circuit 6, the output V3 of the differential amplifier 15 is limited to an output of the differential amplifier 6101 which is set by the output V8 of the digital/analog converter 224b via the diode 66 and resistor 6106.</p>
+    <p id="p0048" num="0048">In the normal operation, the output of the differential amplifier 6101 is generated as a maximum value. Thus, the output V3 of the differential amplifier 15 is not subjected to the voltage limitation in the normal operation. On the other hand, by detecting the heating temperature and suction temperature of the exothermic resistor 211a and<!-- EPO <DP n="33"> --> discriminating the heating state, the output V8 of the digital/analog converter 224b is set in accordance with the suction temperature. The output V3 of the differential amplifier 15 can be digitally and freely limited to the voltage which has already been set via the diode 66 and resistor 6106.</p>
+    <p id="p0049" num="0049">Similarly, in case of using the structure such that the temperature detecting resistors 211d, 211e, 211f, and 211g are arranged on both sides of the exothermic resistor 211a, the local heating temperature of the exothermic resistor 211a can be also measured by intermediate voltages Vb1 and Vb2 between the temperature detecting resistors 211e and 211f and between the temperature detecting resistors 211g and 211d. Usually, when a waterdrop is deposited onto the exothermic resistor 211a heated to 100°C or higher, the temperatures of the temperature detecting resistors 211d, 211e, 211f, and 211g are changed in accordance with the depositing state, respectively. For example, the fundamental depositing state of the waterdrop is discriminated by the heating temperature of the exothermic resistor 211a. In this instance, the size or the like of the waterdrop can be discriminated by observing the temperature changes of the temperature detecting resistors 211d, 211e, 211f, and 211g. The time which is required until there is no waterdrop is presumed and the time corresponding to the dead zone of the sensor is sent to the engine control unit. On the<!-- EPO <DP n="34"> --> basis of it, the state of the sensor is discriminated, the output of the sensor is temporarily lightened and used for control or the like. Thus, a use efficiency of the sensor is improved and the engine control can be more finely made.</p>
+    <p id="p0050" num="0050">According to the example, particularly, in case of using the exothermic resistor of the small heat capacity, the heating state of the exothermic resistor can be accurately monitored. By finely limiting the heating state, there are effects such that the deterioration or breakage of the resistor can be prevented, the reliability of the hot-wire type air flow meter can be improved more for a long time, and matching performance with the engine system is improved.</p>
+    <p id="p0051" num="0051">Subsequently, <figref idref="f0011">Fig. 13</figref> shows an example in the case where the resistor 211 constructed by forming a thin film onto the silicon semiconductor substrate is mounted on, for example, a multilayer ceramic substrate or the like. The resistor 211 on the silicon substrate is mounted in a shaved frame of a ceramic substrate 300 and connected to a patterned circuit 302 on the ceramic substrate 300 via an electrode pad. Besides, an IC 303 obtained by integrating a circuit and a heater (second resistive exothermic element) 301 for heating of the ceramic substrate 300 are provided on the silicon substrate 300. The heater 301 for heating is arranged so as to surround the resistor 211 on the silicon substrate and controlled in accordance with the heating state of the first exothermic resistor 211a on the ceramic substrate. Although the second resistive exothermic element 301 can be provided around the first exothermic resistor 211a on the silicon substrate, it<!-- EPO <DP n="35"> --> is desirable to provide it outside of the diaphragm so that the whole resistor 211 on the ceramic substrate can be heated. By heating the peripheral portion of the first exothermic resistor 211a in accordance with circumstances as mentioned above, when a waterdrop is deposited, the time which is required until the waterdrop in the portion other than the diaphragm is eliminated can be shortened. The ambient temperature is detected and, in case of a low temperature, the whole resistor 211 on the silicon substrate is first preheated by the second resistive exothermic element 301. Thus, for example, the heating time of the first exothermic resistor 211a at the time when an ice is deposited can be remarkably reduced. Particularly, it is effective in the case where the electric power which is supplied to the first exothermic resistor 211a is limited so as not to break the diaphragm.</p>
+    <p id="p0052" num="0052">According to the embodiment, by controlling the heating temperature of the second resistive exothermic element in accordance with the ambient temperature, the time of the dead zone of the hot-wire type air flow meter due to the limitation of the heating state can be reduced without breaking the first<!-- EPO <DP n="36"> --> exothermic resistor 211a on the diaphragm.</p>
+    <p id="p0053" num="0053">There is an effect such that the performance can be improved while assuring the reliability as mentioned above.</p>
+    <p id="p0054" num="0054">The fourth embodiment of the invention will now be described with reference to <figref idref="f0012">Fig. 14</figref>. A hoisten-bridge circuit based on the constant voltage Vcc driving is constructed by: the exothermic resistor 11; a heating portion of the current detecting resistor 13; a temperature detecting resistor (heating temperature sensor) 111 arranged on the side of the exothermic resistor 11 so as to be mounted on the same substrate as that of the exothermic resistor 11; the temperature compensation resistor 12; and the resistors 13 and 14. The hot wire driving circuit 1 is constructed in such a manner that a current flowing in the exothermic resistor 11 is adjusted by the differential amplifier 15 and transistor 16 so that the potential difference at the middle point of the bridge is equal to zero by the hoisten-bridge circuit. When the heating temperature of the exothermic resistor 11 is low, the output of the differential amplifier 15 increases and the apparatus operates so as to heat more. With this construction, the resistance value of the exothermic resistor 11 is controlled so as to be constant, namely, the temperature is set to a predetermined value irrespective of the air flow rate. In this instance, the signal corresponding to the air flow rate by<br/>
+the exothermic resistor 11 is inputted to the zero span circuit 2. The zero span circuit 2 is constructed by the differential amplifier 21 and resistors 22, 23, 24, 25, 26, and 27. The above construction is a mere example and a system for detecting the flowing<!-- EPO <DP n="37"> --> direction by using the temperature difference as described above can be also used as output means of the signal corresponding to the air flow rate.</p>
+    <p id="p0055" num="0055">Particularly, the differential amplifier 68 is prepared as second bridge detecting means for detecting the potential difference at the middle point of the bridge in order to detect the depositing state of the waterdrop, and the simplified voltage limitation switching circuit 6 is provided as a second limiter for limiting the output voltage V3 of the differential amplifier 15 in accordance with a detection result.</p>
+    <p id="p0056" num="0056">The simplified voltage limitation switching circuit 6 is constructed by the diode 66, a resistor 69, and the like. The output of the differential amplifier 15 is connected to the output of the differential amplifier 68 through the resistor 17, diode 66, and resistor 69. The voltage to be limited is determined by a voltage dividing ratio of the resistors 17 and 69.</p>
+    <p id="p0057" num="0057">Even in such a construction in which the heating unit and the bridge circuit of the constant temperature control are separately provided, effects similar to those in the above embodiment can be<!-- EPO <DP n="38"> --> obtained by detecting the depositing state of the waterdrop and limiting the voltage in accordance with the output state of the differential amplifier 68 in a manner similar to the above embodiment.</p>
+    <p id="p0058" num="0058">According to the embodiment, since the applied voltage to the exothermic resistor can be limited by the simple circuit construction, there is such an effect that the reduction of the reliability such as deterioration or breakage of the resistor can be prevented by low costs.</p>
+    <p id="p0059" num="0059">Even in case of controlling the applied voltage V2 of the bridge by the pulse driving, an effect similar to the effect which is obtained by the linear voltage control described in the embodiment so far can be obtained. For example, by limiting either the applied voltage V2 to the bridge or the driving current to the predetermined value and by limiting the pulse width corresponding to the magnitude of the limited voltage (or current) to a predetermined value, the deterioration or the like of the resistor due to the overheating can be prevented.</p>
+    <p id="p0060" num="0060">Although not shown, as another embodiment, there is an internal combustion engine constructed by:
+<ul id="ul0002" list-style="none" compact="compact"><li>a suction pipe in which the air including liquid droplets flows; an air flow meter having a protecting circuit in the case where the liquid is deposited to a detecting device; a fuel injection valve; and a controller for controlling the fuel injection valve on<!-- EPO <DP n="39"> --> the basis of an output of the air flow meter.</li></ul></p>
+    <p id="p0061" num="0061">According to the embodiment, particularly, in case of using the exothermic resistor of the small heat capacity, by preventing the maximum heating state from continuing in excess of the inherent heat capacity of the exothermic resistor, the deterioration or breakage of the resistor can be prevented and there is such an effect that the reliability of the hot-wire type air flow meter can be assured and, at the same time, the response speed upon activation of the air flow rate when the power source is turned on can be improved. Thus, there are such effects that the air flow rate at the start of the engine of the automobile can be rapidly measured and a quantity of exhaust gas at the time of start of the engine can be reduced.</p>
+    <p id="p0062" num="0062">According to the embodiment, particularly, in case of using the exothermic resistor of the small heat capacity, by distinguishing and detecting the case where a waterdrop, an oil droplet, or the like is deposited onto the exothermic resistor portion and the normal case where there is no deposition, there are such effects that the heating state is limited only in the case where the waterdrop, oil droplet, or the like is deposited on the exothermic resistor portion without narrowing the inherent measuring range of the flow rate, the deterioration of the resistor can be prevented, and the reliability of the hot-wire type air flow meter can be assured and, at the same time, the<!-- EPO <DP n="40"> --> response speed in response to the leading edge of the air flow rate when the power source is turned on can be improved. There are, consequently, such effects that the air flow rate at the start of the engine of the automobile can be rapidly measured, and a quantity of exhaust gas at the start of the engine can be reduced.</p>
+  </description>
+  <claims id="claims01" lang="en">
+    <!-- EPO <DP n="41"> -->
+    <claim id="c-en-01-0001" num="0001">
+      <claim-text>A thermal type air flow meter for an internal combustion engine, comprising:
+<claim-text>a first resistor film (11) which is provided on a thin portion formed on a silicon substrate and generates heat and a second resistor film (12) whose resistance value changes in accordance with an ambient temperature;</claim-text>
+<claim-text>a driving circuit (1) which has a bridge circuit including said second resistor film (12) and said first resistor film (11) or a temperature detecting resistor (111), wherein said driving circuit (1) controls a voltage to be applied or a current to be supplied to said first resistor film (11) so that a potential difference (dV) at a middle point of the bridge circuit is zero ,</claim-text>
+<b>characterized by</b> further comprising:
+<claim-text>means (44) for limiting said applied voltage or said supplied current to a first value;</claim-text>
+<claim-text>means (6, 67) for limiting said applied voltage or said supplied current to a second value smaller than said first value,</claim-text>
+<claim-text>means (68, 220) for detecting a liquid droplet deposited on said first resistor film (11), and</claim-text>
+<claim-text>a voltage limitation switching circuit (6) for switching between the first value and the second value depending on an input of said means (68, 220) for detecting a liquid droplet,</claim-text>
+wherein the means (68, 220) for detecting a liquid droplet is configured to switch said voltage limitation switching circuit (6) to a state where said applied voltage or said supplied current are limited to said second value if a liquid droplet deposited onto said first resistor film (11) has been detected.<!-- EPO <DP n="42"> --></claim-text>
+    </claim>
+    <claim id="c-en-01-0002" num="0002">
+      <claim-text>Air flow meter according to claim 1, further comprising changing means for changing the second value on the basis of a temperature of the liquid droplet or a measuring fluid.</claim-text>
+    </claim>
+    <claim id="c-en-01-0003" num="0003">
+      <claim-text>Air flow meter according to claim 2, further comprising changing means for changing said second value on the basis of an output of a resistor which is arranged in said measuring fluid and whose resistance value changes in accordance with an ambient temperature.</claim-text>
+    </claim>
+    <claim id="c-en-01-0004" num="0004">
+      <claim-text>Air flow meter according to claim 3, wherein said changing means changes the value so as to reduce said second value when said resistance value increases or changes the value so as to increase said first value or said second value when said resistance value decreases.</claim-text>
+    </claim>
+    <claim id="c-en-01-0005" num="0005">
+      <claim-text>Air flow meter according to claim 1, wherein the first resistor film (11) is an exothermic resistor is a thin film resistor provided on a thin portion formed on a silicon substrate and adapted to be arranged in a suction pipe of the internal combustion engine.</claim-text>
+    </claim>
+    <claim id="c-en-01-0006" num="0006">
+      <claim-text>Air flow meter according to claim 5, further comprising another exothermic resistor (211a) provided on said silicon substrate in a portion other than said thin portion.</claim-text>
+    </claim>
+    <claim id="c-en-01-0007" num="0007">
+      <claim-text>Air flow meter according to claim 6, wherein the air flow meter is adapted to control a heat generation of said another exothermic resistor (211a) independent of said exothermic resistor (11).</claim-text>
+    </claim>
+    <claim id="c-en-01-0008" num="0008">
+      <claim-text>Air flow air flow meter for an internal combustion engine according to at least one of claims 1 to 7, comprising:
+<claim-text>transmitting means for transmitting a specific signal to a control unit of said internal combustion engine if a liquid droplet is deposited onto said resistor,<!-- EPO <DP n="43"> --></claim-text>
+<claim-text>wherein said resistor is adapted to emit heat to an air.</claim-text></claim-text>
+    </claim>
+    <claim id="c-en-01-0009" num="0009">
+      <claim-text>Air flow meter according to claim 8, wherein said transmitting means transmits a signal including information regarding an amount of said deposited liquid droplet to the control unit of said internal combustion engine.</claim-text>
+    </claim>
+    <claim id="c-en-01-0010" num="0010">
+      <claim-text>Air flow meter according to claim 8, wherein said exothermic resistor is a thin film resistor provided on a thin portion formed on a silicon substrate and is adapted to be arranged in said suction pipe of said internal combustion engine.</claim-text>
+    </claim>
+  </claims>
+  <claims id="claims02" lang="de">
+    <!-- EPO <DP n="44"> -->
+    <claim id="c-de-01-0001" num="0001">
+      <claim-text>Luftdurchflussmesser des thermischen Typs für eine Brennkraftmaschine, der Folgendes umfasst:
+<claim-text>einen ersten Widerstandsfilm (11), der auf einem auf einem Siliziumsubstrat ausgebildeten dünnen Abschnitt vorgesehen ist und Wärme erzeugt, und einen zweiten Widerstandsfilm (12), dessen Widerstandswert sich in Abhängigkeit von einer Umgebungstemperatur ändert;</claim-text>
+<claim-text>eine Ansteuerschaltung (1), die eine Brückenschaltung aufweist, die den zweiten Widerstandsfilm (12) und den ersten Widerstandsfilm (11) oder einen Temperaturdetektionswiderstand (111) umfasst, wobei die Ansteuerschaltung (1) eine Spannung, die an den ersten Widerstandsfilm (11) angelegt werden soll, oder eine Stromstärke, die diesem zugeführt werden soll, so steuert, dass eine Potentialdifferenz (dV) an einem Mittelpunkt der Brückenschaltung null ist,</claim-text>
+<b>dadurch gekennzeichnet, dass</b> er ferner umfasst:
+<claim-text>Mittel (44) zum Begrenzen der angelegten Spannung oder der zugeführten Stromstärke auf einen ersten Wert;</claim-text>
+<claim-text>Mittel (6, 67) zum Begrenzen der angelegten Spannung oder der zugeführten Stromstärke auf einen zweiten Wert, der kleiner als der erste Wert ist,</claim-text>
+<claim-text>Mittel (68, 220) zum Detektieren eines Flüssigkeitströpfchens, das auf dem ersten Widerstandsfilm (11) abgeschieden ist, und</claim-text>
+<claim-text>eine Spannungsbegrenzungs-Wechselschaltung (6) zum Schalten zwischen dem ersten Wert und dem zweiten Wert in Abhängigkeit von einer Eingabe aus den Mitteln (68, 220) zum Detektieren eines Flüssigkeitströpfchens,</claim-text>
+wobei die Mittel (68, 220) zum Detektieren eines Flüssigkeitströpfchens dazu ausgelegt sind, die Spannungsbegrenzungs-Wechselschaltung<!-- EPO <DP n="45"> --> (6) in einen Zustand zu schalten, in dem die angelegte Spannung oder die zugeführte Stromstärke auf den zweiten Wert beschränkt ist, wenn detektiert worden ist, dass ein Flüssigkeitströpfchen auf dem ersten Widerstandsfilm (11) abgeschieden ist.</claim-text>
+    </claim>
+    <claim id="c-de-01-0002" num="0002">
+      <claim-text>Luftdurchflussmesser nach Anspruch 1, der ferner Änderungsmittel zum Ändern des zweiten Werts auf der Basis einer Temperatur des Flüssigkeitströpfchens oder eines Messfluids umfasst.</claim-text>
+    </claim>
+    <claim id="c-de-01-0003" num="0003">
+      <claim-text>Luftdurchflussmesser nach Anspruch 2, der ferner Änderungsmittel zum Ändern des zweiten Wertes auf der Basis einer Ausgabe eines Widerstands, der in dem Messfluid angeordnet ist und dessen Widerstandswert sich gemäß einer Umgebungstemperatur ändert, umfasst.</claim-text>
+    </claim>
+    <claim id="c-de-01-0004" num="0004">
+      <claim-text>Luftdurchflussmesser nach Anspruch 3, wobei die Änderungsmittel den Wert ändern, um den zweiten Wert zu reduzieren, wenn der Widerstandswert zunimmt, oder den Wert ändern, um den ersten Wert oder den zweiten Wert zu erhöhen, wenn der Widerstandswert abnimmt.</claim-text>
+    </claim>
+    <claim id="c-de-01-0005" num="0005">
+      <claim-text>Luftdurchflussmesser nach Anspruch 1, wobei der erste Widerstandsfilm (11) ein exothermer Widerstand ist, der ein Dünnfilmwiderstand ist, der auf einem auf einem Siliziumsubstrat ausgebildeten dünnen Abschnitt vorgesehen ist und dazu ausgelegt ist, in einem Saugrohr der Brennkraftmaschine angeordnet zu werden.</claim-text>
+    </claim>
+    <claim id="c-de-01-0006" num="0006">
+      <claim-text>Luftdurchflussmesser nach Anspruch 5, der ferner einen weiteren exothermen Widerstand (211a) umfasst, der auf dem Siliziumsubstrat<!-- EPO <DP n="46"> --> in einem anderen Abschnitt als dem dünnen Abschnitt ausgebildet ist.</claim-text>
+    </claim>
+    <claim id="c-de-01-0007" num="0007">
+      <claim-text>Luftdurchflussmesser nach Anspruch 6, wobei der Luftdurchflussmesser dazu ausgelegt ist, eine Wärmeerzeugung des weiteren exothermen Widerstands (211 a) unabhängig von dem exothermen Widerstand (11) zu steuern.</claim-text>
+    </claim>
+    <claim id="c-de-01-0008" num="0008">
+      <claim-text>Luftdurchflussmesser für eine Brennkraftmaschine nach mindestens einem der Ansprüche 1 bis 7, der umfasst:
+<claim-text>Sendemittel zum Senden eines spezifischen Signals an eine Steuereinheit der Brennkraftmaschine, wenn ein Flüssigkeitströpfchen auf dem Widerstand abgeschieden ist,</claim-text>
+<claim-text>wobei der Widerstand dazu ausgelegt ist, Wärme an Luft zu emittieren.</claim-text></claim-text>
+    </claim>
+    <claim id="c-de-01-0009" num="0009">
+      <claim-text>Luftdurchflussmesser nach Anspruch 8, wobei die Sendemittel ein Signal, das Informationen bezüglich einer Menge des abgeschiedenen Flüssigkeitströpfchens umfasst, an die Steuereinheit der Brennkraftmaschine senden.</claim-text>
+    </claim>
+    <claim id="c-de-01-0010" num="0010">
+      <claim-text>Luftdurchflussmesser nach Anspruch 8, wobei der exotherme Widerstand ein Dünnfilmwiderstand ist, der auf einem auf einem Siliziumsubstrat ausgebildeten dünnen Abschnitt vorgesehen ist und dazu ausgelegt ist, in einem Saugrohr der Brennkraftmaschine angeordnet zu werden.</claim-text>
+    </claim>
+  </claims>
+  <claims id="claims03" lang="fr">
+    <!-- EPO <DP n="47"> -->
+    <claim id="c-fr-01-0001" num="0001">
+      <claim-text>Débitmètre d'air du type thermique pour un moteur à combustion interne, comprenant :
+<claim-text>un premier film résistif (11) qui est prévu sur une portion mince formée sur un substrat en silicium et génère de la chaleur, et un second film résistif (12) dont la valeur de résistance change en accord avec une température ambiante ;</claim-text>
+<claim-text>un circuit pilote (1) qui comprend un circuit en pont incluant ledit second film résistif (12) et ledit premier film résistif (11) ou une résistance de détection de température (111), dans lequel ledit circuit pilote (1) commande un voltage à appliquer ou un courant à fournir audit premier film résistif (11) de telle sorte qu'une différence de potentiel (dV) à un point médian du circuit en pont est égale à zéro,</claim-text>
+<b>caractérisé en ce qu'</b>il comprend en outre :
+<claim-text>un moyen (44) pour limiter ledit voltage appliqué ou ledit courant fourni à une première valeur ;</claim-text>
+<claim-text>un moyen (6, 67) pour limiter ledit voltage appliqué ou ledit courant fourni à une seconde valeur plus petite que ladite première valeur,</claim-text>
+<claim-text>un moyen (68, 220) pour détecter une gouttelette de liquide déposée sur ledit premier film résistif (11), et</claim-text>
+<claim-text>un circuit de commutation de limitation de voltage (6) pour commuter entre la première valeur et la seconde valeur en dépendance d'une entrée dudit moyen (68, 220) pour détecter une gouttelette de liquide,</claim-text>
+dans lequel le moyen (68, 220) pour détecter une gouttelette de liquide est configuré pour commuter ledit circuit de commutation de limitation de voltage (6) à un état dans lequel ledit voltage appliqué ou ledit courant fourni sont limités à ladite seconde valeur si une gouttelette de liquide déposée sur ledit premier film résistif (11) a été détectée.</claim-text>
+    </claim>
+    <claim id="c-fr-01-0002" num="0002">
+      <claim-text>Débitmètre d'air selon la revendication 1, comprenant en outre un moyen de changement pour changer la seconde valeur sur la base d'une température de la gouttelette de liquide ou d'un fluide de mesure.<!-- EPO <DP n="48"> --></claim-text>
+    </claim>
+    <claim id="c-fr-01-0003" num="0003">
+      <claim-text>Débitmètre d'air selon la revendication 2, comprenant en outre un moyen de changement pour changer ladite seconde valeur sur la base d'une sortie d'une résistance qui est agencée dans ledit fluide de mesure et dont la valeur de résistance change en accord avec une température ambiante.</claim-text>
+    </claim>
+    <claim id="c-fr-01-0004" num="0004">
+      <claim-text>Débitmètre d'air selon la revendication 3, dans lequel ledit moyen de changement change la valeur de manière à réduire ladite seconde valeur quand ladite valeur de résistance augmente, ou change la valeur de manière à augmenter ladite première valeur ou ladite seconde valeur quand ladite valeur de résistance diminue.</claim-text>
+    </claim>
+    <claim id="c-fr-01-0005" num="0005">
+      <claim-text>Débitmètre d'air selon la revendication 1, dans lequel le premier film résistif (11) est une résistance exothermique qui est une résistance en film mince prévue sur une portion mince formée sur un substrat en silicium et adaptée à être agencée dans un tube d'aspiration du moteur à combustion interne.</claim-text>
+    </claim>
+    <claim id="c-fr-01-0006" num="0006">
+      <claim-text>Débitmètre d'air selon la revendication 5, comprenant en outre une autre résistance exothermique (211a) prévue sur ledit substrat en silicium dans une portion autre que ladite portion mince.</claim-text>
+    </claim>
+    <claim id="c-fr-01-0007" num="0007">
+      <claim-text>Débitmètre d'air selon la revendication 6, dans lequel le débitmètre d'air est adapté à commander une génération de chaleur de ladite autre résistance exothermique (211a) indépendamment de ladite résistance exothermique (11).</claim-text>
+    </claim>
+    <claim id="c-fr-01-0008" num="0008">
+      <claim-text>Débitmètre d'air pour un moteur à combustion interne selon l'une au moins des revendications 1 à 7, comprenant :
+<claim-text>un moyen d'émission pour émettre un signal spécifique à une unité de commande dudit moteur à combustion interne si une gouttelette de liquide est déposée sur ladite résistance,</claim-text>
+<claim-text>dans lequel ladite résistance est adaptée à émettre de la chaleur vers l'air.</claim-text><!-- EPO <DP n="49"> --></claim-text>
+    </claim>
+    <claim id="c-fr-01-0009" num="0009">
+      <claim-text>Débitmètre d'air selon la revendication 8, dans lequel ledit moyen d'émission émet un signal incluant une information concernant une quantité de ladite gouttelette de liquide déposée à l'unité de commande dudit moteur à combustion interne.</claim-text>
+    </claim>
+    <claim id="c-fr-01-0010" num="0010">
+      <claim-text>Débitmètre d'air selon la revendication 8, dans lequel ladite résistance exothermique est une résistance en film mince prévue sur une portion mince formée sur un substrat en silicium, et est adaptée à être agencée dans ledit tube d'aspiration dudit moteur à combustion interne.</claim-text>
+    </claim>
+  </claims>
+  <drawings id="draw" lang="en">
+    <!-- EPO <DP n="50"> -->
+    <figure id="f0001" num="1">
+      <img id="if0001" file="imgf0001.tif" wi="147" he="203" img-content="drawing" img-format="tif"/>
+    </figure>
+    <!-- EPO <DP n="51"> -->
+    <figure id="f0002" num="2A,2B">
+      <img id="if0002" file="imgf0002.tif" wi="164" he="103" img-content="drawing" img-format="tif"/>
+    </figure>
+    <!-- EPO <DP n="52"> -->
+    <figure id="f0003" num="3">
+      <img id="if0003" file="imgf0003.tif" wi="145" he="118" img-content="drawing" img-format="tif"/>
+    </figure>
+    <!-- EPO <DP n="53"> -->
+    <figure id="f0004" num="4A,4B,4C,4D,5">
+      <img id="if0004" file="imgf0004.tif" wi="160" he="198" img-content="drawing" img-format="tif"/>
+    </figure>
+    <!-- EPO <DP n="54"> -->
+    <figure id="f0005" num="6A,6B,7">
+      <img id="if0005" file="imgf0005.tif" wi="161" he="207" img-content="drawing" img-format="tif"/>
+    </figure>
+    <!-- EPO <DP n="55"> -->
+    <figure id="f0006" num="8">
+      <img id="if0006" file="imgf0006.tif" wi="132" he="65" img-content="drawing" img-format="tif"/>
+    </figure>
+    <!-- EPO <DP n="56"> -->
+    <figure id="f0007" num="9">
+      <img id="if0007" file="imgf0007.tif" wi="155" he="216" img-content="drawing" img-format="tif"/>
+    </figure>
+    <!-- EPO <DP n="57"> -->
+    <figure id="f0008" num="10A,10B,10C,10D,10E,10F">
+      <img id="if0008" file="imgf0008.tif" wi="165" he="164" img-content="drawing" img-format="tif"/>
+    </figure>
+    <!-- EPO <DP n="58"> -->
+    <figure id="f0009" num="11">
+      <img id="if0009" file="imgf0009.tif" wi="158" he="113" img-content="drawing" img-format="tif"/>
+    </figure>
+    <!-- EPO <DP n="59"> -->
+    <figure id="f0010" num="12">
+      <img id="if0010" file="imgf0010.tif" wi="162" he="203" img-content="drawing" img-format="tif"/>
+    </figure>
+    <!-- EPO <DP n="60"> -->
+    <figure id="f0011" num="13">
+      <img id="if0011" file="imgf0011.tif" wi="112" he="106" img-content="drawing" img-format="tif"/>
+    </figure>
+    <!-- EPO <DP n="61"> -->
+    <figure id="f0012" num="14">
+      <img id="if0012" file="imgf0012.tif" wi="160" he="196" img-content="drawing" img-format="tif"/>
+    </figure>
+  </drawings>
+  <ep-reference-list id="ref-list">
+    <heading id="ref-h0001">
+      <b>REFERENCES CITED IN THE DESCRIPTION</b>
+    </heading>
+    <p id="ref-p0001" num="">
+      <i>This list of references cited by the applicant is for the reader's convenience only. It does not form part of the European patent document. Even though great care has been taken in compiling the references, errors or omissions cannot be excluded and the EPO disclaims all liability in this regard.</i>
+    </p>
+    <heading id="ref-h0002">
+      <b>Patent documents cited in the description</b>
+    </heading>
+    <p id="ref-p0002" num="">
+      <ul id="ref-ul0001" list-style="bullet">
+        <li>
+          <patcit id="ref-pcit0001" dnum="JP5264312A">
+            <document-id>
+              <country>JP</country>
+              <doc-number>5264312</doc-number>
+              <kind>A</kind>
+            </document-id>
+          </patcit>
+          <crossref idref="pcit0001">[0002]</crossref>
+        </li>
+        <li>
+          <patcit id="ref-pcit0002" dnum="JP61102522A">
+            <document-id>
+              <country>JP</country>
+              <doc-number>61102522</doc-number>
+              <kind>A</kind>
+            </document-id>
+          </patcit>
+          <crossref idref="pcit0002">[0002]</crossref>
+        </li>
+        <li>
+          <patcit id="ref-pcit0003" dnum="JP5007659B">
+            <document-id>
+              <country>JP</country>
+              <doc-number>5007659</doc-number>
+              <kind>B</kind>
+            </document-id>
+          </patcit>
+          <crossref idref="pcit0003">[0003]</crossref>
+        </li>
+        <li>
+          <patcit id="ref-pcit0004" dnum="JP55066715A">
+            <document-id>
+              <country>JP</country>
+              <doc-number>55066715</doc-number>
+              <kind>A</kind>
+            </document-id>
+          </patcit>
+          <crossref idref="pcit0004">[0004]</crossref>
+        </li>
+        <li>
+          <patcit id="ref-pcit0005" dnum="US5355723A">
+            <document-id>
+              <country>US</country>
+              <doc-number>5355723</doc-number>
+              <kind>A</kind>
+            </document-id>
+          </patcit>
+          <crossref idref="pcit0005">[0005]</crossref>
+        </li>
+        <li>
+          <patcit id="ref-pcit0006" dnum="JP02170015A">
+            <document-id>
+              <country>JP</country>
+              <doc-number>02170015</doc-number>
+              <kind>A</kind>
+            </document-id>
+          </patcit>
+          <crossref idref="pcit0006">[0006]</crossref>
+        </li>
+      </ul>
+    </p>
+  </ep-reference-list>
+</ep-patent-document>

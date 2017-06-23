@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE exch:exchange-documents SYSTEM "docdb-entities.dtd">
+<exch:exchange-documents xmlns:exch="http://www.epo.org/exchange" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.epo.org/exchange exchange-documents-v2.5.6.xsd" date-of-exchange="20010326" dtd-version="2.5.6" file="DOCDB-201705-001-AU-0056" no-of-documents="0015911" originating-office="EP">
+  <exch:exchange-document country="AU" doc-number="6415400" kind="A" doc-id="291995804" date-publ="20010326" family-id="25634224" is-representative="NO" date-of-last-exchange="20170202" date-added-docdb="20010630" originating-office="EP">
+    <exch:bibliographic-data>
+      <exch:publication-reference data-format="docdb">
+        <document-id>
+          <country>AU</country>
+          <doc-number>6415400</doc-number>
+          <kind>A</kind>
+          <date>20010326</date>
+        </document-id>
+      </exch:publication-reference>
+      <exch:publication-reference data-format="epodoc">
+        <document-id>
+          <doc-number>AU6415400</doc-number>
+        </document-id>
+      </exch:publication-reference>
+      <exch:classification-ipc>
+        <edition>7</edition>
+        <main-classification> 7A 47L   5/36   A</main-classification>
+        <further-classification> 7A 47L   7/00   B</further-classification>
+        <further-classification> 7A 47L   9/02   B</further-classification>
+        <further-classification> 7A 47L  11/30   B</further-classification>
+        <further-classification> 7B 08B   5/04   B</further-classification>
+        <further-classification> 7E 01H   1/00   B</further-classification>
+      </exch:classification-ipc>
+      <exch:classifications-ipcr>
+        <classification-ipcr sequence="1">
+          <text>A47L   5/36        20060101A I20051110RMEP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="2">
+          <text>A47L   7/00        20060101A I20051110RMEP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="3">
+          <text>A47L   9/02        20060101A I20051110RMEP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="4">
+          <text>A47L  11/30        20060101A I20051110RMEP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="5">
+          <text>B08B   5/04        20060101A I20051110RMEP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="6">
+          <text>E01H   1/00        20060101A I20051110RMEP        </text>
+        </classification-ipcr>
+      </exch:classifications-ipcr>
+      <exch:application-reference is-representative="NO" doc-id="2160135" data-format="docdb">
+        <document-id>
+          <country>AU</country>
+          <doc-number>6415400</doc-number>
+          <kind>A</kind>
+          <date>20000809</date>
+        </document-id>
+      </exch:application-reference>
+      <exch:application-reference data-format="epodoc">
+        <document-id>
+          <doc-number>AU20000064154</doc-number>
+        </document-id>
+      </exch:application-reference>
+      <exch:application-reference data-format="original">
+        <document-id>
+          <doc-number>6415400</doc-number>
+        </document-id>
+      </exch:application-reference>
+      <exch:priority-claims>
+        <exch:priority-claim sequence="1" data-format="docdb">
+          <document-id doc-id="2160135">
+            <country>AU</country>
+            <doc-number>6415400</doc-number>
+            <kind>A</kind>
+            <date>20000809</date>
+          </document-id>
+          <exch:priority-active-indicator>Y</exch:priority-active-indicator>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="1" data-format="epodoc">
+          <document-id>
+            <doc-number>AU20000064154</doc-number>
+          </document-id>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="2" data-format="docdb">
+          <document-id doc-id="2496347">
+            <country>AU</country>
+            <doc-number>PQ254399</doc-number>
+            <kind>A</kind>
+            <date>19990830</date>
+          </document-id>
+          <exch:priority-active-indicator>Y</exch:priority-active-indicator>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="2" data-format="epodoc">
+          <document-id>
+            <doc-number>AU1999PQ02543</doc-number>
+          </document-id>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="3" data-format="docdb">
+          <document-id doc-id="1393761">
+            <country>AU</country>
+            <doc-number>0000945</doc-number>
+            <kind>W</kind>
+            <date>20000809</date>
+          </document-id>
+          <exch:priority-linkage-type>W</exch:priority-linkage-type>
+          <exch:priority-active-indicator>N</exch:priority-active-indicator>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="3" data-format="epodoc">
+          <document-id>
+            <doc-number>WO2000AU00945</doc-number>
+          </document-id>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="1" data-format="original">
+          <document-id>
+            <doc-number>PQ2543</doc-number>
+          </document-id>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="2" data-format="original">
+          <document-id>
+            <doc-number>PCT/AU00/00945</doc-number>
+          </document-id>
+        </exch:priority-claim>
+      </exch:priority-claims>
+      <exch:parties>
+        <exch:applicants>
+          <exch:applicant sequence="1" data-format="docdb">
+            <exch:applicant-name>
+              <name>OLSEN GARRY</name>
+            </exch:applicant-name>
+          </exch:applicant>
+          <exch:applicant sequence="1" data-format="docdba">
+            <exch:applicant-name>
+              <name>GARRY OLSEN</name>
+            </exch:applicant-name>
+          </exch:applicant>
+        </exch:applicants>
+        <exch:inventors>
+          <exch:inventor sequence="1" data-format="docdb">
+            <exch:inventor-name>
+              <name>OLSEN GARRY</name>
+            </exch:inventor-name>
+          </exch:inventor>
+          <exch:inventor sequence="1" data-format="docdba">
+            <exch:inventor-name>
+              <name>GARRY OLSEN</name>
+            </exch:inventor-name>
+          </exch:inventor>
+        </exch:inventors>
+      </exch:parties>
+      <exch:invention-title lang="en" data-format="docdba">Fluid recovery suction head</exch:invention-title>
+      <exch:dates-of-public-availability>
+        <exch:claims-only-available>
+          <document-id>
+            <date>20010326</date>
+          </document-id>
+        </exch:claims-only-available>
+      </exch:dates-of-public-availability>
+    </exch:bibliographic-data>
+  </exch:exchange-document>
+  <exch:exchange-document country="AU" doc-number="6415401" kind="A" doc-id="290489169" date-publ="20011217" family-id="22781762" is-representative="YES" date-of-last-exchange="20170202" date-added-docdb="20020421" originating-office="EP">
+    <exch:bibliographic-data>
+      <exch:publication-reference data-format="docdb">
+        <document-id>
+          <country>AU</country>
+          <doc-number>6415401</doc-number>
+          <kind>A</kind>
+          <date>20011217</date>
+        </document-id>
+      </exch:publication-reference>
+      <exch:publication-reference data-format="epodoc">
+        <document-id>
+          <doc-number>AU6415401</doc-number>
+        </document-id>
+      </exch:publication-reference>
+      <exch:classification-ipc>
+        <edition>7</edition>
+        <main-classification> 7H 04B   3/54   A</main-classification>
+      </exch:classification-ipc>
+      <exch:classifications-ipcr>
+        <classification-ipcr sequence="1">
+          <text>H04B   3/54        20060101A I20051008RMEP        </text>
+        </classification-ipcr>
+      </exch:classifications-ipcr>
+      <exch:patent-classifications>
+        <patent-classification sequence="1">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>H04B   3/542       </classification-symbol>
+          <symbol-position>F</symbol-position>
+          <classification-value>I</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20130101</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="2">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>H04B2203/5408      </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>A</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20130101</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="3">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>H04B2203/5416      </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>A</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20130101</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="4">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>H04B2203/5437      </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>A</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20130101</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="5">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>H04B2203/5445      </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>A</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20130101</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="6">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>H04B2203/5454      </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>A</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20130101</date>
+          </action-date>
+        </patent-classification>
+      </exch:patent-classifications>
+      <exch:application-reference is-representative="NO" doc-id="2160137" data-format="docdb">
+        <document-id>
+          <country>AU</country>
+          <doc-number>6415401</doc-number>
+          <kind>A</kind>
+          <date>20010606</date>
+        </document-id>
+      </exch:application-reference>
+      <exch:application-reference data-format="epodoc">
+        <document-id>
+          <doc-number>AU20010064154</doc-number>
+        </document-id>
+      </exch:application-reference>
+      <exch:application-reference data-format="original">
+        <document-id>
+          <doc-number>6415401</doc-number>
+        </document-id>
+      </exch:application-reference>
+      <exch:priority-claims>
+        <exch:priority-claim sequence="1" data-format="docdb">
+          <document-id doc-id="24007084">
+            <country>IB</country>
+            <doc-number>0100987</doc-number>
+            <kind>W</kind>
+            <date>20010606</date>
+          </document-id>
+          <exch:priority-linkage-type>W</exch:priority-linkage-type>
+          <exch:priority-active-indicator>N</exch:priority-active-indicator>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="1" data-format="epodoc">
+          <document-id>
+            <doc-number>WO2001IB00987</doc-number>
+          </document-id>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="2" data-format="docdb">
+          <document-id>
+            <country>US</country>
+            <doc-number>21014700</doc-number>
+            <kind>P</kind>
+            <date>20000607</date>
+          </document-id>
+          <exch:priority-active-indicator>Y</exch:priority-active-indicator>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="2" data-format="epodoc">
+          <document-id>
+            <doc-number>US20000210147P</doc-number>
+          </document-id>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="1" data-format="original">
+          <document-id>
+            <doc-number>60210147</doc-number>
+          </document-id>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="2" data-format="original">
+          <document-id>
+            <doc-number>PCT/IB01/00987</doc-number>
+          </document-id>
+        </exch:priority-claim>
+      </exch:priority-claims>
+      <exch:parties>
+        <exch:applicants>
+          <exch:applicant sequence="1" data-format="docdb">
+            <exch:applicant-name>
+              <name>CONEXANT SYSTEMS INC</name>
+            </exch:applicant-name>
+          </exch:applicant>
+          <exch:applicant sequence="1" data-format="docdba">
+            <exch:applicant-name>
+              <name>CONEXANT SYSTEMS, INC.</name>
+            </exch:applicant-name>
+          </exch:applicant>
+        </exch:applicants>
+        <exch:inventors>
+          <exch:inventor sequence="1" data-format="docdb">
+            <exch:inventor-name>
+              <name>GARDNER STEVEN HOLMSEN</name>
+            </exch:inventor-name>
+          </exch:inventor>
+          <exch:inventor sequence="1" data-format="docdba">
+            <exch:inventor-name>
+              <name>STEVEN HOLMSEN GARDNER</name>
+            </exch:inventor-name>
+          </exch:inventor>
+        </exch:inventors>
+      </exch:parties>
+      <exch:invention-title lang="en" data-format="docdba">Method and apparatus for dual-band modulation in powerline communication networksystems</exch:invention-title>
+      <exch:dates-of-public-availability>
+        <exch:claims-only-available>
+          <document-id>
+            <date>20011217</date>
+          </document-id>
+        </exch:claims-only-available>
+      </exch:dates-of-public-availability>
+    </exch:bibliographic-data>
+  </exch:exchange-document>
+  <exch:exchange-document country="AU" doc-number="6580898" kind="A" doc-id="295014204" date-publ="19981020" family-id="25235232" is-representative="NO" date-of-last-exchange="20170202" date-added-docdb="19990109" originating-office="EP">
+    <exch:bibliographic-data>
+      <exch:publication-reference data-format="docdb">
+        <document-id>
+          <country>AU</country>
+          <doc-number>6580898</doc-number>
+          <kind>A</kind>
+          <date>19981020</date>
+        </document-id>
+      </exch:publication-reference>
+      <exch:publication-reference data-format="epodoc">
+        <document-id>
+          <doc-number>AU6580898</doc-number>
+        </document-id>
+      </exch:publication-reference>
+      <exch:classification-ipc>
+        <edition>6</edition>
+        <main-classification> 6G 01N  33/574  A</main-classification>
+        <further-classification> 6G 01N  33/92   B</further-classification>
+      </exch:classification-ipc>
+      <exch:classifications-ipcr>
+        <classification-ipcr sequence="1">
+          <text>G01N  33/574       20060101A I20051008RMEP        </text>
+        </classification-ipcr>
+        <classification-ipcr sequence="2">
+          <text>G01N  33/92        20060101A I20051008RMEP        </text>
+        </classification-ipcr>
+      </exch:classifications-ipcr>
+      <exch:patent-classifications>
+        <patent-classification sequence="1">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>G01N  33/574       </classification-symbol>
+          <symbol-position>F</symbol-position>
+          <classification-value>I</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20130101</date>
+          </action-date>
+        </patent-classification>
+        <patent-classification sequence="2">
+          <classification-scheme office="EP" scheme="CPC">
+            <date>20130101</date>
+          </classification-scheme>
+          <classification-symbol>G01N  33/92        </classification-symbol>
+          <symbol-position>L</symbol-position>
+          <classification-value>I</classification-value>
+          <classification-status>B</classification-status>
+          <classification-data-source>H</classification-data-source>
+          <action-date>
+            <date>20130101</date>
+          </action-date>
+        </patent-classification>
+      </exch:patent-classifications>
+      <exch:application-reference is-representative="NO" doc-id="2182741" data-format="docdb">
+        <document-id>
+          <country>AU</country>
+          <doc-number>6580898</doc-number>
+          <kind>A</kind>
+          <date>19980323</date>
+        </document-id>
+      </exch:application-reference>
+      <exch:application-reference data-format="epodoc">
+        <document-id>
+          <doc-number>AU19980065808</doc-number>
+        </document-id>
+      </exch:application-reference>
+      <exch:application-reference data-format="original">
+        <document-id>
+          <doc-number>6580898</doc-number>
+        </document-id>
+      </exch:application-reference>
+      <exch:priority-claims>
+        <exch:priority-claim sequence="1" data-format="docdb">
+          <document-id>
+            <country>US</country>
+            <doc-number>82212897</doc-number>
+            <kind>A</kind>
+            <date>19970321</date>
+          </document-id>
+          <exch:priority-active-indicator>Y</exch:priority-active-indicator>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="1" data-format="epodoc">
+          <document-id>
+            <doc-number>US19970822128</doc-number>
+          </document-id>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="2" data-format="docdb">
+          <document-id doc-id="47386297">
+            <country>US</country>
+            <doc-number>9805738</doc-number>
+            <kind>W</kind>
+            <date>19980323</date>
+          </document-id>
+          <exch:priority-linkage-type>W</exch:priority-linkage-type>
+          <exch:priority-active-indicator>N</exch:priority-active-indicator>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="2" data-format="epodoc">
+          <document-id>
+            <doc-number>WO1998US05738</doc-number>
+          </document-id>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="1" data-format="original">
+          <document-id>
+            <doc-number>08822128</doc-number>
+          </document-id>
+        </exch:priority-claim>
+        <exch:priority-claim sequence="2" data-format="original">
+          <document-id>
+            <doc-number>PCT/US98/05738</doc-number>
+          </document-id>
+        </exch:priority-claim>
+      </exch:priority-claims>
+      <exch:parties>
+        <exch:applicants>
+          <exch:applicant sequence="1" data-format="docdb">
+            <exch:applicant-name>
+              <name>ATAIRGIN BIOTECHNOLOGIES INC</name>
+            </exch:applicant-name>
+          </exch:applicant>
+          <exch:applicant sequence="2" data-format="docdb">
+            <exch:applicant-name>
+              <name>UNIV GUELPH</name>
+            </exch:applicant-name>
+          </exch:applicant>
+          <exch:applicant sequence="1" data-format="docdba">
+            <exch:applicant-name>
+              <name>ATAIRGIN BIOTECHNOLOGIES, INC.</name>
+            </exch:applicant-name>
+          </exch:applicant>
+          <exch:applicant sequence="2" data-format="docdba">
+            <exch:applicant-name>
+              <name>UNIVERSITY OF GUELPH</name>
+            </exch:applicant-name>
+          </exch:applicant>
+        </exch:applicants>
+        <exch:inventors>
+          <exch:inventor sequence="1" data-format="docdb">
+            <exch:inventor-name>
+              <name>MILLS GORDON B</name>
+            </exch:inventor-name>
+          </exch:inventor>
+          <exch:inventor sequence="2" data-format="docdb">
+            <exch:inventor-name>
+              <name>HOLUB BRUCE J DR</name>
+            </exch:inventor-name>
+          </exch:inventor>
+          <exch:inventor sequence="3" data-format="docdb">
+            <exch:inventor-name>
+              <name>GAUDETTE DOUGLAS C</name>
+            </exch:inventor-name>
+          </exch:inventor>
+          <exch:inventor sequence="1" data-format="docdba">
+            <exch:inventor-name>
+              <name>GORDON B MILLS</name>
+            </exch:inventor-name>
+          </exch:inventor>
+          <exch:inventor sequence="2" data-format="docdba">
+            <exch:inventor-name>
+              <name>DR. BRUCE J. HOLUB</name>
+            </exch:inventor-name>
+          </exch:inventor>
+          <exch:inventor sequence="3" data-format="docdba">
+            <exch:inventor-name>
+              <name>DOUGLAS C. GAUDETTE</name>
+            </exch:inventor-name>
+          </exch:inventor>
+        </exch:inventors>
+      </exch:parties>
+      <exch:invention-title lang="en" data-format="docdba">Method for detecting cancer associated with altered concentrations of lysophospholipids</exch:invention-title>
+      <exch:dates-of-public-availability>
+        <exch:claims-only-available>
+          <document-id>
+            <date>19981020</date>
+          </document-id>
+        </exch:claims-only-available>
+      </exch:dates-of-public-availability>
+    </exch:bibliographic-data>
+  </exch:exchange-document>
+</exch:exchange-documents>
