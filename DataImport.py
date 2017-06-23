@@ -51,18 +51,6 @@ def add_citation(citer_doc_number, cited_doc_number, country, kind, date_publ, d
     { "imported": [now], "imported_at": now, "citer_id": citer_doc_number, "cited_id": cited_doc_number, "country": country, "kind": kind, "date_publ": date_publ, "date_file": date_file, "date_issue": date_issue, "date_priority": date_priority } 
   )  
 
-# def add_citation(citer_doc_number, cited_doc_number, country, kind):
-#   return cypher(
-#     ('MATCH (citer:Member)'
-#      'WHERE citer.doc_number = {citer_id}'
-#      'MERGE (parent:Doc { doc_number: {cited_id} })'
-#      'MERGE (cited:Member { _type: "Citation", _imported_at: {imported_at}, doc_number: {cited_id}, country: {country}, kind: {kind} })'
-#      'CREATE (parent)<-[:VERSION]-(cited)'
-#      'MERGE (citer)-[citation:CITES]->(cited)'
-#      'RETURN citer, cited, citation'),
-#     { "imported_at": datetime.today().isoformat(), "citer_id": citer_doc_number, "cited_id": cited_doc_number, "country": country, "kind": kind } 
-#   )
-
 def add_classification(classified_doc_number, section, classification, subclass, maingroup, subgroup, date_publ, date_file, date_issue, date_priority):
   now = datetime.today().isoformat()
   return cypher(
@@ -129,38 +117,6 @@ def add_family_member(typeof, family_id, doc_number, country, kind, is_represent
        'RETURN member, of, family'),
       { "type": typeof, "imported": [now], "imported_at": now, "family_id": family_id, "doc_number": doc_number, "country": country, "kind": kind } 
     ) 
-
-# def add_family_member(typeof, family_id, doc_number, country, kind, is_representative=''):
-#   if typeof == 'Application':
-#     return cypher(
-#       ('MERGE (family:Family { id: {family_id} })'
-#        'MERGE (member:Member { _type: {type}, _imported_at: {imported_at}, doc_number: {doc_number}, country: {country}, kind: {kind}, is_representative: {is_representative} })'
-#        'MERGE (parent:Doc { doc_number: {doc_number} })'
-#        'CREATE (parent)<-[:VERSION]-(member)'
-#        'MERGE (member)-[of:MEMBER_OF]->(family)'
-#        'RETURN member, of, family'),
-#       { "type": typeof, "imported_at": datetime.today().isoformat(), "family_id": family_id, "doc_number": doc_number, "country": country, "kind": kind, "is_representative": is_representative } 
-#     )
-#   elif typeof == 'Publication':
-#     return cypher(
-#       ('MERGE (family:Family { id: {family_id} })'
-#        'MERGE (member:Member { _type: {type}, _imported_at: {imported_at}, doc_number: {doc_number}, country: {country}, kind: {kind} })'
-#        'MERGE (parent:Doc { doc_number: {doc_number} })'
-#        'CREATE (parent)<-[:VERSION]-(member)'
-#        'MERGE (member)-[of:MEMBER_OF]->(family)'
-#        'RETURN member, of, family'),
-#       { "type": typeof, "imported_at": datetime.today().isoformat(), "family_id": family_id, "doc_number": doc_number, "country": country, "kind": kind } 
-#     )
-#   else: 
-#     return cypher(
-#       ('MERGE (family:Family { id: {family_id} })'
-#        'MERGE (member:Member { _type: {type}, _imported_at: {imported_at}, doc_number: {doc_number}, country: {country}, kind: {kind} })'
-#        'MERGE (parent:Doc { doc_number: {doc_number} })'
-#        'CREATE (parent)<-[:VERSION]-(member)'
-#        'MERGE (member)-[of:MEMBER_OF]->(family)'
-#        'RETURN member, of, family'),
-#       { "type": typeof, "imported_at": datetime.today().isoformat(), "family_id": family_id, "doc_number": doc_number, "country": country, "kind": kind } 
-#     )   
 
 def clear():
   return cypher(

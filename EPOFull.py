@@ -15,12 +15,12 @@ from pymaybe import maybe
 
 def fmap(fn, coll):
   return functools.reduce(
-  	lambda acc, val: acc + [fn(val)], coll, []
+    lambda acc, val: acc + [fn(val)], coll, []
   )
 
 def ffilter(predicate_fn, coll):
   return functools.reduce(
-  	lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, []
+    lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, []
   )
 
 def fcreduce(fn, acc):
@@ -28,12 +28,12 @@ def fcreduce(fn, acc):
 
 def fcmap(fn):
   return lambda coll: functools.reduce(
-  	lambda acc, val: acc + [fn(val)], coll, []
+    lambda acc, val: acc + [fn(val)], coll, []
   )
 
 def fcfilter(predicate_fn):
   return lambda coll: functools.reduce(
-  	lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, []
+    lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, []
   )
 
 def fzip(coll1, coll2):
@@ -41,7 +41,7 @@ def fzip(coll1, coll2):
 
 def fcompose(*functions):
   return functools.reduce(
-  	lambda f, g: lambda x: f(g(x)), functions, lambda x: x
+    lambda f, g: lambda x: f(g(x)), functions, lambda x: x
   )  
 
 from multiprocessing import Process
@@ -84,10 +84,10 @@ def get_file_info(index_filename):
 
 def buildassignees(assignee):
 	return {
-	  'name': assignee.find('snm').text if assignee.find('snm') is not None else '',
-	  'epo-number': assignee.find('iid').text if assignee.find('iid') is not None else '',
-	  'reference': assignee.find('irf').text if assignee.find('irf') is not None else '',
-	  'cross-reference': assignee.find('syn').text if assignee.find('syn') is not None else ''
+	  'name': maybe(assignee).find('snm').text.or_else(''),
+	  'epo-number': maybe(assignee).find('iid').text.or_else(''),
+	  'reference': maybe(assignee).find('irf').text.or_else(''),
+	  'cross-reference': maybe(assignee).find('syn').text.or_else('')
 	}
 
 def assignees(doc):
@@ -121,9 +121,9 @@ def classifications(doc):
 def buildcitations(patcit):
   return { 
     'dnum': patcit.attrib.get('dnum', ''), 
-    'country': patcit.find('document-id').find('country').text if patcit.find('document-id').find('country') is not None else '',
-    'doc-number': patcit.find('document-id').find('doc-number').text if patcit.find('document-id').find('doc-number')  is not None else '', 
-    'kind': patcit.find('document-id').find('kind').text if patcit.find('document-id').find('kind') is not None else ''   
+    'country': maybe(patcit).find('document-id').find('country').text.or_else(''),
+    'doc-number': maybe(patcit).find('document-id').find('doc-number').text.or_else(''), 
+    'kind': maybe(patcit).find('document-id').find('kind').text.or_else('')   
   }
 
 def citations(doc):
@@ -151,11 +151,9 @@ def parse(tree, callback):
     'assignees': assignees(tree)
   })   
 
-def parsedocument(callback):
-  return lambda tree: spawn(parse, tree, callback)
-
-def parsedocuments(docs, each_callback): 
-  return fcmap(parsedocument(each_callback))(docs)
+def parsedocument(xml_file, callback):
+	doc = tree(xml_file).xpath('//ep-patent-document')[0]
+	spawn(parse, doc, callback)
 
 ##############
 # processing #
@@ -199,9 +197,7 @@ def process(callback, xml_file, archive_file):
     zipfile.ZipFile(archive_file, "r").extract(xml_file)
     
     # add validation/testing
-    doc = tree(xml_file).xpath('//ep-patent-document')[0]
-
-    parsedocuments([doc], callback)
+    parsedocument(xml_file, callback)
     
     # gives us a durable state if the script breaks and reruns
     completefile = open(marker(xml_file),"w") 
@@ -222,8 +218,15 @@ def traverse(file_info, dtd_path, callback):
   process(callback, xml_file, archive_file)
   os.chdir(initial_path) 
 
-def _run(index_path, dtd_path, state, callback_each):
+def _run(xml_file, callback):
+  parsedocument(xml_file, callback)
+
+def _run_all(index_path, dtd_path, callback_each):
   for file_info in get_file_info(index_path):
     traverse(file_info, dtd_path, callback_each) 
 
-def run(): _run('index.xml', './DTDS/ep-patent-document-v1-5.dtd', {}, to_database)  
+def run(file = None):
+	if file:
+		_run(file, to_database)
+	else:
+		_run_all('index.xml', './DTDS/ep-patent-document-v1-5.dtd', to_database)  

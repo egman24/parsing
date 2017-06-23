@@ -10,25 +10,35 @@ import functools
 from pymaybe import maybe
 
 def fmap(fn, coll):
-  return functools.reduce(lambda acc, val: acc + [fn(val)], coll, [])
+  return functools.reduce(
+    lambda acc, val: acc + [fn(val)], coll, []
+  )
 
 def ffilter(predicate_fn, coll):
-  return functools.reduce(lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, [])
+  return functools.reduce(
+    lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, []
+  )
 
 def fcreduce(fn, acc):
   return lambda coll: functools.reduce(fn, coll, acc)
 
 def fcmap(fn):
-  return lambda coll: functools.reduce(lambda acc, val: acc + [fn(val)], coll, [])
+  return lambda coll: functools.reduce(
+    lambda acc, val: acc + [fn(val)], coll, []
+  )
 
 def fcfilter(predicate_fn):
-  return lambda coll: functools.reduce(lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, [])
+  return lambda coll: functools.reduce(
+    lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, []
+  )
 
 def fzip(coll1, coll2):
   return list(zip(coll1, coll2))
 
 def fcompose(*functions):
-  return functools.reduce(lambda f, g: lambda x: f(g(x)), functions, lambda x: x)  
+  return functools.reduce(
+    lambda f, g: lambda x: f(g(x)), functions, lambda x: x
+  )  
 
 from multiprocessing import Process
 
@@ -79,11 +89,11 @@ def buildeachcitation(citations, data):
 	dnum = data.get('dnum', '')
 	dnumtype = data.get('dnum-type', '')
 	docid = doc.attrib.get('doc-id', '')
-	country = doc.find('country').text if doc.find('country') is not None else ''
-	docnumber = doc.find('doc-number').text if doc.find('doc-number') is not None else ''
-	kind = doc.find('kind').text if doc.find('kind') is not None else ''
-	name = doc.find('name').text if doc.find('name') is not None else ''
-	date = doc.find('date').text if doc.find('date') is not None else ''
+	country = maybe(doc).find('country').text.or_else('')
+	docnumber = maybe(doc).find('doc-number').text.or_else('')
+	kind = maybe(doc).find('kind').text.or_else('')
+	name = maybe(doc).find('name').text.or_else('')
+	date = maybe(doc).find('date').text.or_else('')
 	citation = { 'dnum': dnum, 'dnum-type': dnumtype, 'doc-id': docid, 'country': country, 'doc-number': docnumber, 'kind': kind, 'name': name, 'date': date }
 	return citations.append(citation)
 
@@ -134,8 +144,8 @@ def partyapplicants(applicants):
 
 def parties(bibliographic):
 	party = bibliographic.find('{http://www.epo.org/exchange}parties')
-	applicants = party.findall('{http://www.epo.org/exchange}applicants') if party is not None else []
-	inventors = party.findall('{http://www.epo.org/exchange}inventors') if party is not None else []
+	applicants = maybe(party).findall('{http://www.epo.org/exchange}applicants').or_else([])
+	inventors = maybe(party).findall('{http://www.epo.org/exchange}inventors').or_else([])
 	return { 'applicants': partyapplicants(applicants), 'inventors': partyinventors(inventors) }
 
 def reference(format, doc):
@@ -170,7 +180,7 @@ def publicationreferences(references):
 	return fcreduce(publicationreferencesreducer, {})(references)
 
 def familymembers(family):
-  members = family.findall('{http://www.epo.org/exchange}family-member') if family is not None else []
+  members = maybe(family).findall('{http://www.epo.org/exchange}family-member').or_else([])
   return fmap(lambda x: { 'application-references': applicationreferences(x.findall('{http://www.epo.org/exchange}application-reference')), 'publication-references': publicationreferences(x.findall('{http://www.epo.org/exchange}publication-reference')) }, members)
 
 # compose:
@@ -203,7 +213,8 @@ def parse(tree, callback):
 def parsedocument(callback):
 	return lambda tree: spawn(parse, tree, callback)
 
-def parsedocuments(docs, each_callback): 
+def parsedocuments(xml_file, each_callback): 
+	docs = tree(xml_file).xpath('//*[local-name()="exchange-document"]')
 	return fcmap(parsedocument(each_callback))(docs)
 
 ##############
@@ -247,9 +258,14 @@ def to_database(metadata):
 	print('------------------------------------------------')
 	print('\n')
 
-def _run(file, each_callback): 
-	docs = tree(file).xpath('//*[local-name()="exchange-document"]')
-	parsedocuments(docs, each_callback)
+def _run(xml_file, each_callback): 
+	parsedocuments(xml_file, each_callback)
 
-def run(file):
-	_run(file, to_database)
+def _run_all(index_path, dtd_path, callback_each):
+	print('TODO: implement _run_all')
+
+def run(file = None):
+	if file:
+		_run(file, to_database)
+	else:
+		_run_all('index.xml', './DTDS/ep-patent-document-v1-5.dtd', to_database)
