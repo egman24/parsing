@@ -53,18 +53,18 @@ def description(descriptionelement):
 	return etree.tostring(descriptionelement, encoding='unicode')
 
 def buildclaim(claim):
-	return claim.find('claim-text').text if claim.find('claim-text') is not None else ''
+	return maybe(claim).find('claim-text').text.or_else('')
 
 def claims(claimelements):
 	return fmap(buildclaim, claimelements)
 
 def buildcitation(patcit):
 	return {
-	  'country': patcit.find('document-id').find('country').text if patcit.find('document-id').find('country') is not None else '',
-	  'doc-number': patcit.find('document-id').find('doc-number').text if patcit.find('document-id').find('doc-number') is not None else '',
-	  'kind': patcit.find('document-id').find('kind').text if patcit.find('document-id').find('kind') is not None else '',
-	  'name': patcit.find('document-id').find('name').text if patcit.find('document-id').find('name') is not None else '',
-	  'date': patcit.find('document-id').find('date').text if patcit.find('document-id').find('date') is not None else '',
+	  'country': maybe(patcit).find('document-id').find('country').text.or_else(''),
+	  'doc-number': maybe(patcit).find('document-id').find('doc-number').text.or_else(''),
+	  'kind': maybe(patcit).find('document-id').find('kind').text.or_else(''),
+	  'name': maybe(patcit).find('document-id').find('name').text.or_else(''),
+	  'date': maybe(patcit).find('document-id').find('date').text.or_else('')
 	}
 
 def citations(citationelements):
@@ -72,22 +72,22 @@ def citations(citationelements):
 
 def buildassigneeaddress(address):
 	return {
-	  'city': address.find('city').text if address.find('city') is not None else '',
-	  'state': address.find('state').text if address.find('state') is not None else '',
-	  'country': address.find('country').text if address.find('country') is not None else ''
+	  'city': maybe(address).find('city').text.or_else(''),
+	  'state': maybe(address).find('state').text.or_else(''),
+	  'country': maybe(address).find('country').text.or_else('')
 	}
 
 def buildassignees(assignee):
-	if assignee.find('addressbook') is not None:
+	if assignee.find('addressbook'):
 		return {
-		  'orgname': assignee.find('addressbook').find('orgname').text if assignee.find('addressbook').find('orgname') is not None else '',
-		  'role': assignee.find('addressbook').find('role').text if assignee.find('addressbook').find('role') is not None else '',
+		  'orgname': maybe(assignee).find('addressbook').find('orgname').text.or_else(''),
+		  'role': maybe(assignee).find('addressbook').find('role').text.or_else(''),
 		  'address': buildassigneeaddress(assignee.find('addressbook').find('address')) if assignee.find('addressbook').find('address') is not None else ''
 		}
 	else:	
 		return {
-		  'orgname': assignee.find('orgname').text if assignee.find('orgname') is not None else '',
-		  'role': assignee.find('role').text if assignee.find('role') is not None else ''
+		  'orgname': maybe(assignee).find('orgname').text.or_else(''),
+		  'role': maybe(assignee).find('role').text.or_else('')
 		}
 
 def assignees(assigneeelements):
@@ -114,18 +114,18 @@ def abstract(sections):
 
 def publication_reference(reference):
   return {
-    'country': reference.find('document-id').find('country').text if reference.find('document-id').find('country') is not None else '',
-    'doc-number': reference.find('document-id').find('doc-number').text if reference.find('document-id').find('doc-number') is not None else '',
-    'kind': reference.find('document-id').find('kind').text if reference.find('document-id').find('kind') is not None else '',
-    'date': reference.find('document-id').find('date').text if reference.find('document-id').find('date') is not None else '',
+    'country': maybe(reference).find('document-id').find('country').text.or_else(''),
+    'doc-number': maybe(reference).find('document-id').find('doc-number').text.or_else(''),
+    'kind': maybe(reference).find('document-id').find('kind').text.or_else(''),
+    'date': maybe(reference).find('document-id').find('date').text.or_else('')
   }
 
 def application_reference(reference):
   return {
     'appl-type': reference.attrib.get('appl-type', ''),
-    'country': reference.find('document-id').find('country').text if reference.find('document-id').find('country') is not None else '',
-    'doc-number': reference.find('document-id').find('doc-number').text if reference.find('document-id').find('doc-number') is not None else '',
-    'date': reference.find('document-id').find('date').text if reference.find('document-id').find('date') is not None else '',
+    'country': maybe(reference).find('document-id').find('country').text.or_else(''),
+    'doc-number': maybe(reference).find('document-id').find('doc-number').text.or_else(''),
+    'date': maybe(reference).find('document-id').find('date').text.or_else(''),
   }
 
 def parse(tree, callback):
