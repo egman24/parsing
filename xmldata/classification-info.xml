@@ -1,6 +1,3 @@
-<!-- https://www.uspto.gov/web/patents/classification/selectnumwithtitle.htm -->
-<!-- IPC -->
-
 <!-- EPO full-text -->
 
 <!-- http://www.wipo.int/classifications/ipc/en/ -->
@@ -96,3 +93,466 @@
     <text>E01H   1/00        20060101A I20051110RMEP        </text>
   </classification-ipcr>
 </exch:classifications-ipcr>
+
+<!-- US grant -->
+<!-- https://www.uspto.gov/sites/default/files/products/PatentGrantXMLv42-Documentation.pdf -->
+<!-- https://patents.stackexchange.com/questions/13276/uspto-patent-xml-understanding-the-us-field-of-classification-search-element -->
+<!-- https://www.uspto.gov/web/patents/classification/ -->
+<!-- https://www.uspto.gov/web/patents/classification/selectnumwithtitle.htm -->
+
+<!--
+<classification-locarno>
+  <main-classification>
+
+"Class" – 2-positions numeric, right justified, leading zeros.
+"Subclass" – 2-positions numeric, right justified, leading zeros.
+-->
+
+<classification-locarno>
+  <edition>10</edition>
+  <main-classification>0101</main-classification>
+</classification-locarno>
+
+<!-- 
+<classification-national>
+  <main-classification>
+
+Class | A 3-position alphanumeric field right justified with leading spaces.
+  Design Patents – The first position will contain a “D”. Positions 2 and 3, right justified, with a leading space when required for a single digit class.
+
+  Plant Patents – Positions 1-3 will contain a “PLT”
+
+  All Other Patents – Three alphanumeric positions, right justified, with leading spaces
+
+Sub-Class | Three alphanumeric positions, right justified with leading spaces, and, if present, one to three positions to the right of the decimal point (assumed decimal in the Red Book XML), left justified.
+  Note: An unstructured US classification would identify a sub-class as a range with the sub-class range being separated by a hyphen “-“
+
+  A digest entry as a sub-class would appear as follows:
+    Three positions containing “DIG”, followed by one to three alphanumeric positions, left justified.
+
+-->
+
+<classification-national>
+  <country>US</country>
+  <main-classification>D 1126</main-classification>
+</classification-national>
+
+<us-field-of-classification-search>
+  <classification-national>
+    <country>US</country>
+    <main-classification>D 1100-130</main-classification>
+    <additional-info>unstructured</additional-info>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>D 1199</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426  5</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426 76</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426 87</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426 92</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426 94</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426 95</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426 99</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426101</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426103</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426104</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426108</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426134</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426138-139</main-classification>
+    <additional-info>unstructured</additional-info>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426143</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426144</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426279</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426282</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426283</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426391</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426514</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426549</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426559</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426560</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426660</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>426808</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>D 9439</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>521 50</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>251364</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>220574</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>D 8 83</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>D 8 29</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>D 8 70</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>D 8356</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>D 8 38</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>D 8 40</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>D21487</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>D21458</main-classification>
+  </classification-national>
+  <classification-national>
+    <country>US</country>
+    <main-classification>D13115</main-classification>
+  </classification-national>
+  <classification-cpc-text>A21D 13/0025</classification-cpc-text>
+  <classification-cpc-text>A21D 13/0029</classification-cpc-text>
+  <classification-cpc-text>A21D 13/0074</classification-cpc-text>
+  <classification-cpc-text>A22C 13/0013</classification-cpc-text>
+  <classification-cpc-text>A23L 1/16</classification-cpc-text>
+</us-field-of-classification-search>
+
+<!-- US application -->
+<!-- https://patents.stackexchange.com/questions/13276/uspto-patent-xml-understanding-the-us-field-of-classification-search-element -->
+<!-- https://www.uspto.gov/web/patents/classification/ -->
+<!-- https://www.uspto.gov/web/patents/classification/selectnumwithtitle.htm -->
+
+<!-- IPCR classification information -->
+<!-- https://www.epo.org/searching-for-patents/helpful-resources/first-time-here/classification.html -->
+<classifications-ipcr>
+  <classification-ipcr>
+    <ipc-version-indicator>
+      <date>20060101</date>
+    </ipc-version-indicator>
+    <classification-level>A</classification-level>
+    <section>A</section>
+    <class>01</class>
+    <subclass>B</subclass>
+    <main-group>49</main-group>
+    <subgroup>02</subgroup>
+    <symbol-position>F</symbol-position>
+    <classification-value>I</classification-value>
+    <action-date>
+      <date>20170105</date>
+    </action-date>
+    <generating-office>
+      <country>US</country>
+    </generating-office>
+    <classification-status>B</classification-status>
+    <classification-data-source>H</classification-data-source>
+  </classification-ipcr>
+  <classification-ipcr>
+    <ipc-version-indicator>
+      <date>20060101</date>
+    </ipc-version-indicator>
+    <classification-level>A</classification-level>
+    <section>A</section>
+    <class>01</class>
+    <subclass>C</subclass>
+    <main-group>7</main-group>
+    <subgroup>16</subgroup>
+    <symbol-position>L</symbol-position>
+    <classification-value>I</classification-value>
+    <action-date>
+      <date>20170105</date>
+    </action-date>
+    <generating-office>
+      <country>US</country>
+    </generating-office>
+    <classification-status>B</classification-status>
+    <classification-data-source>H</classification-data-source>
+  </classification-ipcr>
+  <classification-ipcr>
+    <ipc-version-indicator>
+      <date>20060101</date>
+    </ipc-version-indicator>
+    <classification-level>A</classification-level>
+    <section>A</section>
+    <class>01</class>
+    <subclass>B</subclass>
+    <main-group>63</main-group>
+    <subgroup>00</subgroup>
+    <symbol-position>L</symbol-position>
+    <classification-value>I</classification-value>
+    <action-date>
+      <date>20170105</date>
+    </action-date>
+    <generating-office>
+      <country>US</country>
+    </generating-office>
+    <classification-status>B</classification-status>
+    <classification-data-source>H</classification-data-source>
+  </classification-ipcr>
+  <classification-ipcr>
+    <ipc-version-indicator>
+      <date>20060101</date>
+    </ipc-version-indicator>
+    <classification-level>A</classification-level>
+    <section>A</section>
+    <class>01</class>
+    <subclass>B</subclass>
+    <main-group>49</main-group>
+    <subgroup>06</subgroup>
+    <symbol-position>L</symbol-position>
+    <classification-value>I</classification-value>
+    <action-date>
+      <date>20170105</date>
+    </action-date>
+    <generating-office>
+      <country>US</country>
+    </generating-office>
+    <classification-status>B</classification-status>
+    <classification-data-source>H</classification-data-source>
+  </classification-ipcr>
+  <classification-ipcr>
+    <ipc-version-indicator>
+      <date>20060101</date>
+    </ipc-version-indicator>
+    <classification-level>A</classification-level>
+    <section>A</section>
+    <class>01</class>
+    <subclass>C</subclass>
+    <main-group>5</main-group>
+    <subgroup>06</subgroup>
+    <symbol-position>L</symbol-position>
+    <classification-value>I</classification-value>
+    <action-date>
+      <date>20170105</date>
+    </action-date>
+    <generating-office>
+      <country>US</country>
+    </generating-office>
+    <classification-status>B</classification-status>
+    <classification-data-source>H</classification-data-source>
+  </classification-ipcr>
+</classifications-ipcr>
+
+<!-- https://www.epo.org/searching-for-patents/helpful-resources/first-time-here/classification.html -->
+<!-- https://www.epo.org/searching-for-patents/helpful-resources/first-time-here/classification/cpc.html -->
+<classifications-cpc>
+  <main-cpc>
+    <classification-cpc>
+      <cpc-version-indicator>
+        <date>20130101</date>
+      </cpc-version-indicator>
+      <section>A</section>
+      <class>01</class>
+      <subclass>B</subclass>
+      <main-group>49</main-group>
+      <subgroup>027</subgroup>
+      <symbol-position>F</symbol-position>
+      <classification-value>I</classification-value>
+      <action-date>
+        <date>20170105</date>
+      </action-date>
+      <generating-office>
+        <country>US</country>
+      </generating-office>
+      <classification-status>B</classification-status>
+      <classification-data-source>H</classification-data-source>
+      <scheme-origination-code>C</scheme-origination-code>
+    </classification-cpc>
+  </main-cpc>
+  <further-cpc>
+    <classification-cpc>
+      <cpc-version-indicator>
+        <date>20130101</date>
+      </cpc-version-indicator>
+      <section>A</section>
+      <class>01</class>
+      <subclass>B</subclass>
+      <main-group>49</main-group>
+      <subgroup>06</subgroup>
+      <symbol-position>L</symbol-position>
+      <classification-value>I</classification-value>
+      <action-date>
+        <date>20170105</date>
+      </action-date>
+      <generating-office>
+        <country>US</country>
+      </generating-office>
+      <classification-status>B</classification-status>
+      <classification-data-source>H</classification-data-source>
+      <scheme-origination-code>C</scheme-origination-code>
+    </classification-cpc>
+    <classification-cpc>
+      <cpc-version-indicator>
+        <date>20130101</date>
+      </cpc-version-indicator>
+      <section>A</section>
+      <class>01</class>
+      <subclass>C</subclass>
+      <main-group>5</main-group>
+      <subgroup>068</subgroup>
+      <symbol-position>L</symbol-position>
+      <classification-value>I</classification-value>
+      <action-date>
+        <date>20170105</date>
+      </action-date>
+      <generating-office>
+        <country>US</country>
+      </generating-office>
+      <classification-status>B</classification-status>
+      <classification-data-source>H</classification-data-source>
+      <scheme-origination-code>C</scheme-origination-code>
+    </classification-cpc>
+    <classification-cpc>
+      <cpc-version-indicator>
+        <date>20130101</date>
+      </cpc-version-indicator>
+      <section>A</section>
+      <class>01</class>
+      <subclass>B</subclass>
+      <main-group>63</main-group>
+      <subgroup>008</subgroup>
+      <symbol-position>L</symbol-position>
+      <classification-value>I</classification-value>
+      <action-date>
+        <date>20170105</date>
+      </action-date>
+      <generating-office>
+        <country>US</country>
+      </generating-office>
+      <classification-status>B</classification-status>
+      <classification-data-source>H</classification-data-source>
+      <scheme-origination-code>C</scheme-origination-code>
+    </classification-cpc>
+    <classification-cpc>
+      <cpc-version-indicator>
+        <date>20130101</date>
+      </cpc-version-indicator>
+      <section>A</section>
+      <class>01</class>
+      <subclass>C</subclass>
+      <main-group>5</main-group>
+      <subgroup>064</subgroup>
+      <symbol-position>L</symbol-position>
+      <classification-value>I</classification-value>
+      <action-date>
+        <date>20170105</date>
+      </action-date>
+      <generating-office>
+        <country>US</country>
+      </generating-office>
+      <classification-status>B</classification-status>
+      <classification-data-source>H</classification-data-source>
+      <scheme-origination-code>C</scheme-origination-code>
+    </classification-cpc>
+    <classification-cpc>
+      <cpc-version-indicator>
+        <date>20130101</date>
+      </cpc-version-indicator>
+      <section>A</section>
+      <class>01</class>
+      <subclass>C</subclass>
+      <main-group>7</main-group>
+      <subgroup>163</subgroup>
+      <symbol-position>L</symbol-position>
+      <classification-value>I</classification-value>
+      <action-date>
+        <date>20170105</date>
+      </action-date>
+      <generating-office>
+        <country>US</country>
+      </generating-office>
+      <classification-status>B</classification-status>
+      <classification-data-source>H</classification-data-source>
+      <scheme-origination-code>C</scheme-origination-code>
+    </classification-cpc>
+  </further-cpc>
+</classifications-cpc>
