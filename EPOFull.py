@@ -159,8 +159,8 @@ def parse(tree, callback):
 def parsedocument(callback):
   return lambda tree: spawn(parse, tree, callback)
 
-def parsedocuments(xml_file, each_callback): 
-  docs = tree(xml_file).xpath('//ep-patent-document')
+def parsedocuments(xml_file, xml_root, each_callback): 
+  docs = tree(xml_file).xpath(xml_root)
   return fcmap(parsedocument(each_callback))(docs)
 
 ##############
@@ -199,13 +199,13 @@ def to_database(metadata):
   print('------------------------------------------------')
   print('\n') 
 
-def process(callback, xml_file, archive_file):
+def process(callback, xml_file, xml_root, archive_file):
   if not os.path.isfile(marker(xml_file)):
 
     zipfile.ZipFile(archive_file, "r").extract(xml_file)
     
     # add validation/testing
-    parsedocuments(xml_file, callback)
+    parsedocuments(xml_file, xml_root, callback)
     
     # gives us a durable state if the script breaks and reruns
     completefile = open(marker(xml_file),"w") 
@@ -213,28 +213,31 @@ def process(callback, xml_file, archive_file):
     
     os.remove(xml_file)  
 
-def traverse(file_info, dtd_info, callback):
+def traverse(file_info, dtd_file, xml_root, get_work_path, callback):
   initial_path = os.getcwd()
-  work_path = file_info[1].replace('\\', '/')[1:]
+  work_path = get_work_path(file_info[1])
   archive_file = file_info[0]
   xml_file = file_info[0].replace('zip', 'xml')
  
-  copyfile('./DTDS/' + dtd_info, work_path + '/' + dtd_info)
+  copyfile('./DTDS/' + dtd_file, work_path + '/' + dtd_file)
 
   os.chdir(work_path)
   #print(os.getcwd())
-  process(callback, xml_file, archive_file)
+  process(callback, xml_file, xml_root, archive_file)
   os.chdir(initial_path) 
 
-def _run(xml_file, callback):
-  parsedocument(xml_file, callback)
+def _run(xml_file, xml_root, callback):
+  parsedocuments(xml_file, xml_root, callback)
 
-def _run_all(index_path, dtd_file, callback_each):
+def _run_all(index_path, dtd_file, xml_root, get_work_path, callback_each):
   for file_info in get_file_info(index_path):
-    traverse(file_info, dtd_file, callback_each) 
+    traverse(file_info, dtd_file, xml_root, get_work_path, callback_each) 
 
 def run(file = None):
+  xml_root = '//ep-patent-document'
+  dtd_file = 'ep-patent-document-v1-5.dtd'
+  get_work_path = lambda info: info.replace('\\', '/')[1:]
   if file:
-    _run(file, to_database)
+    _run(file, xml_root, to_database)
   else:
-    _run_all('index.xml', 'ep-patent-document-v1-5.dtd', to_database)  
+    _run_all('index.xml', dtd_file, xml_root, get_work_path, to_database)  
