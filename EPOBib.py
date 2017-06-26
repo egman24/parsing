@@ -264,6 +264,7 @@ def to_database(metadata):
   family_members = metadata['family-members']
   citations = metadata['citations']	
   classifications = metadata['classifications']
+  assignees = metadata['parties'].get('applicants', [])
 
   DataImport.create_document('Bibliographic', '?', '', doc_number, kind, date_publ, status, country, title, '', '', '', '')
 
@@ -272,6 +273,9 @@ def to_database(metadata):
 
   for classification in classifications:
     DataImport.add_classification(doc_number, classification.get('section', ''), classification.get('class', ''), classification.get('subclass', ''), classification.get('main-group', ''), classification.get('subgroup', ''), date_publ, '', '', '')
+
+  for assignee in assignees:
+    DataImport.add_assignee(doc_number, maybe(assignee)['docdb']['name'].or_else(''), '', '', '', date_publ, '', '', '')
 
   for member in family_members:
     application = member['application-references']['docdb']
