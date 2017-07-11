@@ -92,19 +92,19 @@ def buildcpctext(element):
 
 def buildclassificationipcrorcpc(element):
   return {
-    'section': element.find('section').text, 
-    'class': element.find('class').text,
-    'subclass': element.find('subclass').text,
-    'main-group': element.find('main-group').text,
-    'subgroup': element.find('subgroup').text,
-    'ipc-version-indicator': element.find('ipc-version-indicator').find('date').text, 
-    'classification-level': element.find('classification-level').text,
-    'symbol-position': element.find('symbol-position').text,
-    'classification-value': element.find('classification-value').text,
-    'action-date': element.find('action-date').find('date').text,
-    'classification-status': element.find('classification-status').text,
-    'classification-data-source': element.find('classification-data-source').text,
-    'generating-office-country': element.find('generating-office').find('country').text
+    'section': maybe(element).find('section').text.or_else(''), 
+    'class': maybe(element).find('class').text.or_else(''),
+    'subclass': maybe(element).find('subclass').text.or_else(''),
+    'main-group': maybe(element).find('main-group').text.or_else(''),
+    'subgroup': maybe(element).find('subgroup').text.or_else(''),
+    'ipc-version-indicator': maybe(element).find('ipc-version-indicator').find('date').text.or_else(''), 
+    'classification-level': maybe(element).find('classification-level').text.or_else(''),
+    'symbol-position': maybe(element).find('symbol-position').text.or_else(''),
+    'classification-value': maybe(element).find('classification-value').text.or_else(''),
+    'action-date': maybe(element).find('action-date').find('date').text.or_else(''),
+    'classification-status': maybe(element).find('classification-status').text.or_else(''),
+    'classification-data-source': maybe(element).find('classification-data-source').text.or_else(''),
+    'generating-office-country': maybe(element).find('generating-office').find('country').text.or_else('')
   }
 
 def classificationlocarno(elements):
@@ -122,8 +122,8 @@ def classificationipcrorcpc(elements):
 def classifications(classification_locarno, classification_national, cpc_text, classification_ipcr, classification_cpc):
   return classificationlocarno(classification_locarno) + classificationnational(classification_national) + cpctext(cpc_text) + classificationipcrorcpc(classification_ipcr) + classificationipcrorcpc(classification_cpc)
 
-def description(descriptionelement):
-  return etree.tostring(descriptionelement, encoding='unicode')
+def description(descriptionelements):
+  return fmap(lambda desc: etree.tostring(desc, encoding='unicode'), descriptionelements)
 
 def buildclaim(claim):
   return maybe(claim).find('claim-text').text.or_else('')
@@ -151,7 +151,7 @@ def buildassigneeaddress(address):
   }
 
 def buildassignees(assignee):
-  if assignee.find('addressbook'):
+  if assignee.find('addressbook') is not None:
     return {
       'orgname': maybe(assignee).find('addressbook').find('orgname').text.or_else(''),
       'role': maybe(assignee).find('addressbook').find('role').text.or_else(''),
@@ -213,7 +213,7 @@ def parse(tree, callback):
     'date-publ': doc_attrs.get('date-publ', ''),
     'abstract': abstract(tree.xpath('//abstract/p')),
     'series': tree.xpath('//us-application-series-code')[0].text,
-    'description': description(tree.xpath('//description')[0]),
+    'description': maybe(description(tree.xpath('//description')))[0].or_else(''),
     'claims': claims(tree.xpath('//claim')),
     'citations': citations(tree.xpath('//patcit')), # also //nplcit
     'assignees': assignees(tree.xpath('//assignee')),

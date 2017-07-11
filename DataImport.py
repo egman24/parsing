@@ -16,6 +16,11 @@ def cypher(query, params):
 #   print("%s" % (record))
 # # <Record n=<Node id=0 labels={'Test'} properties={}>>
 
+def clear():
+  query = 'MATCH (n) DETACH DELETE n'
+  params = {}
+  return cypher(query, params) 
+
 # TODO: add type as Label instead of property?
 
 def create_us_document(typeof, reference, dnum, docnumber, kind, datepublished, status, country, title, abstract, filedate, issuedate, prioritydate, claims, description):
@@ -232,12 +237,6 @@ def add_family_member(typeof, family_id, doc_number, country, kind, is_represent
     return cypher(publication_query, params)
   else: 
     return cypher(query, params)
-
-def clear():
-  return cypher(
-    'MATCH (n) DETACH DELETE n',
-    {}
-  ) 
 
 if __name__ == "__main__":
 	print('test!')
