@@ -13,7 +13,7 @@ from pprint import pprint
 # example: EP15174580A1 ([20]15[0]174580)
 # XML                          | Espace                                   | Doors
 #--------------------------------------------------------------------------------------------
-# ep-patent-document { id }    | applicationnumber EP20150174580 20150630 |  
+# ep-patent-document { id }    | applicationnumber EP20150174580 20150630 |
 # ?                            | prioritynumber    EP20150174580 20150630 |
 # doc-number                   | publicationnumber (search field)         | main patent search
 
@@ -44,7 +44,7 @@ from pprint import pprint
 # single bond
 # MATCH (n) WHERE n.id = 'EP15003455A1' RETURN n
 
-# double bond/triple bond 
+# double bond/triple bond
 # MATCH (n) WHERE n.id = 'EP14883916A1' RETURN n
 
 # many bond (> 3)
@@ -63,42 +63,52 @@ from pprint import pprint
 # EP15020106A1 & EP15020107A1
 # EP15174581A1 & EP15174580A1
 
-#TODO: add time to citations somehow?
-#TODO: send sentinel None instead of empty string, in DataImport add attribute if not None
-#TODO: build up query strings during inital run and run seperately?
+# TODO: add time to citations somehow?
+# TODO: send sentinel None instead of empty string, in DataImport add attribute if not None
+# TODO: build up query strings during inital run and run seperately?
+
 
 def cleanup(x): print(x)
 
+
 def to_database(metadata):
-	print('------------------------------------------------')
-	pprint(metadata)
+    print('------------------------------------------------')
+    pprint(metadata)
 
-	document = metadata.get('document', {}) # {'id': 'EP14883349A1', 'file': 'EP14883349NWA1.xml', 'lang': 'en', 'country': 'EP', 'doc-number': '3112982', 'kind': 'A1', 'date-publ': '20170104', 'status': 'n', 'dtd-version': 'ep-patent-document-v1-5'}
-	citations = metadata.get('citations', []) # [{'id': 'ref-pcit0001', 'dnum': 'JP2006266451A'}]
-	identifier = document.get('id', '')
-	country = document.get('country', '')
-	docnumber = document.get('doc-number', '')
-	kind = document.get('kind', '')
-	datepublished = document.get('date-publ', '')
-	status = document.get('status', '')
-	title = metadata.get('title', '')
-	abstract = ''.join(metadata.get('abstract', []))
-	filedate = metadata.get('filedate', '')
-	issuedate = metadata.get('issuedate', '')
-	prioritydate = metadata.get('prioritydate', '')
+    # {'id': 'EP14883349A1', 'file': 'EP14883349NWA1.xml', 'lang': 'en', 'country': 'EP', 'doc-number': '3112982', 'kind': 'A1', 'date-publ': '20170104', 'status': 'n', 'dtd-version': 'ep-patent-document-v1-5'}
+    document = metadata.get('document', {})
+    # [{'id': 'ref-pcit0001', 'dnum': 'JP2006266451A'}]
+    citations = metadata.get('citations', [])
+    identifier = document.get('id', '')
+    country = document.get('country', '')
+    docnumber = document.get('doc-number', '')
+    kind = document.get('kind', '')
+    datepublished = document.get('date-publ', '')
+    status = document.get('status', '')
+    title = metadata.get('title', '')
+    abstract = ''.join(metadata.get('abstract', []))
+    filedate = metadata.get('filedate', '')
+    issuedate = metadata.get('issuedate', '')
+    prioritydate = metadata.get('prioritydate', '')
 
-	EPODataImport.create_document('fulltext', identifier, docnumber, kind, datepublished, status, country, title, abstract, filedate, issuedate, prioritydate)
+    EPODataImport.create_document('fulltext', identifier, docnumber, kind, datepublished,
+                                  status, country, title, abstract, filedate, issuedate, prioritydate)
 
-	#TODO: find clean way to make sure this is always a list during the parse process...
-	if isinstance(citations, list):
-		for citation in citations:
-			EPODataImport.add_citation(identifier, citation.get('dnum', ''), citation.get('id', ''), citation.get('url', ''))
-	else:
-		EPODataImport.add_citation(identifier, citations.get('dnum', ''), citations.get('id', ''), citations.get('url', ''))
+    # TODO: find clean way to make sure this is always a list during the parse process...
+    if isinstance(citations, list):
+        for citation in citations:
+            EPODataImport.add_citation(identifier, citation.get(
+                'dnum', ''), citation.get('id', ''), citation.get('url', ''))
+    else:
+        EPODataImport.add_citation(identifier, citations.get(
+            'dnum', ''), citations.get('id', ''), citations.get('url', ''))
 
-	print('------------------------------------------------')
-	print('\n')
+    print('------------------------------------------------')
+    print('\n')
 
-def run(): EPOParser.run('index.xml', './DTDS/ep-patent-document-v1-5.dtd', EPOParser.fields, {}, to_database, cleanup)
+
+def run(): EPOParser.run('index.xml', './DTDS/ep-patent-document-v1-5.dtd',
+                         EPOParser.fields, {}, to_database, cleanup)
+
 
 def clear(): EPODataImport.clear()

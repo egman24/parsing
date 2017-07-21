@@ -3,96 +3,103 @@
 from neo4j.v1 import GraphDatabase, basic_auth
 from datetime import datetime
 
-driver = GraphDatabase.driver("bolt://localhost:32777", auth=basic_auth("neo4j", "12345"))
+driver = GraphDatabase.driver(
+    "bolt://localhost:32777", auth=basic_auth("neo4j", "12345"))
 
 # cypher :: String, {} -> <Record n=<Node id=0 labels={} properties={}>>
+
+
 def cypher(query, params):
-	session = driver.session()
-	result = session.run(query, params)
-	session.close()
-	return result
+    session = driver.session()
+    result = session.run(query, params)
+    session.close()
+    return result
 
 # for record in EPODataImport.cypher('MATCH (n) RETURN n'):
 #   print("%s" % (record))
 # # <Record n=<Node id=0 labels={'Test'} properties={}>>
 
+
 def clear():
-  query = 'MATCH (n) DETACH DELETE n'
-  params = {}
-  return cypher(query, params) 
+    query = 'MATCH (n) DETACH DELETE n'
+    params = {}
+    return cypher(query, params)
 
 # TODO: add type as Label instead of property?
 
-def create_us_document(typeof, reference, dnum, docnumber, kind, datepublished, status, country, title, abstract, filedate, issuedate, prioritydate, claims, description):
-  now = datetime.today().isoformat()
 
-  query = '''
+def create_us_document(typeof, reference, dnum, docnumber, kind, datepublished, status, country, title, abstract, filedate, issuedate, prioritydate, claims, description):
+    now = datetime.today().isoformat()
+
+    query = '''
     MERGE (parent:Doc { doc_number: {docnumber} })
     CREATE (doc:Member { _type: {type}, _imported_at: {imported_at}, reference: {reference}, doc_number: {docnumber}, kind: {kind}, country: {country}, dnum: {dnum}, datepublished: {datepublished}, status: {status}, title: {title}, abstract: {abstract}, filedate: {filedate}, issuedate: {issuedate}, prioritydate: {prioritydate}, claims: {claims}, description: {description} }) 
     CREATE (doc)-[:VERSION]->(parent)
     RETURN parent, doc
-  '''
+    '''
 
-  params = { 
-    "type": typeof, 
-    "imported_at": now, 
-    "reference": reference, 
-    "dnum": dnum, 
-    "docnumber": docnumber, 
-    "kind": kind, 
-    "datepublished": datepublished, 
-    "status": status, 
-    "country": country, 
-    "title": title, 
-    "abstract": abstract, 
-    "filedate": filedate, 
-    "issuedate": issuedate, 
-    "prioritydate": prioritydate, 
-    "claims": ''.join(claims), 
-    "description": description 
+    params = {
+        "type": typeof,
+        "imported_at": now,
+        "reference": reference,
+        "dnum": dnum,
+        "docnumber": docnumber,
+        "kind": kind,
+        "datepublished": datepublished,
+        "status": status,
+        "country": country,
+        "title": title,
+        "abstract": abstract,
+        "filedate": filedate,
+        "issuedate": issuedate,
+        "prioritydate": prioritydate,
+        "claims": ''.join(claims),
+        "description": description
     }
 
-  return cypher(query, params)
+    return cypher(query, params)
+
 
 def create_document(typeof, reference, dnum, docnumber, kind, datepublished, status, country, title, abstract, filedate, issuedate, prioritydate):
-  now = datetime.today().isoformat()
+    now = datetime.today().isoformat()
 
-  query = '''
+    query = '''
     MERGE (parent:Doc { doc_number: {docnumber} })
     CREATE (doc:Member { _type: {type}, _imported_at: {imported_at}, reference: {reference}, doc_number: {docnumber}, kind: {kind}, country: {country}, dnum: {dnum}, datepublished: {datepublished}, status: {status}, title: {title}, abstract: {abstract}, filedate: {filedate}, issuedate: {issuedate}, prioritydate: {prioritydate} })
     CREATE (doc)-[:VERSION]->(parent)
     RETURN parent, doc
   '''
 
-  params = { 
-    "type": typeof, 
-    "imported_at": now, 
-    "reference": reference, 
-    "dnum": dnum, 
-    "docnumber": docnumber, 
-    "kind": kind, 
-    "datepublished": datepublished, 
-    "status": status, 
-    "country": country, 
-    "title": title, 
-    "abstract": abstract, 
-    "filedate": filedate, 
-    "issuedate": issuedate, 
-    "prioritydate": prioritydate 
+    params = {
+        "type": typeof,
+        "imported_at": now,
+        "reference": reference,
+        "dnum": dnum,
+        "docnumber": docnumber,
+        "kind": kind,
+        "datepublished": datepublished,
+        "status": status,
+        "country": country,
+        "title": title,
+        "abstract": abstract,
+        "filedate": filedate,
+        "issuedate": issuedate,
+        "prioritydate": prioritydate
     }
 
-  return cypher(query, params)
+    return cypher(query, params)
+
 
 def add_citation(citer_doc_number, cited_doc_number, country, kind, date_publ, date_file, date_issue, date_priority):
-  now = datetime.today().isoformat()
+    now = datetime.today().isoformat()
 
-  # (citer:Doc) should already exist
-  # (parent:Doc) may exist
-  # (cited:Member) may exist
-  # add new version relationship from (cited:Doc)-[:VERSION]->(parent:Doc) 
-  # add citation relationship from (citer:Doc)-[:CITES]->(parent:Doc)
+    # (citer:Doc) should already exist
+    # (parent:Doc) may exist
+    # (cited:Member) may exist
+    # add new version relationship from (cited:Doc)-[:VERSION]->(parent:Doc)
+    # add citation relationship from (citer:Doc)-[:CITES]->(parent:Doc)
 
-  query = '''
+    query = '''
      MATCH (citer:Doc)
      WHERE citer.doc_number = {citer_id}
      MERGE (parent:Doc { doc_number: {cited_id} })
@@ -104,29 +111,30 @@ def add_citation(citer_doc_number, cited_doc_number, country, kind, date_publ, d
      RETURN citer, cited, citation
   '''
 
-  params = { 
-    "imported": [now], 
-    "imported_at": now, 
-    "citer_id": citer_doc_number, 
-    "cited_id": cited_doc_number, 
-    "country": country, 
-    "kind": kind, 
-    "date_publ": date_publ, 
-    "date_file": date_file, 
-    "date_issue": date_issue, 
-    "date_priority": date_priority 
+    params = {
+        "imported": [now],
+        "imported_at": now,
+        "citer_id": citer_doc_number,
+        "cited_id": cited_doc_number,
+        "country": country,
+        "kind": kind,
+        "date_publ": date_publ,
+        "date_file": date_file,
+        "date_issue": date_issue,
+        "date_priority": date_priority
     }
 
-  return cypher(query, params)  
+    return cypher(query, params)
+
 
 def add_classification(classified_doc_number, section, classification, subclass, maingroup, subgroup, date_publ, date_file, date_issue, date_priority):
-  now = datetime.today().isoformat()
+    now = datetime.today().isoformat()
 
-  # (classified:Doc) should already exist
-  # (classification:Classification) may exist
-  # add new classification relationship from (classification:Classification)-[:CLASSIFIES]->(classified:Doc)
+    # (classified:Doc) should already exist
+    # (classification:Classification) may exist
+    # add new classification relationship from (classification:Classification)-[:CLASSIFIES]->(classified:Doc)
 
-  query = '''
+    query = '''
     MATCH (classified:Doc)
     WHERE classified.doc_number = {classified_id}
     MERGE (classification:Classification { section: {section}, class: {classification}, subclass: {subclass}, maingroup: {maingroup}, subgroup: {subgroup} })
@@ -137,27 +145,28 @@ def add_classification(classified_doc_number, section, classification, subclass,
     RETURN classified, classification, classify
   '''
 
-  params = { 
-    "imported": [now], 
-    "imported_at": now, 
-    "classified_id": classified_doc_number, 
-    "section": section, 
-    "classification": classification, 
-    "subclass": subclass, 
-    "maingroup": maingroup, 
-    "subgroup": subgroup, 
-    "date_publ": date_publ, 
-    "date_file": date_file, 
-    "date_issue": date_issue, 
-    "date_priority": date_priority 
-  }
+    params = {
+        "imported": [now],
+        "imported_at": now,
+        "classified_id": classified_doc_number,
+        "section": section,
+        "classification": classification,
+        "subclass": subclass,
+        "maingroup": maingroup,
+        "subgroup": subgroup,
+        "date_publ": date_publ,
+        "date_file": date_file,
+        "date_issue": date_issue,
+        "date_priority": date_priority
+    }
 
-  return cypher(query, params)
+    return cypher(query, params)
+
 
 def add_assignee(assigned_doc_number, name, eponumber, reference, crossreference, date_publ, date_file, date_issue, date_priority):
-  now = datetime.today().isoformat()
+    now = datetime.today().isoformat()
 
-  query = '''
+    query = '''
     MATCH (assigned:Doc)
     WHERE assigned.doc_number = {assigned_id}
     MERGE (assignee:Assignee { name: {name}, eponumber: {eponumber}, reference: {reference}, crossreference: {crossreference} })
@@ -168,26 +177,27 @@ def add_assignee(assigned_doc_number, name, eponumber, reference, crossreference
     RETURN assignee, assigned, assign
   '''
 
-  params = { 
-    "imported": [now], 
-    "imported_at": now, 
-    "assigned_id": assigned_doc_number, 
-    "name": name, 
-    "eponumber": eponumber, 
-    "reference": reference, 
-    "crossreference": crossreference, 
-    "date_publ": date_publ, 
-    "date_file": date_file, 
-    "date_issue": date_issue, 
-    "date_priority": date_priority 
-  }
+    params = {
+        "imported": [now],
+        "imported_at": now,
+        "assigned_id": assigned_doc_number,
+        "name": name,
+        "eponumber": eponumber,
+        "reference": reference,
+        "crossreference": crossreference,
+        "date_publ": date_publ,
+        "date_file": date_file,
+        "date_issue": date_issue,
+        "date_priority": date_priority
+    }
 
-  return cypher(query, params)
+    return cypher(query, params)
+
 
 def add_family_member(typeof, family_id, doc_number, country, kind, is_representative=''):
-  now = datetime.today().isoformat()
+    now = datetime.today().isoformat()
 
-  application_query = '''
+    application_query = '''
     MERGE (family:Family { id: {family_id} })
     MERGE (member:Member { _type: {type}, _imported_at: {imported_at}, doc_number: {doc_number}, country: {country}, kind: {kind}, is_representative: {is_representative} })
     MERGE (parent:Doc { doc_number: {doc_number} })
@@ -196,9 +206,9 @@ def add_family_member(typeof, family_id, doc_number, country, kind, is_represent
     ON CREATE SET of.imported = {imported}
     ON MATCH SET of.imported = of.imported + {imported_at}
     RETURN member, of, family
-  '''
+    '''
 
-  publication_query = '''
+    publication_query = '''
     MERGE (family:Family { id: {family_id} })
     MERGE (member:Member { _type: {type}, _imported_at: {imported_at}, doc_number: {doc_number}, country: {country}, kind: {kind} })
     MERGE (parent:Doc { doc_number: {doc_number} })
@@ -207,9 +217,9 @@ def add_family_member(typeof, family_id, doc_number, country, kind, is_represent
     ON CREATE SET of.imported = {imported}
     ON MATCH SET of.imported = of.imported + {imported_at}
     RETURN member, of, family
-  '''
+    '''
 
-  query = '''
+    query = '''
     MERGE (family:Family { id: {family_id} })
     MERGE (member:Member { _type: {type}, _imported_at: {imported_at}, doc_number: {doc_number}, country: {country}, kind: {kind} })
     MERGE (parent:Doc { doc_number: {doc_number} })
@@ -218,25 +228,26 @@ def add_family_member(typeof, family_id, doc_number, country, kind, is_represent
     ON CREATE SET of.imported = {imported}
     ON MATCH SET of.imported = of.imported + {imported_at}
     RETURN member, of, family
-  '''
+    '''
 
-  params = { 
-    "type": typeof, 
-    "imported": [now], 
-    "imported_at": now, 
-    "family_id": family_id, 
-    "doc_number": doc_number, 
-    "country": country, 
-    "kind": kind, 
-    "is_representative": is_representative 
-  }
+    params = {
+        "type": typeof,
+        "imported": [now],
+        "imported_at": now,
+        "family_id": family_id,
+        "doc_number": doc_number,
+        "country": country,
+        "kind": kind,
+        "is_representative": is_representative
+    }
 
-  if typeof == 'Application':
-    return cypher(application_query, params)
-  elif typeof == 'Publication':
-    return cypher(publication_query, params)
-  else: 
-    return cypher(query, params)
+    if typeof == 'Application':
+        return cypher(application_query, params)
+    elif typeof == 'Publication':
+        return cypher(publication_query, params)
+    else:
+        return cypher(query, params)
+
 
 if __name__ == "__main__":
-	print('test!')
+    print('test!')
