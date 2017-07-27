@@ -1,6 +1,6 @@
 # import pdb; pdb.set_trace()
 
-import DataImport
+#import DataImport
 import functools
 import os
 import zipfile
@@ -14,15 +14,12 @@ from shutil import copyfile
 
 
 def fmap(fn, coll):
-    return functools.reduce(
-        lambda acc, val: acc + [fn(val)], coll, []
-    )
+    return functools.reduce(lambda acc, val: acc + [fn(val)], coll, [])
 
 
 def ffilter(predicate_fn, coll):
     return functools.reduce(
-        lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, []
-    )
+        lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, [])
 
 
 def fcreduce(fn, acc):
@@ -31,14 +28,12 @@ def fcreduce(fn, acc):
 
 def fcmap(fn):
     return lambda coll: functools.reduce(
-        lambda acc, val: acc + [fn(val)], coll, []
-    )
+        lambda acc, val: acc + [fn(val)], coll, [])
 
 
 def fcfilter(predicate_fn):
     return lambda coll: functools.reduce(
-        lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, []
-    )
+        lambda acc, val: (acc + [val]) if predicate_fn(val) else acc, coll, [])
 
 
 def fzip(coll1, coll2):
@@ -47,8 +42,7 @@ def fzip(coll1, coll2):
 
 def fcompose(*functions):
     return functools.reduce(
-        lambda f, g: lambda x: f(g(x)), functions, lambda x: x
-    )
+        lambda f, g: lambda x: f(g(x)), functions, lambda x: x)
 
 
 def spawn(parse, tree, callback):
@@ -64,7 +58,7 @@ def spawn(parse, tree, callback):
 # tree :: String -> Tree
 def tree(filename):
     return etree.parse(filename, etree.XMLParser(encoding='utf-8', recover=True, attribute_defaults=True, load_dtd=True))
-    # return etree.parse(filename, etree.XMLParser(encoding='utf-8', recover=True, dtd_validation=True))
+# return etree.parse(filename, etree.XMLParser(encoding='utf-8', recover=True, dtd_validation=True))
 
 
 def marker(id):
@@ -254,6 +248,9 @@ def familymembers(family):
 
 
 def parse(tree, callback):
+    """
+    Returns dictionary of parsed objects
+    """
     doc_attrs = tree.attrib
     bibliographic = tree.find(
         '{http://www.epo.org/exchange}bibliographic-data')
@@ -293,6 +290,8 @@ def parsedocuments(xml_file, xml_root, each_callback):
 
 
 def to_database(metadata):
+    """Callback to Neo4j
+    """
     print('------------------------------------------------')
     pprint(metadata)
 
@@ -339,6 +338,9 @@ def to_database(metadata):
 
 
 def process(callback, xml_file, xml_root, archive_file):
+    """
+    Filesystem
+    """
     if not os.path.isfile(marker(xml_file)):
 
         zipfile.ZipFile(archive_file, "r").extract(xml_file)
@@ -354,6 +356,9 @@ def process(callback, xml_file, xml_root, archive_file):
 
 
 def traverse(file_info, dtd_file, xml_root, get_work_path, callback):
+    """
+    Filesystem
+    """
     initial_path = os.getcwd()
     work_path = get_work_path(file_info[1])
     archive_file = file_info[0]
@@ -381,7 +386,10 @@ def run(file=None):
     dtd_file = 'docdb-package-v1.1.dtd'
 
     def get_work_path(info): return './DOC/'
+
     if file:
-        _run(file, xml_root, to_database)
+        #_run(file, xml_root, to_database)
+        _run(file, xml_root, pprint)
     else:
-        _run_all('index.xml', dtd_file, xml_root, get_work_path, to_database)
+        #_run_all('index.xml', dtd_file, xml_root, get_work_path, to_database)
+        _run_all('index.xml', dtd_file, xml_root, get_work_path, pprint)
